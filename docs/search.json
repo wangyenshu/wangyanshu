@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publication\nPaper I\nPaper II"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A description of Project"
+  },
+  {
+    "objectID": "projects/index.html#project-i",
+    "href": "projects/index.html#project-i",
+    "title": "Projects",
+    "section": "",
+    "text": "A description of Project"
+  },
+  {
+    "objectID": "projects/index.html#project-ii",
+    "href": "projects/index.html#project-ii",
+    "title": "Projects",
+    "section": "Project II",
+    "text": "Project II\nA description of Project"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yanshu Wang",
+    "section": "",
+    "text": "Email\n  \n  \n    \n      ORCID\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a math students in Nankai University. I am interested in number theory and mathematical logic.\n\n\n\nNankai University | Tianjin, China\nBA in Math and Applied Math | June 2026\n\n\n\nMy experience"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Yanshu Wang",
+    "section": "",
+    "text": "Nankai University | Tianjin, China\nBA in Math and Applied Math | June 2026"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Yanshu Wang",
+    "section": "",
+    "text": "My experience"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "A description of Project"
+  },
+  {
+    "objectID": "teaching/index.html#teaching",
+    "href": "teaching/index.html#teaching",
+    "title": "Teaching",
+    "section": "",
+    "text": "A description of Project"
+  }
+]
