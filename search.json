@@ -7,25 +7,18 @@
     "text": "Publication\nPaper I\nPaper II"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
     "section": "",
     "text": "A description of Project"
   },
   {
-    "objectID": "projects/index.html#project-i",
-    "href": "projects/index.html#project-i",
-    "title": "Projects",
+    "objectID": "teaching/index.html#teaching",
+    "href": "teaching/index.html#teaching",
+    "title": "Teaching",
     "section": "",
     "text": "A description of Project"
-  },
-  {
-    "objectID": "projects/index.html#project-ii",
-    "href": "projects/index.html#project-ii",
-    "title": "Projects",
-    "section": "Project II",
-    "text": "Project II\nA description of Project"
   },
   {
     "objectID": "index.html",
@@ -49,17 +42,38 @@
     "text": "My experience"
   },
   {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
     "text": "A description of Project"
   },
   {
-    "objectID": "teaching/index.html#teaching",
-    "href": "teaching/index.html#teaching",
-    "title": "Teaching",
+    "objectID": "projects/index.html#project-i",
+    "href": "projects/index.html#project-i",
+    "title": "Projects",
     "section": "",
     "text": "A description of Project"
+  },
+  {
+    "objectID": "projects/index.html#project-ii",
+    "href": "projects/index.html#project-ii",
+    "title": "Projects",
+    "section": "Project II",
+    "text": "Project II\nA description of Project"
+  },
+  {
+    "objectID": "presentations/Computing Affine Models for Dessin d'enfants.html#hyperbolic-8-gon-tesselations",
+    "href": "presentations/Computing Affine Models for Dessin d'enfants.html#hyperbolic-8-gon-tesselations",
+    "title": "Presentation: Computing Affine Model for K9 Dessin",
+    "section": "Hyperbolic 8-gon Tesselations",
+    "text": "Hyperbolic 8-gon Tesselations\n\n\n\nConstruct regular 8-gon hyperbolic tesselation\n image source\nChoose suitable coordinate system to describe these points in the pictures - axial coordinates\n\n\n\n\nbook source"
+  },
+  {
+    "objectID": "presentations/Computing Affine Models for Dessin d'enfants.html#weirstrass-p-function-on-hyperbolic-plane",
+    "href": "presentations/Computing Affine Models for Dessin d'enfants.html#weirstrass-p-function-on-hyperbolic-plane",
+    "title": "Presentation: Computing Affine Model for K9 Dessin",
+    "section": "Weirstrass P Function on Hyperbolic plane",
+    "text": "Weirstrass P Function on Hyperbolic plane\n\\[\n\\wp_\\Lambda(z) = \\frac{1}{z^2} + \\sum_{\\lambda \\in \\Lambda, \\lambda \\neq0}{\\left(\\frac{1}{(z-\\lambda)^2}-\\frac{1}{w^2})\\right)}\n\\] For example, We may take the poincare disk model and take the center to be the origin and use the Beltrami coordinate system and take \\(\\Lambda\\) to be the point of vertex of these octagon along with their centers (the blue point)."
   }
 ]
