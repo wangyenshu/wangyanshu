@@ -4,7 +4,7 @@
     "href": "publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "Publication\nPaper I\nPaper II"
+    "text": "Publication"
   },
   {
     "objectID": "presentations/Computing Affine Models for Dessin d'enfants.html#hyperbolic-tesselations",
@@ -35,25 +35,18 @@
     "text": "A description of Project"
   },
   {
-    "objectID": "projects/index.html#project-i",
-    "href": "projects/index.html#project-i",
+    "objectID": "projects/index.html#project-template",
+    "href": "projects/index.html#project-template",
     "title": "Projects",
     "section": "",
     "text": "A description of Project"
-  },
-  {
-    "objectID": "projects/index.html#project-ii",
-    "href": "projects/index.html#project-ii",
-    "title": "Projects",
-    "section": "Project II",
-    "text": "Project II\nA description of Project"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Yanshu Wang",
     "section": "",
-    "text": "Email\n  \n  \n    \n      ORCID\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a math students in Nankai University. I am interested in number theory and mathematical logic.\n\n\n\nNankai University | Tianjin, China\nBA in Math and Applied Math | Due on June 2026\n\n\n\nMy experience"
+    "text": "Email\n  \n  \n    \n      ORCID\n  \n  \n    \n     Github\n  \n\n  \n  \nI am a math students in Nankai University. I am interested in number theory.\n\n\n\nNankai University | Tianjin, China\nBA in Math and Applied Math | Due on June 2026\n\n\n\nTo be added, see CV."
   },
   {
     "objectID": "index.html#education",
@@ -67,21 +60,7 @@
     "href": "index.html#experience",
     "title": "Yanshu Wang",
     "section": "",
-    "text": "My experience"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "A description of Project"
-  },
-  {
-    "objectID": "teaching/index.html#teaching",
-    "href": "teaching/index.html#teaching",
-    "title": "Teaching",
-    "section": "",
-    "text": "A description of Project"
+    "text": "To be added, see CV."
   },
   {
     "objectID": "presentations/index.html",
