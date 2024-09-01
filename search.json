@@ -4,7 +4,7 @@
     "href": "CV/index.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "wangyenshu@outlook.com\n##SCHOLARSHIP Go Neng Scholarship\n##SPECIAL SKILLS\n####Programming Language C++; python; sage; Wolfram Language; latex(fluent); lean4; html & css & javascript; bash"
+    "text": "wangyenshu@outlook.com"
   },
   {
     "objectID": "CV/index.html#objective",
@@ -18,21 +18,21 @@
     "href": "CV/index.html#education",
     "title": "Curriculum Vitae",
     "section": "EDUCATION",
-    "text": "EDUCATION\nBachelor – Math and Applied Math  Nankai University [Sep 2022 — Jun 2026(expected)]  Grade Point Average: 3.81/4 or 91.42/100 {.cvdate}\n####RELEVANT COURSEWORK: - MATH0130 Mathematical Analysis I 100 - MATH0083 Advanced Algebra and Analytic Geometry 2-1 100 - MATH0068 Computer Set Theory and Logic 91 - MATH0133 Mathematical Analysis II 97 - MATH0078 Advanced Algebra and Analytic Geometry 2-2 92 - MATH0097 Ordinary Differential Equations 96 - MATH0147 Complex Variable Function II passed - MATH0132 Abstract Algebra I 88 - MATH0145 Complex Variable Functions 97 - MATH0146 Mathematical Analysis III 98 - MATH0134 Abstract Algebra II 95 - MATH0055 Number Theory 92 - MATH0065 Probability Theory 85 - MATH0079 Pointwise Topology 84 - MATH0102 Commutative Algebra - MATH0136 Galois Theory 96 - MATH0151 Real Analysis 81 - MATH0162 Lie Groups and Algebraic Groups 90"
+    "text": "EDUCATION\nBachelor – Math and Applied Math  Nankai University Sep 2022 — Jun 2026(expected)  Grade Point Average: 3.81/4 or 91.42/100\n####RELEVANT COURSEWORK: MATH0130 Mathematical Analysis I 100  MATH0083 Advanced Algebra and Analytic Geometry 2-1 100  MATH0068 Computer Set Theory and Logic 91  MATH0133 Mathematical Analysis II 97  MATH0078 Advanced Algebra and Analytic Geometry 2-2 92  MATH0097 Ordinary Differential Equations 96  MATH0147 Complex Variable Function II passed  MATH0132 Abstract Algebra I 88  MATH0145 Complex Variable Functions 97  MATH0146 Mathematical Analysis III 98  MATH0134 Abstract Algebra II 95  MATH0055 Number Theory 92  MATH0065 Probability Theory 85  MATH0079 Pointwise Topology 84  MATH0102 Commutative Algebra  MATH0136 Galois Theory 96  MATH0151 Real Analysis 81  MATH0162 Lie Groups and Algebraic Groups 90"
   },
   {
     "objectID": "CV/index.html#research-experience",
     "href": "CV/index.html#research-experience",
     "title": "Curriculum Vitae",
-    "section": "Research EXPERIENCE",
-    "text": "Research EXPERIENCE\n####Polymath Jr.\nThis is a group project. Our group gives algebraic and complex analytic approaches to computing an affine model for \\(K_9\\) dessin, and I draw a visualization of \\(K_9\\) dessin through the morphism \\(\\pi_1(P_8/\\sim) \\mapsto \\mathbb{Z}[\\zeta_8]/(1+\\sqrt{-2})\\). For my contribution, I work out the algebraic approaches and draw the visualization. I also gave the final presentation of the group work, wrote the algebraic approaches part of the paper (the paper is still in progress), and made the poster that was submitted to JMM 2025. If there is no visa issue, I will go to JMM 2025 and give a talk about that."
+    "section": "RESEARCH EXPERIENCE",
+    "text": "RESEARCH EXPERIENCE\n\nPolymath Jr.\nThis is a group project. Our group gives algebraic and complex analytic approaches to computing an affine model for \\(K_9\\) dessin, and I draw a visualization of \\(K_9\\) dessin through the morphism \\(\\pi_1(P_8/\\sim) \\mapsto \\mathbb{Z}[\\zeta_8]/(1+\\sqrt{-2})\\). For my contribution, I work out the algebraic approaches and draw the visualization. I also gave the final presentation of the group work, wrote the algebraic approaches part of the paper (the paper is still in progress), and made the poster that was submitted to JMM 2025. If there is no visa issue, I will go to JMM 2025 and give a talk about that."
   },
   {
     "objectID": "CV/index.html#other-experience",
     "href": "CV/index.html#other-experience",
     "title": "Curriculum Vitae",
     "section": "OTHER EXPERIENCE",
-    "text": "OTHER EXPERIENCE\n####BICMR AI4MATH I collaborate with four students to formalize in lean4 that Algebraic integer of \\(\\mathbb{Q}[\\sqrt{-3}]\\) is PID. I learn a a lot of knowledge about functional programming and constructing a proof assistant. I lean some basic dependent type theory. Above all, I gain more ability of collaboration and of learning new things quickly."
+    "text": "OTHER EXPERIENCE\n\nBICMR AI4MATH\nI collaborate with four students to formalize in lean4 that Algebraic integer of \\(\\mathbb{Q}[\\sqrt{-3}]\\) is PID. I learn a a lot of knowledge about functional programming and constructing a proof assistant. I lean some basic dependent type theory. Above all, I gain more ability of collaboration and of learning new things quickly."
   },
   {
     "objectID": "CV/index.html#presentations-and-workshops",
@@ -40,6 +40,20 @@
     "title": "Curriculum Vitae",
     "section": "PRESENTATIONS AND WORKSHOPS",
     "text": "PRESENTATIONS AND WORKSHOPS"
+  },
+  {
+    "objectID": "CV/index.html#scholarship",
+    "href": "CV/index.html#scholarship",
+    "title": "Curriculum Vitae",
+    "section": "SCHOLARSHIP",
+    "text": "SCHOLARSHIP\nGo Neng Scholarship"
+  },
+  {
+    "objectID": "CV/index.html#special-skills",
+    "href": "CV/index.html#special-skills",
+    "title": "Curriculum Vitae",
+    "section": "SPECIAL SKILLS",
+    "text": "SPECIAL SKILLS\n\nProgramming Language\nC++; python; sage; Wolfram Language; latex(fluent); lean4; html & css & javascript; bash"
   },
   {
     "objectID": "index.html",
