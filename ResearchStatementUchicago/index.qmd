@@ -1,0 +1,83 @@
+---
+title: "ResearchStatementUchicago"
+format:
+  html:
+    toc: true
+  pdf:
+    author: Yanshu Wang
+    pdf-engine: weasyprint
+css: cv.css
+format-links: [pdf]
+---
+
+::: {.print-only .contact-block}
+
+<!-- <https://wangyenshu.github.io/wangyanshu/> -->
+:::
+
+## Research Statement
+
+Full Name: Yanshu Wang <br>
+Email: wangyenshu@outlook.com <br>
+Current Undergraduate School: Nankai University <br>
+Major: Mathematics and Applied Mathematics <br>
+Overall cumulative GPA: 3.81/4 <br>
+Expected graduation date: 09/01/2026 <br>
+Circle current status: Junior <br>
+Would you prefer the full or the apprentice program? Full <br>
+Primary areas of mathematical interest: number theory <br>
+
+#### **COMPLETED MATHEMATICS COURSEWORK:**
+MATH0130 Mathematical Analysis I 100 (Honor Class)<br>
+MATH0083 Advanced Algebra and Analytic Geometry 2-1 100 (Honor Class)<br>
+MATH0068 Computer Set Theory and Logic 91 <br>
+MATH0133 Mathematical Analysis II 97 (Honor Class)<br>
+MATH0078 Advanced Algebra and Analytic Geometry 2-2 92 (Honor Class)<br>
+MATH0097 Ordinary Differential Equations 96 (Honor Class)<br>
+MATH0147 Complex Variable Function II passed (Honor Class)<br>
+MATH0132 Abstract Algebra I 88 (Honor Class)<br>
+MATH0145 Complex Variable Functions 97 (Honor Class)<br>
+MATH0146 Mathematical Analysis III 98 (Honor Class)<br>
+MATH0134 Abstract Algebra II 95 (Honor Class)<br>
+MATH0055 Number Theory 92 <br>
+MATH0065 Probability Theory 85 (Honor Class)<br>
+MATH0079 Pointwise Topology 84 <br>
+MATH0102 Commutative Algebra 97 <br>
+MATH0136 Galois Theory 96 <br>
+MATH0151 Real Analysis 81 (Honor Class)<br>
+MATH0162 Lie Groups and Algebraic Groups 90 <br>
+
+#### **MATHEMATICS COURSES CURRENTLY BEING TAKEN**
+
+MATH0021 Stochastic Process <br>
+MATH0108 Mathematical Equations <br>
+MATH0051 Functional Analysis <br>
+MATH0156 Numerical Analysis <br>
+Elementary Algebraic Topology （auditing) <br>
+Analytic Number Theory (auditing) <br>
+
+## REFERENCE LETTERS
+
+to be added
+
+## RESEARCH EXPERIENCE
+
+#### Polymath Jr.
+
+This is a group project. Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin, and I draw a visualization of $K_9$ dessin through the morphism $\pi_1(P_8/\sim) \mapsto \mathbb{Z}[\zeta_8]/(1+\sqrt{-2})$. For my contribution, I work out the algebraic approaches and draw the visualization. I also gave the final presentation of the group work, wrote the algebraic approaches part of the paper (the paper is still in progress), and made the poster that was submitted to JMM 2025. If there is no visa issue, I will go to JMM 2025 and give a talk about that.
+
+## OTHER EXPERIENCE
+
+#### BICMR AI4MATH
+
+I collaborate with four students to formalize in lean4 that Algebraic integer of $\mathbb{Q}[\sqrt{-3}]$ is PID. I learn a a lot of knowledge about functional programming and constructing a proof assistant. I lean some basic dependent type theory. Above all, I gain more ability of collaboration and of learning new things quickly.
+
+## STATEMENT OF PURPOSE
+
+need to change
+
+I am interested in number theory. I have done the Polymath Jr. REU with the topic of Dessin d'enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. Currently, I am self-learning scheme theory to prepare to learn arithmetic geometry and at the same time, taking the Analytic Number Theory course. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
+
+::: print-only
+
+:::

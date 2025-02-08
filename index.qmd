@@ -1,0 +1,39 @@
+---
+title: "Yanshu Wang"
+image: profile.png
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: email
+      text: Email
+      href: mailto:wangyenshu@outlook.com
+    - icon: orcid
+      text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0009-0003-2217-3295
+    - icon: github
+      text: Github
+      href: https://github.com/wangyenshu
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: 
+    categories: [news, posts]
+    
+---
+
+::: {#hero-heading}
+
+I am interested in algebra and number theory. I have done the Polymath Jr. REU with the topic of Dessin d'enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. Currently, I am self-learning scheme theory to prepare to learn arithmetic geometry and at the same time, taking the Analytic Number Theory course. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
+
+
+## Education 
+
+Nankai University | Tianjin, China
+
+BA in Math and Applied Math | Due on June 2026
+
+

@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Yanshu Wang"
+  site-url: https://wangyenshu.github.io/wangyanshu
+  description: "Yanshu Wang's Academic Homepage"
+    
+
+  page-footer:
+    left: "&copy; Copyright 2024, Yanshu Wang"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+
+  navbar:
+    left:
+    
+      - href: index.qmd
+        text: Home
+        
+      - href: publications/index.qmd
+        text: Publications
+        
+      - href: presentations/index.qmd
+        text: Presentations
+        
+      - href: projects/index.qmd
+        text: Projects
+      
+      - href: teaching/index.qmd
+        text: Teaching
+        
+      - href: CV/index.qmd
+        text: CV
+
+    right:
+      
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    
+filters:
+  - shinylive
+
+

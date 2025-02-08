@@ -1,0 +1,129 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+  pdf:
+    author: Yanshu Wang
+    pdf-engine: weasyprint
+css: cv.css
+cvcolor: 58748F #without `#`
+cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
+format-links: [pdf]
+---
+
+::: {.print-only .contact-block}
+Citizenship: Chinese <br>
+wangyenshu@outlook.com <br>
+Cell Phone Number: +8613408673568 <br>
+https://wangyenshu.github.io/wangyanshu/
+:::
+
+## OBJECTIVE 
+
+I am interested in algebra and number theory. I have done the Polymath Jr. REU with the topic of Dessin d'enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. Currently, I am self-learning scheme theory to prepare to learn arithmetic geometry and at the same time, taking the Analytic Number Theory course. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
+
+## EDUCATION
+
+- **Bachelor -- Math and Applied Math** <br> *Nankai University* *Sep 2022 --- Jun 2026* (expected)  <br> Grade Point Average: 3.72/4 or 90.08/100; Major GPA : 3.8/4 or 91.61/100
+
+- **Exchange Student** <br> *Temple University (tuition free)* *Jan 2025 --- May 2025* <br> Grade Point Average: 
+
+**RELEVANT COURSEWORK:**
+
+- MATH0130 Mathematical Analysis I 100 (Honor Class)
+- MATH0083 Advanced Algebra and Analytic Geometry 2-1 (Linear Algebra) 100 (Honor Class)
+- MATH0068 Computer Set Theory and Logic 91
+- MATH0133 Mathematical Analysis II 97 (Honor Class)
+- MATH0078 Advanced Algebra and Analytic Geometry 2-2 (Linear Algebra) 92 (Honor Class)
+- MATH0097 Ordinary Differential Equations 96 (Honor Class)
+- MATH0147 Complex Variable Function II passed (Honor Class)
+- MATH0132 Abstract Algebra I 88 (Honor Class)
+- MATH0145 Complex Variable Functions 97 (Honor Class)
+- MATH0146 Mathematical Analysis III 98 (Honor Class)
+- MATH0134 Abstract Algebra II 95 (Honor Class)
+- MATH0055 Number Theory 92
+- MATH0065 Probability Theory 85 (Honor Class)
+- MATH0079 Pointwise Topology 84 
+- MATH0102 Commutative Algebra 97
+- MATH0136 Galois Theory 96 
+- MATH0151 Real Analysis 81 (Honor Class)
+- MATH0162 Lie Groups and Algebraic Groups 90 
+- MATH0051 Functional Analysis 93 
+- MATH9100 Topics in Algebra (at Temple, Braid Groups) 
+- MATH8051 Functions of a Complex Variable I (at Temple) 
+
+**AUDITING:**
+
+- Elementary Algebraic Topology
+- Analytic Number Theory
+- PHYS8701 Quantum Field Theory (at Temple)
+- PHYS8102 Stastical Mechanics (at Temple)
+
+
+**UNDERGRADUATE SEMINAR:**<br>
+
+- Geometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participate in it in the first semester of the sophomore year.<br>
+
+- Algebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the video <https://www.bilibili.com/video/BV1Fu41127KW/>.<br>
+
+- Quasi-Conformal Mapping and Potential Theory: I use the notes from <https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf>. <br>
+
+- Analytic Number Theory Online Seminar: This seminar is conducted by a senior alumna (pursuing master degree at University of Bonn). The main topic is o-minimality and some Tame Geometry.<br>
+
+**MINI COURSE:**<br>
+
+- Propagation speed of non-linear parabolic equations on Riemannian manifolds by Prof. Alexander Grigor's yan
+
+- Preliminary Arizona Winter School 2024:Symmetries of root systems and local fields (unofficially following the course)
+
+<!--
+**REMARK:** <br> 
+
+- Nankai University's undergraduate degree requires me to take approximately 6 courses in applied mathematics or 6 courses in computational mathematics. That is why there are many applied mathematics courses in my transcript. Another effect is that I have to audit some courses due to conflict time schedules and excessive workloads. <br>
+
+- Explanation for low grades in Probability Theory, Pointwise Topology, Real Analysis:I take too much courses in the second semester of the sophomore year, including Real Analysis, Probability Theory, Pointwise Topology, Commutative Algebra, Lie Groups and Algebraic Groups. <br>
+-->
+
+## RESEARCH EXPERIENCE
+
+#### Polymath Jr.
+
+This is a group project. Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin, and I draw a visualization of $K_9$ dessin through the morphism $\pi_1(P_8/\sim) \mapsto \mathbb{Z}[\zeta_8]/(1+\sqrt{-2})$. For my contribution, I work out the algebraic approaches and draw the visualization. I also gave the final presentation of the group work, wrote the algebraic approaches part of the paper (the paper is still in progress), and made the poster that was submitted to JMM 2025. If there is no visa issue, I will go to JMM 2025 and give a talk about that.
+
+#### Independent Study with Professor Vasily Dolgushev
+
+#### Mitacs Research Internship
+
+#### BICMR AI4MATH
+
+I collaborate with four students to formalize in lean4 that Algebraic integer of $\mathbb{Q}[\sqrt{-3}]$ is PID. I learn a a lot of knowledge about functional programming and constructing a proof assistant. I lean some basic dependent type theory. Above all, I gain more ability of collaboration and of learning new things quickly.
+
+::: no-print
+
+
+## Published Papers
+:::
+## PRESENTATIONS AND WORKSHOPS
+JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session
+<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf">Dessins_d_enfants_and_complete_regular_maps_presentation</a> <br>
+
+JMM 2025 AMS-PME Undergraduate Poster Sessions <a href="https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">Dessin_Equation_JMM_Poster</a> <br>
+
+## SCHOLARSHIP
+
+Gong Neng Scholarship
+
+## SPECIAL SKILLS
+
+#### Programming Language
+
+C++; python; sage; Wolfram Language; latex(fluent, knows basic programming in tex); postscript(ghostscript); lean4; html & css & javascript; shell(bash).
+
+#### Foreign Language
+
+English (fluent); French (beginner).
+
+::: print-only
+
+:::

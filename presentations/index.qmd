@@ -1,0 +1,10 @@
+---
+title: "Presentations"
+editor: visual
+---
+
+#### JMM 2025 Polymath Jr. Dessin d'enfant Project
+
+[JMM2025Poster](Dessin_Equation_JMM_Poster.pdf)
+
+![JMMPhoto](images/JMMPosterYSW.jpg){width="409"} ![JMMBadge](images/JMMBadge.jpg){width="406"}
