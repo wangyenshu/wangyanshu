@@ -19,7 +19,7 @@ listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  categories: false
   feed: 
     categories: [news, posts]
     
