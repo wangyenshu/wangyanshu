@@ -17,6 +17,14 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x' # Use a specific Python version, e.g., '3.9', '3.10', '3.11'
+
+      - name: Install WeasyPrint
+        run: pip install weasyprint
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
