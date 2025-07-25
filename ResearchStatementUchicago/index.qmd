@@ -16,7 +16,7 @@ format-links: [pdf]
 :::
 
 ## Research Statement
-test
+
 Full Name: Yanshu Wang <br>
 Email: wangyenshu@outlook.com <br>
 Current Undergraduate School: Nankai University <br>
