@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Yanshu Wang – ResearchStatementUchicago</title>
+<title>Yanshu Wang – News</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -98,7 +129,6 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="cv.css">
 </head>
 
 <body class="nav-fixed">
@@ -123,7 +153,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../news/index.html"> 
+    <a class="nav-link active" href="../news/index.html" aria-current="page"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
@@ -165,24 +195,14 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#research-statement" id="toc-research-statement" class="nav-link active" data-scroll-target="#research-statement">Research Statement</a></li>
-  <li><a href="#reference-letters" id="toc-reference-letters" class="nav-link" data-scroll-target="#reference-letters">REFERENCE LETTERS</a></li>
-  <li><a href="#research-experience" id="toc-research-experience" class="nav-link" data-scroll-target="#research-experience">RESEARCH EXPERIENCE</a></li>
-  <li><a href="#other-experience" id="toc-other-experience" class="nav-link" data-scroll-target="#other-experience">OTHER EXPERIENCE</a></li>
-  <li><a href="#statement-of-purpose" id="toc-statement-of-purpose" class="nav-link" data-scroll-target="#statement-of-purpose">STATEMENT OF PURPOSE</a></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ResearchStatementUchicago</h1>
+<h1 class="title">News</h1>
 </div>
 
 
@@ -199,51 +219,18 @@ window.Quarto = {
 </header>
 
 
-<div class="print-only contact-block">
-<!-- <https://wangyenshu.github.io/wangyanshu/> -->
-</div>
-<section id="research-statement" class="level2">
-<h2 class="anchored" data-anchor-id="research-statement">Research Statement</h2>
-<p>Full Name: Yanshu Wang <br> Email: wangyenshu@outlook.com <br> Current Undergraduate School: Nankai University <br> Major: Mathematics and Applied Mathematics <br> Overall cumulative GPA: 3.81/4 <br> Expected graduation date: 09/01/2026 <br> Circle current status: Junior <br> Would you prefer the full or the apprentice program? Full <br> Primary areas of mathematical interest: number theory <br></p>
-<section id="completed-mathematics-coursework" class="level4">
-<h4 class="anchored" data-anchor-id="completed-mathematics-coursework"><strong>COMPLETED MATHEMATICS COURSEWORK:</strong></h4>
-<p>MATH0130 Mathematical Analysis I 100 (Honor Class)<br> MATH0083 Advanced Algebra and Analytic Geometry 2-1 100 (Honor Class)<br> MATH0068 Computer Set Theory and Logic 91 <br> MATH0133 Mathematical Analysis II 97 (Honor Class)<br> MATH0078 Advanced Algebra and Analytic Geometry 2-2 92 (Honor Class)<br> MATH0097 Ordinary Differential Equations 96 (Honor Class)<br> MATH0147 Complex Variable Function II passed (Honor Class)<br> MATH0132 Abstract Algebra I 88 (Honor Class)<br> MATH0145 Complex Variable Functions 97 (Honor Class)<br> MATH0146 Mathematical Analysis III 98 (Honor Class)<br> MATH0134 Abstract Algebra II 95 (Honor Class)<br> MATH0055 Number Theory 92 <br> MATH0065 Probability Theory 85 (Honor Class)<br> MATH0079 Pointwise Topology 84 <br> MATH0102 Commutative Algebra 97 <br> MATH0136 Galois Theory 96 <br> MATH0151 Real Analysis 81 (Honor Class)<br> MATH0162 Lie Groups and Algebraic Groups 90 <br></p>
-</section>
-<section id="mathematics-courses-currently-being-taken" class="level4">
-<h4 class="anchored" data-anchor-id="mathematics-courses-currently-being-taken"><strong>MATHEMATICS COURSES CURRENTLY BEING TAKEN</strong></h4>
-<p>MATH0021 Stochastic Process <br> MATH0108 Mathematical Equations <br> MATH0051 Functional Analysis <br> MATH0156 Numerical Analysis <br> Elementary Algebraic Topology （auditing) <br> Analytic Number Theory (auditing) <br></p>
-</section>
-</section>
-<section id="reference-letters" class="level2">
-<h2 class="anchored" data-anchor-id="reference-letters">REFERENCE LETTERS</h2>
-<p>to be added</p>
-</section>
-<section id="research-experience" class="level2">
-<h2 class="anchored" data-anchor-id="research-experience">RESEARCH EXPERIENCE</h2>
-<section id="polymath-jr." class="level4">
-<h4 class="anchored" data-anchor-id="polymath-jr.">Polymath Jr.</h4>
-<p>This is a group project. Our group gives algebraic and complex analytic approaches to computing an affine model for <span class="math inline">\(K_9\)</span> dessin, and I draw a visualization of <span class="math inline">\(K_9\)</span> dessin through the morphism <span class="math inline">\(\pi_1(P_8/\sim) \mapsto \mathbb{Z}[\zeta_8]/(1+\sqrt{-2})\)</span>. For my contribution, I work out the algebraic approaches and draw the visualization. I also gave the final presentation of the group work, wrote the algebraic approaches part of the paper (the paper is still in progress), and made the poster that was submitted to JMM 2025. If there is no visa issue, I will go to JMM 2025 and give a talk about that.</p>
-</section>
-</section>
-<section id="other-experience" class="level2">
-<h2 class="anchored" data-anchor-id="other-experience">OTHER EXPERIENCE</h2>
-<section id="bicmr-ai4math" class="level4">
-<h4 class="anchored" data-anchor-id="bicmr-ai4math">BICMR AI4MATH</h4>
-<p>I collaborate with four students to formalize in lean4 that Algebraic integer of <span class="math inline">\(\mathbb{Q}[\sqrt{-3}]\)</span> is PID. I learn a a lot of knowledge about functional programming and constructing a proof assistant. I lean some basic dependent type theory. Above all, I gain more ability of collaboration and of learning new things quickly.</p>
-</section>
-</section>
-<section id="statement-of-purpose" class="level2">
-<h2 class="anchored" data-anchor-id="statement-of-purpose">STATEMENT OF PURPOSE</h2>
-<p>need to change</p>
-<p>I am interested in number theory. I have done the Polymath Jr.&nbsp;REU with the topic of Dessin d’enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. Currently, I am self-learning scheme theory to prepare to learn arithmetic geometry and at the same time, taking the Analytic Number Theory course. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html &amp; css &amp; javascript.</p>
-<div class="print-only">
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
 
 </div>
-
-
-</section>
-
-</main> <!-- /main -->
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
