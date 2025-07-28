@@ -1,33 +1,126 @@
-on:
-  workflow_dispatch:
-  push:
-    branches: main
+name: Build, Encrypt, and Deploy to build_site Branch Root
 
-name: Quarto Publish
+on:
+  push:
+    branches:
+      - main # Trigger on pushes to the main branch
+  pull_request:
+    branches:
+      - main # Also trigger on pull requests to the main branch
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
+  build_encrypt_copy:
+    runs-on: ubuntu-latest # Run on the latest Ubuntu environment
     permissions:
-      contents: write
+      contents: write # Grant write permission to the GITHUB_TOKEN for pushing to branches
+
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+    - name: Checkout repository (main branch for source files)
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # Fetch all history to allow branch switching
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20' # Use Node.js version 20 (adjust if your project needs a different version)
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x' # Use a specific Python version, e.g., '3.9', '3.10', '3.11'
+    - name: Install dependencies (including staticrypt)
+      run: |
+        npm install # Install your project's dependencies
+        npm install staticrypt # Install staticrypt for encryption
 
-      - name: Install WeasyPrint
-        run: pip install weasyprint
+    - name: Navigate to build directory and build site
+      # This step should produce the raw (unencrypted) HTML file in 'build/cooked/index.html'.
+      run: |
+        cd build
+        npm run build-site
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Encrypt build/cooked/index.html
+      # This step encrypts the 'index.html' that was just built inside 'build/cooked/'.
+      # It overwrites that file with its encrypted version.
+      # IMPORTANT: If your 'password_template.html' is NOT at the root, adjust its path here.
+      run: |
+        # Ensure we are in the correct directory where index.html (to be encrypted) is located.
+        cd build/cooked
+        npx staticrypt index.html -t ../../password_template.html -p "pass" -o index.html
+
+    - name: Deploy encrypted index.html and passthrough files to build_site branch root
+      # This step only runs when pushing to the 'main' branch for deployment control.
+      if: github.ref == 'refs/heads/main'
+      run: |
+        echo "Starting deployment process for build_site branch root..."
+
+        # Configure Git user for the commit
+        git config user.name "GitHub Actions Bot"
+        git config user.email "github-actions-bot@users.noreply.github.com"
+
+        # Define paths
+        SOURCE_ENCRYPTED_HTML="build/cooked/index.html"
+        SOURCE_PASSTHROUGH_DIR="passthrough" # The folder with files to copy
+        TARGET_BRANCH="build_site"
+        TARGET_HTML_FILE="index.html" # Destination for encrypted index.html in the root
+
+        # Verify that the encrypted index.html was created
+        if [ ! -f "$SOURCE_ENCRYPTED_HTML" ]; then
+          echo "Error: Encrypted index.html ($SOURCE_ENCRYPTED_HTML) not found. Aborting."
+          exit 1
+        fi
+        echo "Encrypted index.html found at $SOURCE_ENCRYPTED_HTML."
+
+        # Verify that the passthrough directory exists
+        if [ ! -d "$SOURCE_PASSTHROUGH_DIR" ]; then
+          echo "Warning: Passthrough directory ($SOURCE_PASSTHROUGH_DIR) not found. Skipping passthrough files."
+        else
+          echo "Passthrough directory found at $SOURCE_PASSTHROUGH_DIR."
+        fi
+
+        # --- IMPORTANT: Get ready for branch switch and prepare content ---
+        # Stash any uncommitted changes from the main branch's workspace.
+        git stash --include-untracked -m "WIP before switching to $TARGET_BRANCH"
+
+        # Checkout the target branch. Create it if it doesn't exist.
+        git checkout "$TARGET_BRANCH" || git checkout -b "$TARGET_BRANCH"
+        echo "Checked out or created '$TARGET_BRANCH' branch."
+
+        # Re-apply any stashed changes on the target branch (if any).
+        git stash pop || true 
+        echo "Stash popped (if any)."
+
+        # --- Clean the build_site branch root (excluding .git) ---
+        # This removes EVERYTHING from the root of the 'build_site' branch (except the .git folder)
+        # to ensure that only the new encrypted index.html and passthrough content are present.
+        find . -maxdepth 1 ! -name ".git" ! -name "." ! -name ".." -exec rm -rf {} +
+        echo "Cleaned '$TARGET_BRANCH' branch root."
+        # --- End Clean ---
+
+        # --- Copy content into the 'build_site' branch's clean working directory ---
+        # Note: We are now operating from the root of the 'build_site' branch.
+        # Access source files using paths relative to the original repository clone.
+        REPO_ROOT=$(pwd) 
+        ENCRYPTED_HTML_PATH="$REPO_ROOT/$SOURCE_ENCRYPTED_HTML"
+        PASSTHROUGH_PATH="$REPO_ROOT/$SOURCE_PASSTHROUGH_DIR"
+
+        # 1. Copy the encrypted 'index.html' to the root of the 'build_site' branch
+        cp "$ENCRYPTED_HTML_PATH" "$TARGET_HTML_FILE"
+        echo "Copied encrypted HTML from $ENCRYPTED_HTML_PATH to $TARGET_HTML_FILE in '$TARGET_BRANCH' branch root."
+        
+        # 2. Copy all files recursively from the 'passthrough' folder to the root of the 'build_site' branch
+        if [ -d "$PASSTHROUGH_PATH" ]; then
+          # Use 'cp -r' to copy contents of the directory directly to the current directory (root)
+          cp -r "$PASSTHROUGH_PATH"/* . 
+          echo "Recursively copied files from $PASSTHROUGH_PATH to '$TARGET_BRANCH' branch root."
+        fi
+
+        # --- Git Operations ---
+        # Add all new/modified files in the root to Git's staging area
+        git add .
+        echo "Added all new/modified files in '$TARGET_BRANCH' branch root to Git staging."
+
+        # Commit the changes. '|| true' prevents failure if no changes are detected.
+        git commit -m "Automated: Update $TARGET_BRANCH branch root with encrypted index.html and passthrough files" || true
+        echo "Committed changes (if any)."
+
+        # Push the changes to the 'build_site' branch on GitHub
+        git push origin "$TARGET_BRANCH"
+        echo "Pushed changes to '$TARGET_BRANCH' branch."
