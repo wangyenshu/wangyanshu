@@ -1,6 +1,4 @@
 ---
-title: "Curriculum Vitae"
-author: "Yanshu Wang"
 format:
   html:
     toc: false
