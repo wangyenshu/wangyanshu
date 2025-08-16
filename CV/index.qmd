@@ -42,11 +42,9 @@ I am interested in algebra and number theory. I have done the Polymath Jr. REU w
 
 ## PRESENTATIONS AND WORKSHOPS
 
-- **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session**
-  - <a href="https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf">Dessins_d_enfants_and_complete_regular_maps_presentation</a> <br>
+- **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session**; topics: Dessin d'enfant and Complete Regular Maps ([view slides|https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf]);
 
-- **JMM 2025 AMS-PME Undergraduate Poster Sessions**
-  - <a href="https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">Dessin_Equation_JMM_Poster</a> <br>
+- **JMM 2025 AMS-PME Undergraduate Poster Sessions**; topics:   Obtaining Equations for $K_9$ Dessin ([view poster|https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">Dessin_Equation_JMM_Poster]).
 
 ## SCHOLARSHIP
 
@@ -93,9 +91,9 @@ I am interested in algebra and number theory. I have done the Polymath Jr. REU w
 
 - Geometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participated in it in the first semester of the sophomore year.<br>
 
-- Algebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the video <https://www.bilibili.com/video/BV1Fu41127KW/>.<br>
+- Algebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the [video|https://www.bilibili.com/video/BV1Fu41127KW/].<br>
 
-- Quasi-Conformal Mapping and Potential Theory: I use the notes from <https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf>. <br>
+- Quasi-Conformal Mapping and Potential Theory: I studied this topic using  [B. Khoruzhenko's lecture notes|https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf]. <br>
 
 - Analytic Number Theory Online Seminar: Led by a senior alumna (M.S., University of Bonn). The main topic is o‑minimality and tame geometry.<br>
 
@@ -117,8 +115,12 @@ Add it to personal statement!
 <div class="clear"></div>
 
 ## Skills
-- C++; python; sage; Wolfram Language; latex(fluent, knows basic programming in tex); postscript(ghostscript); lean4; html & css & javascript; shell(bash).
-- Cloud: AWS, GCP
+- Languages: python(fluent); sagemath(fluent, especially libgap); C++;  Mathematica; latex(fluent); lean4; html & css & javascript;
+- DevOps: Docker; Google Cloud; Github Actions.
 
-## Languages
+## Human Languages
 - English (fluent); French (beginner); Mandarin (native)
+
+## Open Source
+- Automated the daily indexing of Tiddlywiki Classic plugins and themes using a GitHub Action ([source|https://github.com/wangyenshu/twcArchives]), generating a user-friendly extension description file.
+- 
