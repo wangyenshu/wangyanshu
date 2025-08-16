@@ -1,0 +1,8 @@
+---
+format:
+  html:
+    toc: false
+  pdf:
+    pdf-engine: weasyprint
+format-links: [pdf]
+---
