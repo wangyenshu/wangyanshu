@@ -130,6 +130,8 @@ Add it to personal statement!
 ## Human Languages
 - English (fluent); French (beginner); Mandarin (native)
 
+<!--
 ## Open Source
 - Automated the daily indexing of Tiddlywiki Classic plugins and themes using a GitHub Action (<a href="https://github.com/wangyenshu/twcArchives">source</a>), generating a user-friendly extension description file.
 - Develop various plugins for Tiddlywiki Classic (<a href="https://wangyenshu.github.io/#Plugins">Plugin Page</a>)
+-->
