@@ -1,0 +1,11 @@
+---
+format:
+  html:
+    toc: false
+  pdf:
+    pdf-engine: weasyprint
+format-links: [pdf]
+---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">PERSONAL STATEMENT</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+
