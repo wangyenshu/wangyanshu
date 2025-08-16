@@ -6,3 +6,7 @@ format:
     pdf-engine: weasyprint
 format-links: [pdf]
 ---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+
+{{< include _general_sop.qmd >}}
