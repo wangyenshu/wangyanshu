@@ -18,9 +18,10 @@ Cell Phone Number: +8613408673568/+12679021268 <br>
 Email: wangyenshu@outlook.com  
 Website: https://wangyenshu.github.io/wangyanshu/  
 
-## OBJECTIVE 
+<!--
+## Objective
 I am interested in algebra and number theory. I have done the Polymath Jr. REU with the topic of Dessin d'enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
-
+-->
 ## Published Papers
 
 ## Research Experience
@@ -49,11 +50,14 @@ Focus on GKP stabilizer group
   - This project introduced me to functional programming, dependent type theory and proof‑assistant design, and sharpened my collaboration and rapid‑learning abilities.
 <div class="clear"></div>
 
-## PRESENTATIONS AND WORKSHOPS
+## Presentations and Workshops
 
 - **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session**; topics: Dessin d'enfant and Complete Regular Maps (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf">view slides</a>);[](Dessins_d_enfants_and_complete_regular_maps_presentation.pdf)
 
 - **JMM 2025 AMS-PME Undergraduate Poster Sessions**; topics: Obtaining Equations for $K_9$ Dessin (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">view poster</a>).[](Dessin_Equation_JMM_Poster.pdf)
+
+## Research Grants and Travel Grants
+- 
 
 ## SCHOLARSHIP
 
