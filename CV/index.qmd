@@ -122,5 +122,5 @@ Add it to personal statement!
 - English (fluent); French (beginner); Mandarin (native)
 
 ## Open Source
-- Automated the daily indexing of Tiddlywiki Classic plugins and themes using a GitHub Action ([source|https://github.com/wangyenshu/twcArchives]), generating a user-friendly extension description file.
+- Automated the daily indexing of Tiddlywiki Classic plugins and themes using a GitHub Action (<a href="https://github.com/wangyenshu/twcArchives">source</a>), generating a user-friendly extension description file.
 - 
