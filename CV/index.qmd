@@ -42,9 +42,9 @@ I am interested in algebra and number theory. I have done the Polymath Jr. REU w
 
 ## PRESENTATIONS AND WORKSHOPS
 
-- **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session**; topics: Dessin d'enfant and Complete Regular Maps ([view slides|https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf]);[](Dessins_d_enfants_and_complete_regular_maps_presentation.pdf){width = 0 height = 0}
+- **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session**; topics: Dessin d'enfant and Complete Regular Maps (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf">view slides</a>);[](Dessins_d_enfants_and_complete_regular_maps_presentation.pdf)
 
-- **JMM 2025 AMS-PME Undergraduate Poster Sessions**; topics:   Obtaining Equations for $K_9$ Dessin ([view poster|https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf]).[](Dessin_Equation_JMM_Poster.pdf){width = 0 height = 0}
+- **JMM 2025 AMS-PME Undergraduate Poster Sessions**; topics:   Obtaining Equations for $K_9$ Dessin (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">view poster</a>).[](Dessin_Equation_JMM_Poster.pdf)
 
 ## SCHOLARSHIP
 
@@ -79,7 +79,7 @@ I am interested in algebra and number theory. I have done the Polymath Jr. REU w
 - MATH0162 Lie Groups and Algebraic Groups 90 
 - MATH0051 Functional Analysis 93 
 - MATH9100 Topics in Algebra (at Temple, Braid Groups) 
-- MATH8051 Functions of a Complex Variable I (at Temple) 
+- MATH8051 Functions of a Complex Variable I (at Temple University) 
 
 **AUDITING:**
 
@@ -91,9 +91,9 @@ I am interested in algebra and number theory. I have done the Polymath Jr. REU w
 
 - Geometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participated in it in the first semester of the sophomore year.<br>
 
-- Algebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the [video|https://www.bilibili.com/video/BV1Fu41127KW/].<br>
+- Algebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the <a href="https://www.bilibili.com/video/BV1Fu41127KW/">video</a>.<br>
 
-- Quasi-Conformal Mapping and Potential Theory: I studied this topic using  [B. Khoruzhenko's lecture notes|https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf]. <br>
+- Quasi-Conformal Mapping and Potential Theory: I studied this topic using  <a href="https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf">B. Khoruzhenko's lecture notes</a>. <br>
 
 - Analytic Number Theory Online Seminar: Led by a senior alumna (M.S., University of Bonn). The main topic is o‑minimality and tame geometry.<br>
 
