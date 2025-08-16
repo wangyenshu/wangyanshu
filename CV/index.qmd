@@ -7,12 +7,11 @@ format:
 css: cv.css
 format-links: [pdf]
 ---
+# Yanshu Wang {style="text-align: center;"}
+## Curriculum Vitae {style="text-align: center;"}
 
-# Profile
-Yanshu Wang
-Mathematics Undergraduate  
 Cell Phone Number: +8613408673568/+12679021268 <br>
-Email: wangyenshu@outlook.com  
+Email: wangyenshu@outlook.com
 Website: https://wangyenshu.github.io/wangyanshu/  
 
 <!--
