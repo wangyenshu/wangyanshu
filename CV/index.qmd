@@ -36,8 +36,9 @@ https://arxiv.org/pdf/2412.02442 page 21
 https://en.wikipedia.org/wiki/Stabilizer_code#Definition
 Focus on GKP stabilizer group 
 -->
-- **Independent Study with Professor Vasily Dolgushev**, Temple University<span class="cvdate">Jan 2025 – Current</span>  
-  - TBD
+- **Independent Study mentored by Professor Vasily Dolgushev**, Temple University<span class="cvdate">Jan 2025 – Current</span>  
+  - Revisit the gentle version \widehat{\mathsf{GT}}_{gen} of the Grothendieck-Teichmueller group \widehat{\mathsf{GT}} and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress.
+  - Contribute to sagemath package for working with $\mathsf{GT}$-shadows.
   
 - **Polymath Jr.**, Online<span class="cvdate">2024 – 2025</span>  
   - Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin, and I draw a visualization of $K_9$ dessin through the morphism $\pi_1(P_8/\sim) \to \mathbb{Z}[\zeta_8]/(1+\sqrt{-2})$.
