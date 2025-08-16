@@ -8,7 +8,7 @@ css: cv.css
 format-links: [pdf]
 ---
 # Yanshu Wang {style="text-align: center;"}
-<h2 style="text-align: center;">Curriculum Vitae</h2>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">Curriculum Vitae</p>
 
 Cell Phone Number: +8613408673568/+12679021268 <br>
 Email: wangyenshu@outlook.com
