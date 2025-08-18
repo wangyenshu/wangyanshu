@@ -34,7 +34,7 @@ https://en.wikipedia.org/wiki/Stabilizer_code#Definition
 Focus on GKP stabilizer group 
 -->
 - **Independent Study mentored by Professor Vasily Dolgushev**, Temple University<span class="cvdate">Jan 2025 – Current</span>  
-  - Revisit the gentle version \widehat{\mathsf{GT}}_{gen} of the Grothendieck-Teichmueller group \widehat{\mathsf{GT}} and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress.
+  - Revisit the gentle version \hat{\mathsf{GT}}_{gen} of the Grothendieck-Teichmueller group \widehat{\mathsf{GT}} and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress.
   - Contribute to sagemath package for working with $\mathsf{GT}$-shadows.
   
 - **Polymath Jr.**, Online<span class="cvdate">2024 – 2025</span>  
