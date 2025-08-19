@@ -10,8 +10,8 @@ format-links: [pdf]
 <div style="font-size: 2em; font-weight: bold; text-align: center;">Yanshu Wang</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">Curriculum Vitae</p>
 
-Cell Phone Number: +8613408673568/+12679021268 <br>
-Email: wangyenshu@outlook.com <br>
+Cell Phone Number: +86134<div id="hide" hidden> 7386727</div>08673568/+126790<div id="hide" hidden> 7386727</div>21268 <br>
+Email: wangy<div id="hide" hidden> 7386727</div>enshu@outlook.com <br>
 Website: https://wangyenshu.github.io/wangyanshu/  
 
 <!--
