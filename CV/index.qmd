@@ -24,7 +24,7 @@ I am interested in algebra and number theory. I have done the Polymath Jr. REU w
 
 - **Mitacs Globalink Research Internship**, Mentored by Professor Maxence Mayrand, Université de Sherbrooke<span class="cvdate">May 2025 – Current</span>  
   - Construct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate (unitary operator) as H-gate, S-gate and CNOT-gate.
-  - Devolop sagemath script to do the above work for arbitary cyclotomic field.
+  - Develop sagemath scripts for working with GKP codes constructed from the cyclotomic field.
 
 <!--
 A GKP code is a stabilizer code acting on the Hilbert space of n bosonic
