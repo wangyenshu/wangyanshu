@@ -1,1 +1,26 @@
+## Why Study Mathematics?
+
+My interest in advanced mathematics started in middle school, when I accidentally encountered the well-known physics puzzle of solving the resistance value of two points in a two-dimensional infinite lattice of resistors. My physics teacher in middle school showed me that if the position of these two points is very symmetric, it can be solved using elementary mathematics. When I searched the Internet for solutions for general position cases, I first encountered the term ‘Fourier analysis’ and found that it required advanced mathematics.
+
+In high school, I learned the differential element method from a physics course. And later, I self-learned the epsilon-delta language to give a rigorous explanation. The physics knowledge combined with calculus seems to be able to predict any changes in real life, and the rigorous mathematical proof endows that prediction with absolute reliability. At that time, I was really fascinated by the power and reliability of mathematics (actually, analysis). 
+
+Then, I went to the mathematically best university that I was able to get into – Nankai University. I completed the course of honour mathematical analysis and honour linear algebra with good grades and enrolled in a variety of graduate-level mathematics courses. The abstract algebra course by Prof. Binbin Xu led me to make the decision to study algebra and number theory. His course is very clear, the theory of groups, rings, fields, and modules is well-organized, and theorems are beautiful. So I enrolled in Galois theory, commutative algebra, (algebraic) number theory, and linear algebraic groups to dive deeper into algebraic topics. I also self-learned some algebraic geometry from Prof. Richard Borcherds’ YouTube channel.
+
+## Research Experience
+
+On my sophomore summer vacation, I did the online **Polymath Jr. REU** to obtain equations for $K_9$ Dessin. I learned about compact Riemann surfaces and dessins d’enfants and practiced my Mathematica programming skills. I contributed to the final presentation slides, made the poster, and gave a presentation at **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session** and presented the poster at **JMM 2025 AMS-PME Undergraduate Poster Sessions**. I also learned a lot from lectures at JMM2025 and made many friends with other student participants.
+
+I visited Temple University in January after JMM 2025 and did research on the Grothendieck-Teichmueller group with Prof. Vasily Dolgushev. Since I already knew Dessin d’enfant and enrolled in a graduate braid group course at Temple University, all background knowledge is already satisfied. We revisit the gentle version $\widehat{\mathsf{GT}}_{gen}$ of the Grothendieck-Teichmueller group \widehat{\mathsf{GT}} and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress. Moreover, I contribute to the SageMath package for working with $\mathsf{GT}$-shadows. I learned many precautions in academic writing, like how to write a proper introduction and how to organize sections in a flow. I also practiced my SageMath programming skills (especially libgap), and OOP method.
+
+
+I am admitted to the Mitacs Globalink Research Internship at Université de Sherbrooke under the mentorship of Prof. Maxence Mayrand. I constructed new GKP codes from the Abelian varieties on the cyclotomic field and computed the decomposition of the corresponding Clifford gate as H-gate, S-gate, and CNOT-gate. Meanwhile, I developed SageMath scripts for working with GKP codes constructed from the cyclotomic field. We use the book Complex Abelian Varieties by Herbert Lange. This research experience enhanced my programming skills and the ability to apply mathematics to solve concrete problems.
+
+## Overcoming Obstacles 
+
+Through determination and with the help of professors and friends, I have overcome various obstacles encountered on my mathematical path. The most harmful (bureaucratic) obstacle was a policy that limited a particular portion of students' options to either pursue a Ph.D. in mathematics at their current institution or change their academic focus (from pure mathematics to applied mathematics). I overcame this obstacle by taking the required courses in both pure mathematics and applied mathematics and devoting double efforts to coursework. Another obstacle was that as an exchange undergraduate student at Temple University, I was not allowed to enroll in graduate mathematics courses. Thanks to Prof. David Futer, the Graduate Director, I was granted permission to enroll in graduate mathematics courses after reaching out.
+
+## Research Interest and Future Plans
+
+I am generally interested in algebra and number theory. My interested subfield will be clear after I am admitted to a graduate school. My short-term plan after admission is to try to pass the qualification exam in the first year, finish the required courses and teaching, attend colloquia, find an advisor, and get started on research as soon as possible. My long-term plan is to get a faculty job in academia and make my own contribution to the mathematics community. I have a plan B, although I will work hard in the hope that it is never needed.
+
 
