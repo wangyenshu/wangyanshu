@@ -11,7 +11,7 @@ format-links: [pdf]
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">Curriculum Vitae</p>
 
 Cell Phone Number: +86134<div id="hide" hidden> 7386727</div>08673568/+126790<div id="hide" hidden> 7386727</div>21268 <br>
-Email: wangyenshu \[at\] outlook \[dot\] com <br>
+Email: wang<div id="hide" hidden> 7386727</div>yenshu@outlook.com <br>
 Website: https://wangyenshu.github.io/wangyanshu/ <div id="hide" hidden> 7386727</div>
 
 <!--
