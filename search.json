@@ -161,13 +161,6 @@
     "text": "Human Languages\n\nEnglish (fluent); French (beginner); Mandarin (native)"
   },
   {
-    "objectID": "CV/index.html#open-source-hobbies",
-    "href": "CV/index.html#open-source-hobbies",
-    "title": "Yanshu Wang",
-    "section": "Open Source (Hobbies)",
-    "text": "Open Source (Hobbies)\n\nAutomated the daily indexing of Tiddlywiki Classic plugins and themes using a GitHub Action (source), generating a user-friendly extension description file.\nDevelop various plugins for Tiddlywiki Classic"
-  },
-  {
     "objectID": "CV/backup/index.html",
     "href": "CV/backup/index.html",
     "title": "Curriculum Vitae",
