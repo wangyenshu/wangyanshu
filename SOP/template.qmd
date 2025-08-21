@@ -10,3 +10,13 @@ format-links: [pdf]
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
 
 {{< include _general_sop.qmd >}}
+<!--
+_general_sop.qmd structure:
+1. detailed research interest
+2. detailed research experience
+3. current work
+4. the benefit of my experience to future phd research
+
+_campus_name.qmd structure:
+1.express willings to pursue phd in this school and future plan
+-->
