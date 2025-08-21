@@ -7,7 +7,8 @@ website:
   title: "Yanshu Wang"
   site-url: https://wangyenshu.github.io/wangyanshu
   description: "Yanshu Wang's Academic Homepage"
-    
+  footer:
+        right: ""
 
   page-footer:
     left: "&copy; Copyright 2024, Yanshu Wang"
