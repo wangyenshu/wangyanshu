@@ -27,6 +27,14 @@ jobs:
 
       - name: Install TinyTex
         run: quarto install tinytex
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          
+      - name: Set up npm Pagesjs-cli
+        run: npm install -g pagedjs-cli
         
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
