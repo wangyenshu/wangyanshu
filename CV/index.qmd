@@ -1,9 +1,8 @@
 ---
 navbar: false
-sidebar: false
 format:
   html:
-    footer: false
+    page-footer: false
     toc: false
   pdf:
     pdf-engine: wkhtmltopdf
