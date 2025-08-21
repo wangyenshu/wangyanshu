@@ -12,8 +12,10 @@ for filename in _*.qmd; do
     
     # Define the content to be written to the new file
     content="---
+navbar: false
 format:
   html:
+    page-footer: false
     toc: false
   pdf:
     pdf-engine: weasyprint
