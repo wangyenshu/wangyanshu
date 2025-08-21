@@ -7,12 +7,10 @@ website:
   title: "Yanshu Wang"
   site-url: https://wangyenshu.github.io/wangyanshu
   description: "Yanshu Wang's Academic Homepage"
-  page-footer:
-        right: ""
 
   page-footer:
-    left: "&copy; Copyright 2024, Yanshu Wang"
-    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2025, Yanshu Wang"
+    right: ""
 
   navbar:
     left:
