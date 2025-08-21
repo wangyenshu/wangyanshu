@@ -7,7 +7,9 @@ format:
 css: cv.css
 format-links: [pdf]
 ---
+<head>
 <link href="cv.css" rel="stylesheet">
+</head>
 <div style="font-size: 2em; font-weight: bold; text-align: center;">Yanshu Wang</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">Curriculum Vitae</p>
 
