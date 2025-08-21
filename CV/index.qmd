@@ -1,8 +1,9 @@
 ---
+navbar: false
+footer: false
 format:
   html:
     toc: false
-    footer: false
   pdf:
     pdf-engine: wkhtmltopdf
 css: cv.css
