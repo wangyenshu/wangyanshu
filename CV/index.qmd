@@ -3,7 +3,7 @@ format:
   html:
     toc: false
   pdf:
-    pdf-engine: tinytex
+    pdf-engine: pdflatex
 css: cv.css
 format-links: [pdf]
 ---
