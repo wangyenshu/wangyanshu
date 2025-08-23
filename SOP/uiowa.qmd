@@ -1,0 +1,18 @@
+---
+navbar: false
+format:
+  html:
+    page-footer: false
+    toc: false
+  pdf:
+    pdf-engine: weasyprint
+
+format-links: [pdf]
+---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+My primary research interest lies in the area of number theory and arithmetic grometry, especially about the absolute Galois group. I am actively involved in a research project that introduces a more streamlined version of the groupoid $/mathsf{GTSh}$ which already shows its power in constructing the first non-abelian quotients of Grothendieck–Teichmüller group that receive surjective homomorphisms from $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$. But I am open to exploring new ideas as well.
+
+{{< include _general_sop.qmd >}}
+
+My short-term plan after admission is to try to pass the qualification exam in the first year, finish the required courses and teaching duties, attend colloquia, find an advisor, and begin my dissertation work as soon as possible. My long-term plan is to to become a Mathematics professor at a research institution and make original contributions to the mathematics community. I hope to learn from and do research with Professor Frauke Bleher. I am interested in Professor Frauke Bleher’s paper "On representations of Gal(Q/Q), {GT}^ and Aut({F2}^),". This paper constructed non-abelian representations for finite index subgroup of $\mathrm{Aut}(\widehat{F}_2)$ that contains the image of the Belyi’s embedding. I like the University of Iowa’s picturesque and historic architecture and large areas of green spaces and trees. I believe the University of Iowa is the best place for me to build a successful mathematical career.
