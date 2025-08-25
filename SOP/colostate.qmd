@@ -11,7 +11,7 @@ format-links: [pdf]
 ---
 <div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
-My primary research interest lies in the area of number theory, Galois theory and arithmetic grometry. I am actively involved in a research project that introduces a more streamlined version of the groupoid $/mathsf{GTSh}$, which is an approximation of a specific type of Grothendieck–Teichmüller group. But I am open to exploring new ideas as well.
+My primary research interest lies in the area of number theory, Galois theory and arithmetic geometry. I am actively involved in a research project that introduces a more streamlined version of the groupoid $/mathsf{GTSh}$, which is an approximation of a specific type of Grothendieck–Teichmüller group. But I am open to exploring new ideas as well.
 
 {{< include _general_sop.qmd >}}
 
