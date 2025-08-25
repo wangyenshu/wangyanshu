@@ -11,7 +11,7 @@ format-links: [pdf]
 ---
 <div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
-My primary research interest lies in the area of number theory and arithmetic grometry, especially about the absolute Galois group. I am actively involved in a research project that introduces a more streamlined version of the groupoid $/mathsf{GTSh}$ which already shows its power in constructing the first non-abelian quotients of Grothendieck–Teichmüller group that receive surjective homomorphisms from $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$. But I am open to exploring new ideas as well.
+My primary research interest lies in the area of number theory and arithmetic geometry, especially about the absolute Galois group. I am actively involved in a research project that introduces a more streamlined version of the groupoid $/mathsf{GTSh}$ which already shows its power in constructing the first non-abelian quotients of Grothendieck–Teichmüller group that receive surjective homomorphisms from $\mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$. But I am open to exploring new ideas as well.
 
 {{< include _general_sop.qmd >}}
 
