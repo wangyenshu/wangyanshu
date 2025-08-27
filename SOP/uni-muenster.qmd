@@ -1,0 +1,19 @@
+---
+navbar: false
+format:
+  html:
+    page-footer: false
+    toc: false
+  pdf:
+    pdf-engine: weasyprint
+
+format-links: [pdf]
+---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+My primary research interest lies in the area of number theory, and arithmetic geometry. I am actively involved in a research project that introduces a more streamlined version of the groupoid $/mathsf{GTSh}$, which is an approximation of a specific type of Grothendieck–Teichmüller group. But I am open to exploring new ideas as well.
+
+{{< include _general_sop.qmd >}}
+
+My short-term plan after admission is to try to finish the required courses, attend colloquia, find an advisor, and begin my dissertation work as soon as possible. My long-term plan is to to become a Mathematics professor at a research institution and make original contributions to the mathematics community. I like University of Münster’s historic architecture and large area of green spaces. I believe that University of Münster is the best place for me to build a successful mathematical career.
+
