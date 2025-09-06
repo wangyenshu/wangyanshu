@@ -13,7 +13,7 @@
   backgound-color: transparent;
   opacity: 0.5;
   word-spacing: 10px;
-  z-index: -1;
+  z-index: 1000;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
