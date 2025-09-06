@@ -1,12 +1,38 @@
 <style>
 .watermark {
-    position: fixed; top: 50%; left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-    z-index: 1000;
-    font-size: 100px; font-weight: bold; color: #ccc; opacity: 0.5; }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.watermark::before {
+  content: "© Copyright 2025, Yanshu Wang";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 100px,
+    rgba(204, 204, 204, 0.5) 100px,
+    rgba(204, 204, 204, 0.5) 200px
+  );
+  font-size: 15px;
+  color: #ccc;
+  opacity: 0.5;
+  white-space: nowrap;
+  transform: rotate(-45deg) translate(-25%, -25%);
+}
 </style>
 
-<div class="watermark">&copy; Copyright 2025, Yanshu Wang</div>
+<div class="watermark"></div>
 
 Under the supervision of Professor Vasily Dolgushev, I conducted the research that introduced a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows and contributed to the SageMath package for working with $\mathsf{GT}$-shadows. The groupoid $\mathsf{GTSh}$ is a ‘computable’ approximation to the gentle version of the Grothendieck–Teichmüller group $\widehat{\mathsf{GT}}_{gen}$. The set of objects of $\mathsf{GTSh}$ is the poset $\mathsf{NFI}^{\mathrm{B}_3}(\mathrm{F}_2)$ of $\mathrm{B}_3$-invariant finite index normal subgroups of the free 
 group $\mathrm{F}_2$ on two generators. This object is worth studying because it is very ‘likely’ that in most cases, the element of $\mathsf{GTSh}$ lifts to the absolute Galois group. And it is already known that for dihedral posets, every element of $\mathsf{GTSh}$ lifts to the absolute Galois group.
