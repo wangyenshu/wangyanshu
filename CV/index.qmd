@@ -90,9 +90,9 @@ Focus on GKP stabilizer group
 - MATH0151 Real Analysis 81 (Honor Class)
 - MATH0162 Lie Groups and Algebraic Groups 90 
 - MATH0051 Functional Analysis 93 
-- MATH9100 Topics in Algebra (at Temple, Braid Groups) 
-- MATH8051 Functions of a Complex Variable I (at Temple University) 
-
+- MATH9100 Topics in Algebra A- (at Temple, Braid Groups) 
+- MATH8051 Functions of a Complex Variable I A (at Temple University) 
+- MATH4082 Senior Year Individual Study A (Grothendieck-Teichmueller group)
 **AUDITING:**
 
 - Elementary Algebraic Topology
