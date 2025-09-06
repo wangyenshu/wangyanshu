@@ -125,13 +125,39 @@ YANSHU WANG
 <p>My primary research interest lies in the area of number theory, and arithmetic geometry. I am actively involved in a research project that introduces a more streamlined version of the groupoid <span class="math inline">\(/mathsf{GTSh}\)</span>, which is an approximation of a specific type of Grothendieck–Teichmüller group. But I am open to exploring new ideas as well.</p>
 <style>
 .watermark {
-    position: fixed; top: 50%; left: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-    z-index: 1000;
-    font-size: 100px; font-weight: bold; color: #ccc; opacity: 0.5; }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.watermark::before {
+  content: "© Copyright 2025, Yanshu Wang";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 100px,
+    rgba(204, 204, 204, 0.5) 100px,
+    rgba(204, 204, 204, 0.5) 200px
+  );
+  font-size: 15px;
+  color: #ccc;
+  opacity: 0.5;
+  white-space: nowrap;
+  transform: rotate(-45deg) translate(-25%, -25%);
+}
 </style>
 <div class="watermark">
-© Copyright 2025, Yanshu Wang
+
 </div>
 <p>Under the supervision of Professor Vasily Dolgushev, I conducted the research that introduced a more streamlined version of the groupoid <span class="math inline">\(\mathsf{GTSh}\)</span> of <span class="math inline">\(\mathsf{GT}\)</span>-shadows and contributed to the SageMath package for working with <span class="math inline">\(\mathsf{GT}\)</span>-shadows. The groupoid <span class="math inline">\(\mathsf{GTSh}\)</span> is a ‘computable’ approximation to the gentle version of the Grothendieck–Teichmüller group <span class="math inline">\(\widehat{\mathsf{GT}}_{gen}\)</span>. The set of objects of <span class="math inline">\(\mathsf{GTSh}\)</span> is the poset <span class="math inline">\(\mathsf{NFI}^{\mathrm{B}_3}(\mathrm{F}_2)\)</span> of <span class="math inline">\(\mathrm{B}_3\)</span>-invariant finite index normal subgroups of the free group <span class="math inline">\(\mathrm{F}_2\)</span> on two generators. This object is worth studying because it is very ‘likely’ that in most cases, the element of <span class="math inline">\(\mathsf{GTSh}\)</span> lifts to the absolute Galois group. And it is already known that for dihedral posets, every element of <span class="math inline">\(\mathsf{GTSh}\)</span> lifts to the absolute Galois group.</p>
 <p>Mentored by Professor Maxence Mayrand, I participated in a research internship that constructed new GKP code from the Abelian varieties on the cyclotomic field <span class="math inline">\(K = \mathbb{Q}(\zeta_n)\)</span>. The construction <span class="math inline">\((K \otimes_{\mathbb{Q}}\mathbb{R})/\mathcal{O}_K\)</span> is an abelian variety of CM-type. We defined a skew-symmetric form <span class="math inline">\(E\)</span> and extended it to a hermitian inner product <span class="math inline">\(H\)</span> on <span class="math inline">\((K \otimes_{\mathbb{Q}}\mathbb{R})/\mathcal{O}_K\)</span>. Under certain restrictions, this defines a GKP code. There is a homomorphism from <span class="math inline">\(\mathrm{Aut}(X,L)\)</span> to <span class="math inline">\(\{\text{unitary operators on }H^0(X,L\otimes L)\}\)</span>, the gates. It is already known that this construction produces Clifford gates. I computed the decomposition of these Clifford gates as the Hadamard gate, S-gate and CNOT-gate. An interesting phenomenon is that the expression of the gate produced by the case <span class="math inline">\(n=5\)</span> contains CNOT-gate.</p>
