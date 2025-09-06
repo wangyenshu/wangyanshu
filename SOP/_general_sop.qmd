@@ -1,26 +1,9 @@
 <style>
 .watermark {
-  color: rgba(128, 128, 128, 0.3);
-  height: 100%;
-  left: 0;
-  line-height: 2;
-  margin: 0;
-  position: fixed;
-  top: 0;
-  transform: rotate(-30deg);
-  transform-origin: 0 100%;
-  width: 200%;
-  backgound-color: transparent;
-  opacity: 0.5;
-  word-spacing: 10px;
-  z-index: 1000;
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1000;
+    font-size: 100px; font-weight: bold; color: #ccc; opacity: 0.5; }
 </style>
 
 <div class="watermark">&copy; Copyright 2025, Yanshu Wang</div>
