@@ -77,14 +77,14 @@ Focus on GKP stabilizer group
 - MATH0133 Mathematical Analysis II 97 (Honor Class)
 - MATH0078 Advanced Algebra and Analytic Geometry 2-2 (Linear Algebra) 92 (Honor Class)
 - MATH0097 Ordinary Differential Equations 96 (Honor Class)
-- MATH0147 Complex Variable Function II (Complex Analysis) passed (Honor Class)
+- MATH0147 Complex Analysis II passed (Honor Class)
 - MATH0132 Abstract Algebra I 88 (Honor Class)
-- MATH0145 Complex Variable Functions (Complex Analysis) 97 (Honor Class)
+- MATH0145 Complex Analysis 97 (Honor Class)
 - MATH0146 Mathematical Analysis III 98 (Honor Class)
 - MATH0134 Abstract Algebra II 95 (Honor Class)
 - MATH0055 Number Theory 92
 - MATH0065 Probability Theory 85 (Honor Class)
-- MATH0079 Pointwise Topology 84 
+- MATH0079 General Topology 84 
 - MATH0102 Commutative Algebra 97
 - MATH0136 Galois Theory 96 
 - MATH0151 Real Analysis 81 (Honor Class)
