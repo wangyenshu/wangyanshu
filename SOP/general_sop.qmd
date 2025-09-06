@@ -1,6 +1,7 @@
 ---
 format:
   html:
+    page-footer: false
     toc: false
   pdf:
     pdf-engine: weasyprint
