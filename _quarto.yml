@@ -9,7 +9,7 @@ website:
   description: "Yanshu Wang's Academic Homepage"
 
   page-footer:
-    left: "&copy; Copyright 2025, Yanshu Wang"
+    left: ""
     right: ""
 
   navbar:
