@@ -27,7 +27,7 @@ Below are tables that contains
 * Deadline to submit the reference letter
 * My Statement of Purposes for that school
 
-USA Mathematics PhD:
+## USA Mathematics PhD:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
@@ -45,14 +45,14 @@ USA Mathematics PhD:
 | Ohio State University | December 5, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/osu.html">Statement of Purposes</a> |
 | Pennsylvania State University | January 5, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/psu.html">Statement of Purposes</a> |
 
-Canada Mathematics PhD:
+## Canada Mathematics PhD:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
 | McGill University | January 15th | <a href="https://wangyenshu.github.io/wangyanshu/SOP/mcgill.html">Statement of Purposes</a> |
 | Concordia University | letter of reference should be completed within 14 days after the application | <a href="https://wangyenshu.github.io/wangyanshu/SOP/concordia.html">Statement of Purposes</a> |
 
-Europe Mathematics Master:
+## Europe Mathematics Master:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
