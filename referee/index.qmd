@@ -35,7 +35,7 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 
  * <a href="https://wangyenshu.github.io/wangyanshu/referee/reference_letter_notifications.ics">Download iCalendar file</a>.[](reference_letter_notifications.ics)
 
-#### USA Mathematics PhD:
+#### Mathematics PhD Program in USA:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
@@ -52,14 +52,14 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 | Ohio State University | December 5, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/osu.html">Statement of Purposes</a> |
 | Pennsylvania State University | January 5, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/psu.html">Statement of Purposes</a> |
 
-#### Canada Mathematics PhD:
+#### Mathematics PhD Program in Canada:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
 | McGill University | January 15th | <a href="https://wangyenshu.github.io/wangyanshu/SOP/mcgill.html">Statement of Purposes</a> |
 | Concordia University | letter of reference should be completed within 14 days after the application | <a href="https://wangyenshu.github.io/wangyanshu/SOP/concordia.html">Statement of Purposes</a> |
 
-#### Europe Mathematics Master:
+#### Mathematics Master Program in Europe:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
