@@ -1,0 +1,169 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//My Reference Letter Calendar//EN
+BEGIN:VEVENT
+SUMMARY:Reference for University of Iowa
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251225
+DTSTAMP:20250907T204115Z
+UID:3843ff91-0bde-40ed-97d9-e7bc6f843349
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Iowa's program. Deadline is January 15\, 2026.
+LOCATION:University of Iowa
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of Colorado Boulder
+DTSTART;VALUE=DATE:20251109
+DTEND;VALUE=DATE:20251110
+DTSTAMP:20250907T204115Z
+UID:156a81f3-c2f1-4adb-b48d-420e786d4f01
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Colorado Boulder's program. Deadline is December 1
+ \, 2025.
+LOCATION:University of Colorado Boulder
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for Oklahoma State University
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260111
+DTSTAMP:20250907T204115Z
+UID:c5e4599e-c93b-47ab-aec9-4c2d9831aa5a
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the Oklahoma State University's program. Deadline is February 1\, 20
+ 26.
+LOCATION:Oklahoma State University
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of Arkansas
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260111
+DTSTAMP:20250907T204115Z
+UID:8d86bcb6-6b48-461d-a134-dd3557b737fe
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Arkansas's program. Deadline is February 1\, 2026.
+LOCATION:University of Arkansas
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of Utah
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+DTSTAMP:20250907T204115Z
+UID:d7a30996-1d5f-4b3a-9ae7-ef21fdd6989d
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Utah's program. Deadline is January 1\, 2026.
+LOCATION:University of Utah
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of California\, Los Angeles
+DTSTART;VALUE=DATE:20251121
+DTEND;VALUE=DATE:20251122
+DTSTAMP:20250907T204115Z
+UID:d8113e34-076e-41b5-977b-c6b014684064
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of California\, Los Angeles's program. Deadline is De
+ cember 13\, 2025.
+LOCATION:University of California\, Los Angeles
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of Michigan
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260111
+DTSTAMP:20250907T204115Z
+UID:09303c62-ea9b-4e9b-a278-af4873a1c013
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Michigan's program. Deadline is February 1\, 2026.
+LOCATION:University of Michigan
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of Arizona
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251211
+DTSTAMP:20250907T204115Z
+UID:aa6c4c93-453e-4758-b23b-acea72058a44
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Arizona's program. Deadline is January 1\, 2026.
+LOCATION:University of Arizona
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for Brown University
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+DTSTAMP:20250907T204115Z
+UID:aaefb883-829c-4eda-b506-0092574907b4
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the Brown University's program. Deadline is December 8\, 2025.
+LOCATION:Brown University
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for Ohio State University
+DTSTART;VALUE=DATE:20251113
+DTEND;VALUE=DATE:20251114
+DTSTAMP:20250907T204115Z
+UID:8c9a8a97-e18a-45f4-b6d0-138fa0e15bca
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the Ohio State University's program. Deadline is December 5\, 2025.
+LOCATION:Ohio State University
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for Pennsylvania State University
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+DTSTAMP:20250907T204115Z
+UID:bd550f25-c2da-4b05-8696-a5c0b2ed480f
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the Pennsylvania State University's program. Deadline is January 5\,
+  2026.
+LOCATION:Pennsylvania State University
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for McGill University
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251225
+DTSTAMP:20250907T204115Z
+UID:f2b9248c-56cb-49e0-9c80-2abd4e392302
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the McGill University's program. Deadline is January 15\, 2026.
+LOCATION:McGill University
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of Bonn
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251225
+DTSTAMP:20250907T204115Z
+UID:98ea5394-2e7c-4207-b78c-71e90f1074bd
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Bonn's program. Deadline is January 15\, 2026.
+LOCATION:University of Bonn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for Berlin Mathematical School
+DTSTART;VALUE=DATE:20251109
+DTEND;VALUE=DATE:20251110
+DTSTAMP:20250907T204115Z
+UID:f66e51c5-cf66-49b7-b1c3-7eee41b26ca3
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the Berlin Mathematical School's program. Deadline is December 1\, 2
+ 025.
+LOCATION:Berlin Mathematical School
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for ALGANT
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+DTSTAMP:20250907T204115Z
+UID:700c8895-ca41-41f6-9932-82d8d4023d04
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the ALGANT's program. Deadline is January 31\, 2026.
+LOCATION:ALGANT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reference for University of Münster
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251225
+DTSTAMP:20250907T204115Z
+UID:8b3ff8c6-c401-4ac7-b21c-e693fc13e324
+DESCRIPTION:Please submit the reference letter for Yanshu Wang's applicati
+ on to the University of Münster's program. Deadline is January 15\, 2026.
+LOCATION:University of Münster
+END:VEVENT
+END:VCALENDAR
