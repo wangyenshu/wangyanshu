@@ -26,7 +26,6 @@ Below are tables that contains
 * The graduate schools I am going to apply to
 * Deadline to submit the reference letter
 * My Statement of Purposes for that school
-* iCalendar file for easy adding events to your Calendar app
 
 USA Mathematics PhD:
 
@@ -48,15 +47,15 @@ USA Mathematics PhD:
 
 Canada Mathematics PhD:
 
-| Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
-|--------|--------|--------|--------|
+| Graduate School Name | Deadline | My Statement of Purposes |
+|--------|--------|--------|
 | McGill University | January 15th | <a href="https://wangyenshu.github.io/wangyanshu/SOP/mcgill.html">Statement of Purposes</a> |
 | Concordia University | | <a href="https://wangyenshu.github.io/wangyanshu/SOP/concordia.html">Statement of Purposes</a> |
 
 Europe Mathematics Master:
 
-| Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
-|--------|--------|--------|--------|
+| Graduate School Name | Deadline | My Statement of Purposes |
+|--------|--------|--------|
 | University of Bonn | January 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-bonn.html">Statement of Purposes</a> |
 | Berlin Mathematical School | December 1, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/BMS.html">Statement of Purposes</a> |
 | ALGANT | January 31, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/ALGANT.html">Statement of Purposes</a> |
