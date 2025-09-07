@@ -21,11 +21,43 @@ Basic Information:
     + <a href="https://wangyenshu.github.io/wangyanshu/referee/nk_transcript.pdf">Transcript at Nankai University</a>.[](nk_transcript.pdf)
     + <a href="https://wangyenshu.github.io/wangyanshu/referee/temple_transcript.pdf">Transcript at Temple University</a>.[](temple_transcript.pdf)
 
-Below is a table that contains
+Below are tables that contains
 
 * The graduate schools I am going to apply to
 * Deadline to submit the reference letter
 * My Statement of Purposes for that school
 * iCalendar file for easy adding events to your Calendar app
 
+USA Mathematics PhD:
+
 | Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
+| University of Iowa |
+| University of Colorado Boulder |
+| Colorado State University |
+| Oklahoma State University | 
+| University of Arkansas |
+| University of Utah |
+| University of California, Los Angeles |
+| University of Michigan |
+| University of Arizona |
+| Brown University |
+| Boston University |
+| Ohio State University |
+| Pennsylvania State University |
+
+Canada Mathematics PhD:
+
+| Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
+| McGill University |
+| Concordia University |
+
+Europe Mathematics Master:
+
+| Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
+| University of Bonn |
+| Berlin Mathematical School |
+| ALGANT |
+| Heidelberg University (Germany) |
+| Universität Duisburg‑Essen |
+| University of Pisa |
+| University of Milan |
