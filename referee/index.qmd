@@ -32,8 +32,8 @@ USA Mathematics PhD:
 
 | Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
 |--------|--------|--------|--------|
-| University of Iowa | Jan. 15 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uiowa.html">Link</a> |
-| University of Colorado Boulder | December 01, 2025 at 10pm Mountain Time | <a href="https://wangyenshu.github.io/wangyanshu/SOP/colorado.html">Link</a> |
+| University of Iowa | Jan. 15 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uiowa.html">Statement of Purposes</a> |
+| University of Colorado Boulder | December 01, 2025 at 10pm Mountain Time | <a href="https://wangyenshu.github.io/wangyanshu/SOP/colorado.html">Statement of Purposes</a> |
 | Colorado State University |
 | Oklahoma State University | 
 | University of Arkansas |
