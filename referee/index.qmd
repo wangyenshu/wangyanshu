@@ -22,9 +22,10 @@ Basic Information:
     + <a href="https://wangyenshu.github.io/wangyanshu/referee/temple_transcript.pdf">Transcript at Temple University</a>.[](temple_transcript.pdf)
 
 Below is a table that contains
+
 * The graduate schools I am going to apply to
 * Deadline to submit the reference letter
 * My Statement of Purposes for that school
 * iCalendar file for easy adding events to your Calendar app
 
-|Graduate School Name|Deadline|My Statement of Purposes|iCalendar|
+| Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
