@@ -33,7 +33,7 @@ Below are tables that contains
 |--------|--------|--------|
 | University of Iowa | Jan. 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uiowa.html">Statement of Purposes</a> |
 | University of Colorado Boulder | December 1, 2025 at 10pm Mountain Time | <a href="https://wangyenshu.github.io/wangyanshu/SOP/colorado.html">Statement of Purposes</a> |
-| Colorado State University | | <a href="https://wangyenshu.github.io/wangyanshu/SOP/colostate.html">Statement of Purposes</a> |
+| Colorado State University | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/colostate.html">Statement of Purposes</a> |
 | Oklahoma State University | February 1, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/okstate.html">Statement of Purposes</a> |
 | University of Arkansas | February 1, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uark.html">Statement of Purposes</a> |
 | University of Utah | Jan 1, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/utah.html">Statement of Purposes</a> |
@@ -58,6 +58,7 @@ Below are tables that contains
 | University of Bonn | January 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-bonn.html">Statement of Purposes</a> |
 | Berlin Mathematical School | December 1, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/BMS.html">Statement of Purposes</a> |
 | ALGANT | January 31, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/ALGANT.html">Statement of Purposes</a> |
-| Heidelberg University (Germany) | | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-heidelberg.html">Statement of Purposes</a> |
-| Universität Duisburg‑Essen | | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-due.html">Statement of Purposes</a> |
+| Heidelberg University (Germany) | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-heidelberg.html">Statement of Purposes</a> |
+| Universität Duisburg‑Essen | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-due.html">Statement of Purposes</a> |
 | University of Münster | January 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-muenster.html">Statement of Purposes</a> |
+| University of Padua | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/unipd.html">Statement of Purposes</a> |
