@@ -1,23 +1,27 @@
 ---
+title: "Information for Referees"
 navbar: false
 format:
   html:
     page-footer: false
-    toc: false
+    toc: true
   pdf:
     pdf-engine: weasyprint
 
 format-links: [pdf]
 ---
-This page is for the convenience of my referees. 
 
-Basic Information:
 
-* CV:
+
+This page is for the convenience of referees. 
+
+#### Basic Information:
+
+* **CV**:
     + <a href="https://wangyenshu.github.io/wangyanshu/CV">HTML version of CV</a>
     + <a href='javascript:(function(){var w=window.open("https://wangyenshu.github.io/wangyanshu/CV","popup","width=800,height=600");w.addEventListener("load",function(){w.print()},true)})();'>PDF version of CV</a>
         
-* Transcript: 
+* **Transcript**: 
     + <a href="https://wangyenshu.github.io/wangyanshu/referee/nk_transcript.pdf">Transcript at Nankai University</a>.[](nk_transcript.pdf)
     + <a href="https://wangyenshu.github.io/wangyanshu/referee/temple_transcript.pdf">Transcript at Temple University</a>.[](temple_transcript.pdf)
 
@@ -31,7 +35,7 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 
  * <a href="https://wangyenshu.github.io/wangyanshu/referee/reference_letter_notifications.ics">Download iCalendar file</a>.[](reference_letter_notifications.ics)
 
-## USA Mathematics PhD:
+#### USA Mathematics PhD:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
@@ -48,14 +52,14 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 | Ohio State University | December 5, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/osu.html">Statement of Purposes</a> |
 | Pennsylvania State University | January 5, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/psu.html">Statement of Purposes</a> |
 
-## Canada Mathematics PhD:
+#### Canada Mathematics PhD:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
 | McGill University | January 15th | <a href="https://wangyenshu.github.io/wangyanshu/SOP/mcgill.html">Statement of Purposes</a> |
 | Concordia University | letter of reference should be completed within 14 days after the application | <a href="https://wangyenshu.github.io/wangyanshu/SOP/concordia.html">Statement of Purposes</a> |
 
-## Europe Mathematics Master:
+#### Europe Mathematics Master:
 
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
