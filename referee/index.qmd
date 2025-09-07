@@ -41,7 +41,6 @@ Below are tables that contains
 | University of Michigan | February 1, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/umich.html">Statement of Purposes</a> |
 | University of Arizona | January 1, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/arizona.html">Statement of Purposes</a> |
 | Brown University | December 8, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/brown.html">Statement of Purposes</a> |
-| Boston University | August 1, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/bu.html">Statement of Purposes</a> |
 | Ohio State University | December 5, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/osu.html">Statement of Purposes</a> |
 | Pennsylvania State University | January 5, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/psu.html">Statement of Purposes</a> |
 
