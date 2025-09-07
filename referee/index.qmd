@@ -51,7 +51,7 @@ Canada Mathematics PhD:
 | Graduate School Name | Deadline | My Statement of Purposes | iCalendar |
 |--------|--------|--------|--------|
 | McGill University | January 15th | <a href="https://wangyenshu.github.io/wangyanshu/SOP/mcgill.html">Statement of Purposes</a> |
-| Concordia University | <a href="https://wangyenshu.github.io/wangyanshu/SOP/concordia.html">Statement of Purposes</a> |
+| Concordia University | | <a href="https://wangyenshu.github.io/wangyanshu/SOP/concordia.html">Statement of Purposes</a> |
 
 Europe Mathematics Master:
 
