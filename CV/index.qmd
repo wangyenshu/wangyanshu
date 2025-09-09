@@ -39,7 +39,7 @@ Focus on GKP stabilizer group
   - Revisit the gentle version $\widehat{\mathsf{GT}}_{gen}$ of the Grothendieck-Teichmueller group $\widehat{\mathsf{GT}}$ and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress.
   - Contribute to sagemath package for working with $\mathsf{GT}$-shadows.
   
-- **Polymath Jr.**, Online<span class="cvdate">2024 – 2025</span>  
+- **Polymath Jr.**, Online<span class="cvdate">Jun 2024 – Sep 2024</span>  
   - Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin, and I draw a visualization of $K_9$ dessin through the morphism $\pi_1(P_8/\sim) \to \mathbb{Z}[\zeta_8]/(1+\sqrt{-2})$.
   - I Work out the algebraic approach and visualization, delivered the final presentation, drafted the algebraic section of the ongoing paper/report, and created the poster submitted to JMM 2025 with the help of mentors.
 
