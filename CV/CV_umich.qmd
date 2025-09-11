@@ -1,0 +1,142 @@
+---
+navbar: false
+format:
+  html:
+    page-footer: false
+    toc: false
+  pdf:
+    pdf-engine: wkhtmltopdf
+css: cv.css
+format-links: [pdf]
+---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">Curriculum Vitae</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">Yanshu Wang</p>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">Program: University of Michigan Rackham Graduate School, Mathematics Ph.D.</p>
+
+Cell Phone Number: +86134<div id="hide" hidden> 7386727</div>08673568/+126790<div id="hide" hidden> 7386727</div>21268 <br>
+Email: wang<div id="hide" hidden> 7386727</div>yenshu@outlook.com <br>
+Website: https://wangyenshu.github.io/wangyanshu/ <div id="hide" hidden> 7386727</div>
+
+<!--
+## Objective
+I am interested in algebra and number theory. I have done the Polymath Jr. REU with the topic of Dessin d'enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
+-->
+## Published Papers
+
+## Research Experience
+
+- **Mitacs Globalink Research Internship**, Mentored by Professor Maxence Mayrand, Université de Sherbrooke<span class="cvdate">May 2025 – Current</span>  
+  - Construct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate (unitary operator) as H-gate, S-gate and CNOT-gate.
+  - Develop sagemath scripts for working with GKP codes constructed from the cyclotomic field.
+
+<!--
+A GKP code is a stabilizer code acting on the Hilbert space of n bosonic
+modes, where stabilizers are given by displacement operators.
+https://arxiv.org/pdf/2412.02442 page 21
+https://en.wikipedia.org/wiki/Stabilizer_code#Definition
+Focus on GKP stabilizer group 
+-->
+- **Independent Study mentored by Professor Vasily Dolgushev**, Temple University<span class="cvdate">Jan 2025 – Current</span>  
+  - Revisit the gentle version $\widehat{\mathsf{GT}}_{gen}$ of the Grothendieck-Teichmueller group $\widehat{\mathsf{GT}}$ and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress.
+  - Contribute to sagemath package for working with $\mathsf{GT}$-shadows.
+  
+- **Polymath Jr.**, Online<span class="cvdate">Jun 2024 – Sep 2024</span>  
+  - Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin, and I draw a visualization of $K_9$ dessin through the morphism $\pi_1(P_8/\sim) \to \mathbb{Z}[\zeta_8]/(1+\sqrt{-2})$.
+  - I Work out the algebraic approach and visualization, delivered the final presentation, drafted the algebraic section of the ongoing paper/report, and created the poster submitted to JMM 2025 with the help of mentors.
+
+- **BICMR AI4MATH**, BICMR(Peking University)<span class="cvdate">Jan 2024 – Feb 2024</span>  
+  - I collaborate with four students to formalize the statement that 'Algebraic integer of $\mathbb{Q}[\sqrt{-3}]$ is PID' in lean4.
+  - This project introduced me to functional programming, dependent type theory and proof‑assistant design, and sharpened my collaboration and rapid‑learning abilities.
+<div class="clear"></div>
+
+## Presentations and Workshops
+
+- **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session**; topics: Dessin d'enfant and Complete Regular Maps (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf">view slides</a>);[](Dessins_d_enfants_and_complete_regular_maps_presentation.pdf)
+
+- **JMM 2025 AMS-PME Undergraduate Poster Sessions**; topics: Obtaining Equations for $K_9$ Dessin (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">view poster</a>).[](Dessin_Equation_JMM_Poster.pdf)
+
+## Research Grants and Travel Grants
+- Mitacs Globalink Research Internship (CA$5,400)
+- JMM Student Reimbursement
+
+## SCHOLARSHIP
+
+- **Gong Neng Scholarship**
+
+## Education
+
+- **Exchange Student, Graduate Mathematics**, Temple University (tuition free)<span class="cvdate">Jan 2025 – May 2025</span>
+- **B.S. Mathematics**, Nankai University<span class="cvdate">Sep 2022 – Jun 2026</span>
+
+<div class="clear"></div>
+
+**RELEVANT COURSEWORK:**
+
+- MATH0130 Mathematical Analysis I 100 (Honor Class)
+- MATH0083 Advanced Algebra and Analytic Geometry 2-1 (Linear Algebra) 100 (Honor Class)
+- MATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91
+- MATH0133 Mathematical Analysis II 97 (Honor Class)
+- MATH0078 Advanced Algebra and Analytic Geometry 2-2 (Linear Algebra) 92 (Honor Class)
+- MATH0097 Ordinary Differential Equations 96 (Honor Class)
+- MATH0147 Complex Analysis II passed (Honor Class)
+- MATH0132 Abstract Algebra I 88 (Honor Class)
+- MATH0145 Complex Analysis 97 (Honor Class)
+- MATH0146 Mathematical Analysis III 98 (Honor Class)
+- MATH0134 Abstract Algebra II 95 (Honor Class)
+- MATH0055 Number Theory 92
+- MATH0065 Probability Theory 85 (Honor Class)
+- MATH0079 General Topology 84 
+- MATH0102 Commutative Algebra 97
+- MATH0136 Galois Theory 96 
+- MATH0151 Real Analysis 81 (Honor Class)
+- MATH0162 Lie Groups and Algebraic Groups 90 
+- MATH0051 Functional Analysis 93 
+- MATH9100 Topics in Algebra A- (at Temple, Braid Groups) 
+- MATH8051 Functions of a Complex Variable I A (at Temple University) 
+- MATH4082 Senior Year Individual Study A (Grothendieck-Teichmueller group)
+
+**AUDITING:**
+
+- Elementary Algebraic Topology
+- Analytic Number Theory
+
+
+**UNDERGRADUATE SEMINAR:**<br>
+
+- Geometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participated in it in the first semester of the sophomore year.<br>
+
+- Algebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the <a href="https://www.bilibili.com/video/BV1Fu41127KW/">video</a>.<br>
+
+- Quasi-Conformal Mapping and Potential Theory: I studied this topic using  <a href="https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf">B. Khoruzhenko's lecture notes</a>. <br>
+
+- Analytic Number Theory Online Seminar: Led by a senior alumna (M.S., University of Bonn). The main topic is o‑minimality and tame geometry.<br>
+
+**MINI COURSE:**<br>
+
+- Propagation speed of non-linear parabolic equations on Riemannian manifolds by Prof. Alexander Grigor's yan
+
+- Preliminary Arizona Winter School 2024:Symmetries of root systems and local fields (unofficially following the course)
+
+<!--
+**REMARK:** <br> 
+
+Add it to personal statement!
+
+- Nankai University's undergraduate degree requires me to take approximately 6 courses in applied mathematics or 6 courses in computational mathematics. That is why there are many applied mathematics courses in my transcript. Another effect is that I have to audit some courses due to conflict time schedules and excessive workloads. <br>
+
+- Explanation for low grades in Probability Theory, Pointwise Topology, Real Analysis: I take too many courses in the second semester of the sophomore year, including Real Analysis, Probability Theory, Pointwise Topology, Commutative Algebra, Lie Groups and Algebraic Groups. Explanation for low grades in PDE, stochastic process: I continued to do the Polymath Jr. research in that semester and these two courses' grading is generally bad.<br>
+-->
+<div class="clear"></div>
+
+## Skills
+- Languages: python(fluent); sagemath(fluent, especially libgap); C++;  Mathematica; latex(fluent); lean4; html & css & javascript;
+- DevOps: Docker; Github Actions.
+
+## Human Languages
+- English (fluent); French (beginner); Mandarin (native)
+
+<!--
+## Open Source (Hobbies)
+- Automated the daily indexing of Tiddlywiki Classic plugins and themes using a GitHub Action (<a href="https://github.com/wangyenshu/twcArchives">source</a>), generating a user-friendly extension description file.
+- Develop various plugins for Tiddlywiki Classic
+-->
