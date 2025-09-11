@@ -9,8 +9,10 @@ format:
 
 format-links: [pdf]
 ---
-<div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
+<div style="font-size: 2em; font-weight: bold; text-align: center;">ACADEMIC STATEMENT OF PURPOSE</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">University of Michigan Rackham Graduate School Mathematics Ph.D.</p>
+
 My primary research interest lies in the area of number theory, and arithmetic geometry. I am actively involved in a research project that introduces a more streamlined version of the groupoid $\mathsf{GTSh}$, which is an approximation of a specific type of Grothendieck–Teichmüller group. But I am open to exploring new ideas as well.
 
 {{< include _general_sop.qmd >}}
