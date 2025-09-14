@@ -19,7 +19,7 @@ schools = [
     {"name": "Ohio State University", "deadline": "December 5, 2025"},
     {"name": "Pennsylvania State University", "deadline": "January 5, 2026"},
     {"name": "McGill University", "deadline": "January 15, 2026"},
-    {"name": "Concordia University", "deadline": "letter of reference should be completed within 14 days after the application"},
+    {"name": "Concordia University", "deadline": "October 3, 2025"},
     {"name": "University of Bonn", "deadline": "January 15, 2026"},
     {"name": "Berlin Mathematical School", "deadline": "December 1, 2025"},
     {"name": "ALGANT", "deadline": "January 31, 2026"},
