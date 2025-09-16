@@ -70,3 +70,8 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 | Universität Duisburg‑Essen | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-due.html">Statement of Purposes</a> |
 | University of Münster | January 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-muenster.html">Statement of Purposes</a> |
 | University of Padua | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/unipd.html">Statement of Purposes</a> |
+
+#### Schools under consideration
+| Graduate School Name | Deadline | My Statement of Purposes |
+|--------|--------|--------|
+| ENS Lyon, M1 | TBD | |
