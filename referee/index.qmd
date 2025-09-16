@@ -74,4 +74,4 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 #### Schools under consideration
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
-| ENS Lyon, M1 | TBD | |
+| ENS Lyon, M1, then Laboratoire Paul Painlevé (Université de Lille) M2  | TBD | |
