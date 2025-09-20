@@ -27,13 +27,10 @@ listing:
 
 ::: {#hero-heading}
 
-I am interested in algebra and number theory. I have done the Polymath Jr. REU with the topic of Dessin d'enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. Currently, I am self-learning scheme theory to prepare to learn arithmetic geometry and at the same time, taking the Analytic Number Theory course. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
+## Introduction
+I am an undergraduate student at <a href="http://en.math.nankai.edu.cn/">Nankai University</a> (due on Jul 2026). Previously, I was a research intern (Mitacs GRI) at <a href="https://www.usherbrooke.ca/mathematiques/">Université de Sherbrooke</a> under the supervision of <a href="https://maxencemayrand.github.io/">Maxence Mayrand</a>. Before that, I was an exchange student (tuition free) at <a href="https://cst.temple.edu/department-mathematics">Temple University</a> under the supervision of <a href="https://sites.temple.edu/vald/">Vasily Dolgushev</a>.
 
+My research interest lies in algebra and number theory. 
 
-## Education 
-
-Nankai University | Tianjin, China
-
-BA in Math and Applied Math | Due on June 2026
 
 
