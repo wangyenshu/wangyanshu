@@ -98,7 +98,7 @@ Focus on GKP stabilizer group
 
 - Elementary Algebraic Topology
 - Analytic Number Theory
-
+- Differential Manifold
 
 **UNDERGRADUATE SEMINAR:**<br>
 
