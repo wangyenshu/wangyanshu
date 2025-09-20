@@ -75,3 +75,4 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 | Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
 | ENS Lyon, M1, then Laboratoire Paul Painlevé (Université de Lille) M2  | TBD | |
+|Indiana University, Bloomington (Michael Larsen) | January 15 |  |
