@@ -93,6 +93,7 @@ Focus on GKP stabilizer group
 - MATH9100 Topics in Algebra A- (at Temple, Braid Groups) 
 - MATH8051 Functions of a Complex Variable I A (at Temple University) 
 - MATH4082 Senior Year Individual Study A (Grothendieck-Teichmueller group)
+- MATH0153 Algebraic methods in Combinatorics (Algebraic Combinactorics)
 
 **AUDITING:**
 
