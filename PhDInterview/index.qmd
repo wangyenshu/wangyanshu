@@ -13,15 +13,36 @@ date: last-modified
 
 ## Background
 
+**RELEVANT COURSEWORK:**
+
+- MATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91
+- MATH0132 Abstract Algebra I 88 (Honor Class)
+- MATH0134 Abstract Algebra II 95 (Honor Class)
+- MATH0055 Number Theory 92
+- MATH0079 General Topology 84 
+- MATH0102 Commutative Algebra 97
+- MATH0136 Galois Theory 96 
+- MATH0151 Real Analysis 81 (Honor Class)
+- MATH0162 Lie Groups and Algebraic Groups 90 
+- MATH0051 Functional Analysis 93 
+- MATH9100 Topics in Algebra A- (at Temple, Braid Groups) 
+- MATH0153 Algebraic methods in Combinatorics (Algebraic Combinactorics)
+
+**AUDITING:**
+
+- Elementary Algebraic Topology
+- Analytic Number Theory
+- Differential Manifold
 
 ## Research Interest
 
+- Algebra, Number theory and Arithmetic Geometry
 
 ## Research Experience
 
-- [[Mitacs Globalink Research Internship]]{.button}](#sec-mitacs), Mentored by Prof. Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025
-- [[Senior Year Individual Study]]{.button}](#sec-GT), Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current
-- [[Polymath Jr.]]{.button}](#sec-polymath), Online, Jun 2024 – Sep 2024
+- Mitacs Globalink Research Internship[[]]{.button}](#sec-mitacs), Mentored by Prof. Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025
+- Senior Year Individual Study[[]]{.button}](#sec-GT), Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current
+- Polymath Jr.[[]]{.button}](#sec-polymath), Online, Jun 2024 – Sep 2024
 
 ## Mitacs Globalink Research Internship {#sec-mitacs}
 
@@ -34,5 +55,15 @@ date: last-modified
 
 ## Future Plan
 
+### short-term plan
+
+- try to pass the qualification exam in the first year
+- finish the required courses and teaching duties
+- find an advisor
+
+### long-term plan
+
+- become a Mathematics professor at a research institution
+- make original contributions to the mathematics community
 
 ## Thanks for Listening {.center}
