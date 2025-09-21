@@ -287,13 +287,6 @@
     "text": "Summary\nA minimalist and elegant presentation theme\nThe Quarto reveal.js clean theme aims to be a minimalist and elegant presention theme. Here are some options to get you started:\nAdd the theme to an existing project.\nquarto install extension grantmcdermott/quarto-revealjs-clean\n… or, create a new project using this slide deck as a lean template.\nquarto use template grantmcdermott/quarto-revealjs-clean\n… or, create a new project using the demo slide deck as a full template.\nquarto use template grantmcdermott/quarto-revealjs-clean-demo"
   },
   {
-    "objectID": "news/index.html",
-    "href": "news/index.html",
-    "title": "News",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "ResearchStatementUchicago/index.html#research-statement",
     "href": "ResearchStatementUchicago/index.html#research-statement",
     "title": "ResearchStatementUchicago",
@@ -327,6 +320,69 @@
     "title": "ResearchStatementUchicago",
     "section": "STATEMENT OF PURPOSE",
     "text": "STATEMENT OF PURPOSE\nneed to change\nI am interested in number theory. I have done the Polymath Jr. REU with the topic of Dessin d’enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. Currently, I am self-learning scheme theory to prepare to learn arithmetic geometry and at the same time, taking the Analytic Number Theory course. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript."
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "PhDInterview/index.html#background",
+    "href": "PhDInterview/index.html#background",
+    "title": "Interview Presentation",
+    "section": "Background",
+    "text": "Background"
+  },
+  {
+    "objectID": "PhDInterview/index.html#research-interest",
+    "href": "PhDInterview/index.html#research-interest",
+    "title": "Interview Presentation",
+    "section": "Research Interest",
+    "text": "Research Interest"
+  },
+  {
+    "objectID": "PhDInterview/index.html#research-experience",
+    "href": "PhDInterview/index.html#research-experience",
+    "title": "Interview Presentation",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nMitacs Globalink Research Internship](#sec-mitacs), Mentored by Prof. Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025\n[Senior Year Individual Study]](#sec-GT), Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current\n[Polymath Jr.]](#sec-polymath), Online, Jun 2024 – Sep 2024"
+  },
+  {
+    "objectID": "PhDInterview/index.html#sec-mitacs",
+    "href": "PhDInterview/index.html#sec-mitacs",
+    "title": "Interview Presentation",
+    "section": "Mitacs Globalink Research Internship",
+    "text": "Mitacs Globalink Research Internship"
+  },
+  {
+    "objectID": "PhDInterview/index.html#senior-year-individual-study-sec-gt",
+    "href": "PhDInterview/index.html#senior-year-individual-study-sec-gt",
+    "title": "Interview Presentation",
+    "section": "Senior Year Individual Study (#sec-GT)",
+    "text": "Senior Year Individual Study (#sec-GT)"
+  },
+  {
+    "objectID": "PhDInterview/index.html#polymath-jr.-sec-polymath",
+    "href": "PhDInterview/index.html#polymath-jr.-sec-polymath",
+    "title": "Interview Presentation",
+    "section": "Polymath Jr. (#sec-polymath)",
+    "text": "Polymath Jr. (#sec-polymath)"
+  },
+  {
+    "objectID": "PhDInterview/index.html#future-plan",
+    "href": "PhDInterview/index.html#future-plan",
+    "title": "Interview Presentation",
+    "section": "Future Plan",
+    "text": "Future Plan"
+  },
+  {
+    "objectID": "PhDInterview/index.html#thanks-for-listening",
+    "href": "PhDInterview/index.html#thanks-for-listening",
+    "title": "Interview Presentation",
+    "section": "Thanks for Listening",
+    "text": "Thanks for Listening"
   },
   {
     "objectID": "SOP/bu.html",
