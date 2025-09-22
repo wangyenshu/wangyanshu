@@ -272,3 +272,7 @@ body.hide-menubar .reveal.ready .menubar a {
 	color: white;
 	padding-bottom: 20px;
 }
+
+#title-slide .title {
+	font-size: 3em; 
+}
