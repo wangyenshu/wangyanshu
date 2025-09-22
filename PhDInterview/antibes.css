@@ -266,3 +266,8 @@ body.hide-menubar .reveal.ready .menubar a {
   border: 2px solid;
   border-radius: 15px;
 }
+
+.reveal .footer > * {
+	background-color: #003366;
+	color: white;
+}
