@@ -276,3 +276,7 @@ body.hide-menubar .reveal.ready .menubar a {
 #title-slide .title {
 	font-size: 3em; 
 }
+
+.reveal .menubar {
+  background-color: #003366;
+}
