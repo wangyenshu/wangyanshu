@@ -1,14 +1,15 @@
 :root {
-  --r-background-color: #CDDDDD;
+  --r-background-color: white;
   --r-heading-color: #008080;
   --r-main-color: #004444;
   --r-link-color: #006666;
   --r-link-color-hover: #009090;
   --r-main-font-size: 36px;
+  --r-menubar-color: #1C375D; /* Dark blue color for the menu bar */
 }
 
 .center {
-    text-align: center
+  text-align: center;
 }
 
 .reveal p code, .reveal p kbd, .reveal ul code {
@@ -16,7 +17,7 @@
   font-size: 0.8em;
   padding: 5px 10px;
   border-radius: 4px;
-  color: var(--r-main-color)
+  color: var(--r-main-color);
 }
 
 .reveal pre {
@@ -40,16 +41,16 @@
 .menubar {
   -webkit-transform: translateY(calc(-100% - 1px));
   transform: translateY(calc(-100% - 1px));
-  color: #008080; /* Beamer Antibes theme color */
-  padding: 10px 3em; /* Adjusted padding for better fit */
+  color: white; /* Menu text color */
+  background-color: var(--r-menubar-color); /* Dark blue background */
+  padding: 10px 3em;
   z-index: 2;
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%); /* Centering the fixed-width menu */
-  width: 800px; /* Fixed width */
-  background-color: white; /* White background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transform: translateX(-50%);
+  width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -76,7 +77,7 @@ html:not(.print-pdf) body:not(.hide-menubar) .reveal.ready:not(.hide-menubar) .m
   align-items: center;
   list-style-type: none;
   padding: 0;
-  margin: 0; /* Removed auto margin to avoid conflict with flex centering */
+  margin: 0;
   gap: 1.5em;
   transition: opacity 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
 }
