@@ -9,7 +9,7 @@ simplemenu:
   scale: 0.67
 revealjs-plugins:
   - simplemenu
-incremental: true   
+incremental: false
 scrollable: true
 author:
   - name: Yanshu Wang
