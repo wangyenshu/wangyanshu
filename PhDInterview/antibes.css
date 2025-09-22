@@ -47,7 +47,8 @@
   -webkit-transform: translateY(calc(-100% - 1px));
       -ms-transform: translateY(calc(-100% - 1px));
           transform: translateY(calc(-100% - 1px));
-  color: var(--r-main-color);
+  color: #1C375D;
+  width: 38px;
   padding-right: 3em;
   padding-right: 100px;
   z-index: 2;
