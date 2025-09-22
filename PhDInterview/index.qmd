@@ -59,7 +59,7 @@ date: last-modified
 ## Senior Year Individual Study {data-name="GT"}
 
 
-## Polymath Jr. {#sec-polymath} {data-name="Polymath"}
+## Polymath Jr. {data-name="Polymath"}
 
 
 ## Future Plan {data-name="Future Plan"}
