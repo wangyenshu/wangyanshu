@@ -263,4 +263,6 @@ body.hide-menubar .reveal.ready .menubar a {
   letter-spacing: 1px;
   padding: 10px;
   background-color: #003366;
+  border: 2px solid;
+  border-radius: 15px;
 }
