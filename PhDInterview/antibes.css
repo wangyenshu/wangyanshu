@@ -1,0 +1,115 @@
+/* -------------------- GENERAL THEME STYLING -------------------- */
+.reveal {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa; /* Light grey background for content slides */
+}
+
+/* -------------------- HEADER AND FOOTER (NAVIGATION) -------------------- */
+.reveal .progress {
+  background: #003366; /* Dark blue progress bar */
+  color: #fff;
+  height: 5px;
+}
+
+.reveal .slide-number {
+  background: #003366;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8em;
+  opacity: 1; /* Ensure visibility */
+}
+
+.reveal .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: #003366; /* Dark blue footer */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 2000;
+}
+
+.reveal .footer .quarto-title-author {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* -------------------- TITLE SLIDE -------------------- */
+.reveal .title-slide {
+  background: #f8f9fa; /* Light grey background for the title slide */
+  text-align: center;
+}
+
+.reveal .title-slide .r-frame {
+  background: #003366;
+  color: #fff;
+  padding: 40px 60px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  display: inline-block; /* Makes the box wrap the content */
+  max-width: 80%;
+  margin: 0 auto;
+  transform: translateY(5vh); /* Center vertically */
+}
+
+.reveal .title-slide .r-frame h1 {
+  font-size: 2.8em;
+  margin: 0 0 0.4em 0;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.reveal .title-slide .r-frame h2 {
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0;
+  color: #fff !important;
+}
+
+/* -------------------- CONTENT SLIDES -------------------- */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: #003366; /* Dark blue headings */
+  border-bottom: 2px solid #ffc107; /* Yellow underline */
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* -------------------- FOOTNOTES -------------------- */
+.reveal .footnote {
+  color: #555;
+  font-size: 0.8em;
+}
+
+/* -------------------- BLOCKS (callouts) -------------------- */
+.reveal .callout {
+  border: 2px solid #003366;
+  border-left-width: 8px;
+  border-radius: 6px;
+  background: #f8f9fa;
+  margin: 1.2rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .callout .callout-header {
+  background: #003366;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
