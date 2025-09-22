@@ -281,6 +281,10 @@ body.hide-menubar .reveal.ready .menubar a {
 	background-color: #003366;
 }
 
+#menubartop .menu li a {
+	color: white;
+}
+
 .reveal .progress {
 	width: 0.1px !important;
 }
