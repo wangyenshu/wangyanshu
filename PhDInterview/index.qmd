@@ -11,7 +11,7 @@ author:
 date: last-modified
 ---
 
-## Background
+## Background {.smaller}
 
 **RELEVANT COURSEWORK:**
 
