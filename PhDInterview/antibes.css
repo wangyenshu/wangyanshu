@@ -270,7 +270,6 @@ body.hide-menubar .reveal.ready .menubar a {
 .reveal .footer > * {
 	background-color: #003366;
 	color: white;
-	padding-bottom: 20px;
 }
 
 #title-slide .title {
@@ -286,5 +285,6 @@ body.hide-menubar .reveal.ready .menubar a {
 }
 
 .reveal .progress {
-	width: 0.1px !important;
+  background: #003366;
+  height: 1%;
 }
