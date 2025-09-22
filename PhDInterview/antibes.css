@@ -1,115 +1,257 @@
-/* -------------------- GENERAL THEME STYLING -------------------- */
-.reveal {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f8f9fa; /* Light grey background for content slides */
+:root {
+  --r-background-color: #CDDDDD;
+  --r-heading-color: #008080;
+  --r-main-color: #004444;
+  --r-link-color: #006666;
+  --r-link-color-hover: #009090;
+  --r-main-font-size: 36px;
+}
+.center {
+    text-align: center
 }
 
-/* -------------------- HEADER AND FOOTER (NAVIGATION) -------------------- */
-.reveal .progress {
-  background: #003366; /* Dark blue progress bar */
-  color: #fff;
-  height: 5px;
-}
-
-.reveal .slide-number {
-  background: #003366;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  bottom: 10px;
-  right: 10px;
+.reveal p code, .reveal p kbd, .reveal ul code {
+  background: rgba(0, 68, 68, 0.2);
   font-size: 0.8em;
-  opacity: 1; /* Ensure visibility */
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: var(--r-main-color)
 }
 
-.reveal .footer {
-  position: fixed;
-  bottom: 0;
+.reveal pre {
+  background: rgba(0, 68, 68, 0.1);
+}
+.reveal pre.sourceCode code {
+  background: none;
+}
+.reveal div.sourceCode {
+  border: none;
+}
+
+.reveal .code-wrapper, pre, pre code {
+  white-space: pre-wrap !important;
+}
+
+.slides a:hover {
+  text-decoration: underline;
+}
+
+/* Make menu smaller and change title color */
+.menubar {
+  -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: -webkit-transform 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: transform 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: transform 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985), -webkit-transform 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -webkit-transform: translateY(calc(-100% - 1px));
+      -ms-transform: translateY(calc(-100% - 1px));
+          transform: translateY(calc(-100% - 1px));
+  color: #008080; /* Beamer Antibes theme color */
+  padding-right: 3em;
+  padding-right: 100px;
+  z-index: 2;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  font-size: clamp(12px, var(--r-main-font-size) * var(--simplemenu-scale, 0.75), 80px); /* Smaller font for menu */
+  line-height: 1;
+}
+
+.menubar * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.menubar.bottom {
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.menubar:before, .menubar:after {
+  content: "";
+  position: absolute;
   left: 0;
   right: 0;
-  height: 55px;
-  background: #003366; /* Dark blue footer */
-  color: #fff;
+  border-bottom: 1px solid currentColor;
+  opacity: 0.3;
+}
+.menubar:before {
+  top: 0;
+}
+.menubar:after {
+  bottom: 0;
+}
+.menubar.top:before {
+  opacity: 0;
+}
+.menubar.bottom:after {
+  opacity: 0;
+}
+html:not(.print-pdf) body:not(.hide-menubar) .reveal.ready:not(.hide-menubar) .menubar {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+body.hide-menubar .reveal.ready .menubar a {
+  -webkit-transition: opacity 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: opacity 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: opacity 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+.print-pdf .pdf-page:not(.hide-menubar) .menubar {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+.menubar a {
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 24px;
-  z-index: 2000;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-.reveal .footer .quarto-title-author {
-  color: #fff;
-  font-weight: bold;
+.menubar a:hover {
+  color: var(--r-heading-color);
 }
-
-/* -------------------- TITLE SLIDE -------------------- */
-.reveal .title-slide {
-  background: #f8f9fa; /* Light grey background for the title slide */
-  text-align: center;
-}
-
-.reveal .title-slide .r-frame {
-  background: #003366;
-  color: #fff;
-  padding: 40px 60px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-  display: inline-block; /* Makes the box wrap the content */
-  max-width: 80%;
-  margin: 0 auto;
-  transform: translateY(5vh); /* Center vertically */
-}
-
-.reveal .title-slide .r-frame h1 {
-  font-size: 2.8em;
-  margin: 0 0 0.4em 0;
-  color: #fff !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.reveal .title-slide .r-frame h2 {
-  font-size: 1.4em;
-  font-weight: normal;
+.menubar a.logo {
+  width: 4em;
   margin: 0;
-  color: #fff !important;
+  padding: 0.25em 0.5em;
+}
+.menubar a.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+.menubar > ul {
+  -webkit-transition: opacity 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: opacity 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: opacity 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  gap: 1.5em;
+}
+.menubar > ul li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 0.2em solid transparent;
+  border-bottom: 0.2em solid transparent;
+}
+.menubar > ul li:before {
+  display: none;
+}
+.menubar > ul li + li {
+  margin: 0;
+}
+.menubar > ul li.active {
+  border-bottom-color: var(--r-heading-color);
+}
+.menubar > ul a {
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+  white-space: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.5;
+  color: currentColor;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+.menubar > ul a:hover {
+  color: currentColor;
+  opacity: 0.75;
+}
+.menubar > ul li.active a {
+  opacity: 1;
+  border-bottom-color: var(--r-heading-color);
 }
 
-/* -------------------- CONTENT SLIDES -------------------- */
+.hide-menu .menu, .hide-menu .menu, [data-state=hide-menu] .menu {
+  opacity: 0;
+}
+
+.reveal .slide-number, .menubar .slide-number {
+  background: none;
+  font-family: inherit;
+  color: inherit;
+}
+.reveal .slide-number a, .menubar .slide-number a {
+  padding: 0;
+  opacity: 0.33;
+  color: currentColor;
+}
+.reveal .slide-number a:hover, .menubar .slide-number a:hover {
+  color: currentColor;
+  opacity: 0.75;
+}
+
+.menubar .slide-number {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  font-size: 0.75em;
+  height: 100%;
+  right: 0;
+  bottom: auto;
+  z-index: 0;
+  padding: 0;
+  padding-right: 1em;
+}
+
+.slides ~ .menubar, .menubar.bottom {
+  top: auto;
+  bottom: 3px;
+}
+
+.slides ~ .menubar ~ .controls {
+  margin-bottom: clamp(16px, 2.5 * var(--r-main-font-size) * var(--simplemenu-scale, 0.75), 100px);
+}
+
+/* Add shadow box to title */
 .reveal h1,
 .reveal h2,
 .reveal h3,
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  color: #003366; /* Dark blue headings */
-  border-bottom: 2px solid #ffc107; /* Yellow underline */
-  padding-bottom: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* -------------------- FOOTNOTES -------------------- */
-.reveal .footnote {
-  color: #555;
-  font-size: 0.8em;
-}
-
-/* -------------------- BLOCKS (callouts) -------------------- */
-.reveal .callout {
-  border: 2px solid #003366;
-  border-left-width: 8px;
-  border-radius: 6px;
-  background: #f8f9fa;
-  margin: 1.2rem 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.reveal .callout .callout-header {
-  background: #003366;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
