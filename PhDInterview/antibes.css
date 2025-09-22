@@ -47,8 +47,7 @@
   -webkit-transform: translateY(calc(-100% - 1px));
       -ms-transform: translateY(calc(-100% - 1px));
           transform: translateY(calc(-100% - 1px));
-  color: #1C375D;
-  width: 38px;
+  color: var(--r-main-color);
   padding-right: 3em;
   padding-right: 100px;
   z-index: 2;
@@ -223,6 +222,7 @@ body.hide-menubar .reveal.ready .menubar a {
 .menubar .slide-number {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
+  display: flex !important;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
