@@ -329,11 +329,11 @@
     "text": "No matching items"
   },
   {
-    "objectID": "PhDInterview/index.html#background",
-    "href": "PhDInterview/index.html#background",
+    "objectID": "PhDInterview/index.html#background-.smaller",
+    "href": "PhDInterview/index.html#background-.smaller",
     "title": "Interview Presentation",
-    "section": "Background",
-    "text": "Background\nRELEVANT COURSEWORK:\n\nMATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91\nMATH0132 Abstract Algebra I 88 (Honor Class)\nMATH0134 Abstract Algebra II 95 (Honor Class)\nMATH0055 Number Theory 92\nMATH0079 General Topology 84\nMATH0102 Commutative Algebra 97\nMATH0136 Galois Theory 96\nMATH0151 Real Analysis 81 (Honor Class)\nMATH0162 Lie Groups and Algebraic Groups 90\nMATH0051 Functional Analysis 93\nMATH9100 Topics in Algebra A- (at Temple, Braid Groups)\nMATH0153 Algebraic methods in Combinatorics (Algebraic Combinactorics)\n\nAUDITING:\n\nElementary Algebraic Topology\nAnalytic Number Theory\nDifferential Manifold"
+    "section": "Background {.smaller}",
+    "text": "Background {.smaller}\nRELEVANT COURSEWORK:\n\nMATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91\nMATH0132 Abstract Algebra I 88 (Honor Class)\nMATH0134 Abstract Algebra II 95 (Honor Class)\nMATH0055 Number Theory 92\nMATH0079 General Topology 84\nMATH0102 Commutative Algebra 97\nMATH0136 Galois Theory 96\nMATH0151 Real Analysis 81 (Honor Class)\nMATH0162 Lie Groups and Algebraic Groups 90\nMATH0051 Functional Analysis 93\nMATH9100 Topics in Algebra A- (at Temple, Braid Groups)\nMATH0153 Algebraic methods in Combinatorics (Algebraic Combinactorics)\n\nAUDITING:\n\nElementary Algebraic Topology\nAnalytic Number Theory\nDifferential Manifold"
   },
   {
     "objectID": "PhDInterview/index.html#research-interest",
@@ -350,25 +350,25 @@
     "text": "Research Experience\n\nMitacs Globalink Research Internship , Mentored by Prof. Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025\nSenior Year Individual Study , Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current\nPolymath Jr. , Online, Jun 2024 – Sep 2024"
   },
   {
-    "objectID": "PhDInterview/index.html#sec-mitacs",
-    "href": "PhDInterview/index.html#sec-mitacs",
+    "objectID": "PhDInterview/index.html#mitacs-globalink-research-internship-sec-mitacs",
+    "href": "PhDInterview/index.html#mitacs-globalink-research-internship-sec-mitacs",
     "title": "Interview Presentation",
-    "section": "Mitacs Globalink Research Internship",
-    "text": "Mitacs Globalink Research Internship"
+    "section": "Mitacs Globalink Research Internship {#sec-mitacs}",
+    "text": "Mitacs Globalink Research Internship {#sec-mitacs}"
   },
   {
-    "objectID": "PhDInterview/index.html#sec-GT",
-    "href": "PhDInterview/index.html#sec-GT",
+    "objectID": "PhDInterview/index.html#senior-year-individual-study-sec-gt",
+    "href": "PhDInterview/index.html#senior-year-individual-study-sec-gt",
     "title": "Interview Presentation",
-    "section": "Senior Year Individual Study",
-    "text": "Senior Year Individual Study"
+    "section": "Senior Year Individual Study {#sec-GT}",
+    "text": "Senior Year Individual Study {#sec-GT}"
   },
   {
-    "objectID": "PhDInterview/index.html#sec-polymath",
-    "href": "PhDInterview/index.html#sec-polymath",
+    "objectID": "PhDInterview/index.html#polymath-jr.-sec-polymath",
+    "href": "PhDInterview/index.html#polymath-jr.-sec-polymath",
     "title": "Interview Presentation",
-    "section": "Polymath Jr. ",
-    "text": "Polymath Jr."
+    "section": "Polymath Jr. {#sec-polymath}",
+    "text": "Polymath Jr. {#sec-polymath}"
   },
   {
     "objectID": "PhDInterview/index.html#future-plan",
