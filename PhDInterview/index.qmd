@@ -45,7 +45,9 @@ date: last-modified
 
 ## Research Interest {data-name="Research Interest"}
 
+::: {.centered-list}
 - Algebra, Number theory and Arithmetic Geometry
+:::
 
 ## Research Experience {data-name="Research Experience"}
 
