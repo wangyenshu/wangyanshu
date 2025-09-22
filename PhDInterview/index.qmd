@@ -19,7 +19,7 @@ author:
 date: last-modified
 ---
 
-## Background {.smaller} {data-name="Background"}
+## Background {data-name="Background"}
 
 **RELEVANT COURSEWORK:**
 
