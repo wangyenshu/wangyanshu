@@ -1,6 +1,7 @@
 ---
 title: Interview Presentation
 subtitle: PhD in Mathematics
+css: "antibes.css"
 format: revealjs
 simplemenu:
   flat: true
