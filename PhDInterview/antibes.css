@@ -270,4 +270,5 @@ body.hide-menubar .reveal.ready .menubar a {
 .reveal .footer > * {
 	background-color: #003366;
 	color: white;
+	padding-bottom: 20px;
 }
