@@ -66,13 +66,13 @@ date: last-modified
 
 ## Future Plan {data-name="Future Plan"}
 
-### short-term plan
+**short-term plan**
 
 - try to pass the qualification exam in the first year
 - finish the required courses and teaching duties
 - find an advisor
 
-### long-term plan
+**long-term plan**
 
 - become a Mathematics professor at a research institution
 - make original contributions to the mathematics community
