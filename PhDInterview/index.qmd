@@ -48,17 +48,17 @@ date: last-modified
 
 ## Research Experience {data-name="Research Experience"}
 
-- Mitacs Globalink Research Internship [[]{.button}](#sec-mitacs), Mentored by Prof. Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025
-- Senior Year Individual Study [[]{.button}](#sec-GT), Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current
-- Polymath Jr. [[]{.button}](#sec-polymath), Online, Jun 2024 – Sep 2024
+- Mitacs Globalink Research Internship, Mentored by Prof. Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025
+- Senior Year Individual Study, Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current
+- Polymath Jr., Online, Jun 2024 – Sep 2024
 
-## Mitacs Globalink Research Internship {#sec-mitacs} {data-name="Research Experience"}
-
-
-## Senior Year Individual Study {#sec-GT} {data-name="Research Experience"}
+## Mitacs Globalink Research Internship {data-name="Mitacs"}
 
 
-## Polymath Jr. {#sec-polymath} {data-name="Research Experience"}
+## Senior Year Individual Study {#sec-GT} {data-name="GT"}
+
+
+## Polymath Jr. {#sec-polymath} {data-name="Polymath"}
 
 
 ## Future Plan {data-name="Future Plan"}
