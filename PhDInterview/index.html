@@ -34,6 +34,7 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/simplemenu/simplemenu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -149,8 +150,8 @@ Yanshu Wang
 
   <p class="date">September 22, 2025</p>
 </section>
-<section id="background" class="slide level2 smaller">
-<h2>Background</h2>
+<section id="background-.smaller" class="slide level2" data-name="Background">
+<h2>Background {.smaller}</h2>
 <p><strong>RELEVANT COURSEWORK:</strong></p>
 <ul>
 <li class="fragment">MATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91</li>
@@ -173,13 +174,13 @@ Yanshu Wang
 <li class="fragment">Differential Manifold</li>
 </ul>
 </section>
-<section id="research-interest" class="slide level2">
+<section id="research-interest" class="slide level2" data-name="Research Interest">
 <h2>Research Interest</h2>
 <ul>
 <li class="fragment">Algebra, Number theory and Arithmetic Geometry</li>
 </ul>
 </section>
-<section id="research-experience" class="slide level2">
+<section id="research-experience" class="slide level2" data-name="Research Experience">
 <h2>Research Experience</h2>
 <ul>
 <li class="fragment">Mitacs Globalink Research Internship <a href="#/sec-mitacs"><span class="button"></span></a>, Mentored by Prof.&nbsp;Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025</li>
@@ -187,16 +188,16 @@ Yanshu Wang
 <li class="fragment">Polymath Jr.&nbsp;<a href="#/sec-polymath"><span class="button"></span></a>, Online, Jun 2024 – Sep 2024</li>
 </ul>
 </section>
-<section id="sec-mitacs" class="slide level2">
-<h2>Mitacs Globalink Research Internship</h2>
+<section id="mitacs-globalink-research-internship-sec-mitacs" class="slide level2" data-name="Research Experience">
+<h2>Mitacs Globalink Research Internship {#sec-mitacs}</h2>
 </section>
-<section id="sec-GT" class="slide level2">
-<h2>Senior Year Individual Study</h2>
+<section id="senior-year-individual-study-sec-gt" class="slide level2" data-name="Research Experience">
+<h2>Senior Year Individual Study {#sec-GT}</h2>
 </section>
-<section id="sec-polymath" class="slide level2">
-<h2>Polymath Jr.&nbsp;</h2>
+<section id="polymath-jr.-sec-polymath" class="slide level2" data-name="Research Experience">
+<h2>Polymath Jr.&nbsp;{#sec-polymath}</h2>
 </section>
-<section id="future-plan" class="slide level2">
+<section id="future-plan" class="slide level2" data-name="Future Plan">
 <h2>Future Plan</h2>
 <h3 id="short-term-plan">short-term plan</h3>
 <ul>
@@ -229,6 +230,7 @@ Yanshu Wang
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/simplemenu/simplemenu.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -251,6 +253,7 @@ Yanshu Wang
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'simplemenu': {"menubarclass":"menubar","menuclass":"menu","activeclass":"active","activeelement":"li","flat":true,"barhtml":{"header":"<div class='menubar'><ul class='menu'></ul><div>","footer":""},"scale":0.67},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -421,7 +424,7 @@ Yanshu Wang
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, Simplemenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
