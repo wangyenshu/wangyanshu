@@ -2,6 +2,7 @@
 title: Interview Presentation
 subtitle: PhD in Mathematics
 format: revealjs
+footer: "Yanshu Wang - Nankai University"
 css: "antibes.css"
 simplemenu:
   flat: true
