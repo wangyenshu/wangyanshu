@@ -256,9 +256,11 @@ body.hide-menubar .reveal.ready .menubar a {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  color: #003366; /* Dark blue headings */
+  color: white; 
   border-bottom: 2px solid #ffc107; /* Yellow underline */
   padding-bottom: 5px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  padding: 10px;
+  background-color: #003366;
 }
