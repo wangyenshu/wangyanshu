@@ -7,7 +7,7 @@ simplemenu:
   flat: true
   barhtml:
     header: "<div class='menubar'><ul class='menu'></ul><div>"
-  scale: 0.67
+  scale: 0.32
 revealjs-plugins:
   - simplemenu
 incremental: false
