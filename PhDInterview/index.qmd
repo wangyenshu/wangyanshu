@@ -2,6 +2,13 @@
 title: Interview Presentation
 subtitle: PhD in Mathematics
 format: clean-revealjs
+simplemenu:
+  flat: true
+  barhtml:
+    header: "<div class='menubar'><ul class='menu'></ul><div>"
+  scale: 0.67
+revealjs-plugins:
+  - simplemenu
 incremental: true   
 scrollable: true
 author:
