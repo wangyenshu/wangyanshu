@@ -53,10 +53,10 @@ date: last-modified
 - Senior Year Individual Study, Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current
 - Polymath Jr., Online, Jun 2024 – Sep 2024
 
-## Mitacs Globalink Research Internship {data-name="Mitacs"}
+## Mitacs GRI {data-name="Mitacs"}
 
 
-## Senior Year Individual Study {#sec-GT} {data-name="GT"}
+## Senior Year Individual Study {data-name="GT"}
 
 
 ## Polymath Jr. {#sec-polymath} {data-name="Polymath"}
