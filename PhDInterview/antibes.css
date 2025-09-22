@@ -256,5 +256,9 @@ body.hide-menubar .reveal.ready .menubar a {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #003366; /* Dark blue headings */
+  border-bottom: 2px solid #ffc107; /* Yellow underline */
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
