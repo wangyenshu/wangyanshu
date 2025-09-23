@@ -59,12 +59,20 @@ date: last-modified
 
 ## Mitacs GRI {data-name="Mitacs"}
 
+- constructed new GKP code from the Abelian varieties on the cyclotomic field $K = \mathbb{Q}(\zeta_n)$
+- write the SageMath script for working with GKP code constructed from the cyclotomic field
 
 ## Senior Year Individual Study {data-name="GT"}
 
+- introduced a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows
+- contributed to the SageMath package for working with $\mathsf{GT}$-shadows
 
 ## Polymath Jr. {data-name="Polymath"}
 
+- proved that the Riemann surface of the $K_9$ dessin is a degree $9$ cover of the Bolza surface $y^2=x(x^4-1)$ with covering group $(\mathbb{Z}/3\mathbb{Z})^2$
+- computed the equation for the Abel-Jacobi map of the Bolza surface $S_B$
+- constructed a degree $9$ cover of the Jacobian $\mathrm{Jac}(S_B)$ 
+- obtained the equation for $K_9$ dessin
 
 ## Future Plan {data-name="Future Plan"}
 
