@@ -12,8 +12,8 @@ simplemenu:
 revealjs-plugins:
   - simplemenu
   - pointer
-chalkboard: false
-self-contained: true
+chalkboard: true
+self-contained: false
 incremental: false
 scrollable: true
 author:
