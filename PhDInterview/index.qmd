@@ -63,10 +63,16 @@ date: last-modified
 - constructed new GKP code from the Abelian varieties on the cyclotomic field $K = \mathbb{Q}(\zeta_n)$
 - write the SageMath script for working with GKP code constructed from the cyclotomic field
 
+## GKP Code From Abelian Varieties {data-name="Mitacs"}
+
+
 ## Senior Year Individual Study {data-name="GT"}
 
 - introduced a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows
 - contributed to the SageMath package for working with $\mathsf{GT}$-shadows
+
+## GT-Shadows {data-name="GT"}
+
 
 ## Polymath Jr. {data-name="Polymath"}
 
@@ -74,6 +80,10 @@ date: last-modified
 - computed the equation for the Abel-Jacobi map of the Bolza surface $S_B$
 - constructed a degree $9$ cover of the Jacobian $\mathrm{Jac}(S_B)$ 
 - obtained the equation for $K_9$ dessin
+
+## Equation for $K_9$ Dessin {data-name="Polymath"}
+
+
 
 ## Future Plan {data-name="Future Plan"}
 
