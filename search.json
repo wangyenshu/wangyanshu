@@ -354,21 +354,42 @@
     "href": "PhDInterview/index.html#mitacs-gri",
     "title": "Interview Presentation",
     "section": "Mitacs GRI",
-    "text": "Mitacs GRI"
+    "text": "Mitacs GRI\n\nconstructed new GKP code from the Abelian varieties on the cyclotomic field \\(K = \\mathbb{Q}(\\zeta_n)\\)\nwrite the SageMath script for working with GKP code constructed from the cyclotomic field"
+  },
+  {
+    "objectID": "PhDInterview/index.html#gkp-code-from-abelian-varieties",
+    "href": "PhDInterview/index.html#gkp-code-from-abelian-varieties",
+    "title": "Interview Presentation",
+    "section": "GKP Code From Abelian Varieties",
+    "text": "GKP Code From Abelian Varieties"
   },
   {
     "objectID": "PhDInterview/index.html#senior-year-individual-study",
     "href": "PhDInterview/index.html#senior-year-individual-study",
     "title": "Interview Presentation",
     "section": "Senior Year Individual Study",
-    "text": "Senior Year Individual Study"
+    "text": "Senior Year Individual Study\n\nintroduced a more streamlined version of the groupoid \\(\\mathsf{GTSh}\\) of \\(\\mathsf{GT}\\)-shadows\ncontributed to the SageMath package for working with \\(\\mathsf{GT}\\)-shadows"
+  },
+  {
+    "objectID": "PhDInterview/index.html#gt-shadows",
+    "href": "PhDInterview/index.html#gt-shadows",
+    "title": "Interview Presentation",
+    "section": "GT-Shadows",
+    "text": "GT-Shadows"
   },
   {
     "objectID": "PhDInterview/index.html#polymath-jr.",
     "href": "PhDInterview/index.html#polymath-jr.",
     "title": "Interview Presentation",
     "section": "Polymath Jr. ",
-    "text": "Polymath Jr."
+    "text": "Polymath Jr. \n\nproved that the Riemann surface of the \\(K_9\\) dessin is a degree \\(9\\) cover of the Bolza surface \\(y^2=x(x^4-1)\\) with covering group \\((\\mathbb{Z}/3\\mathbb{Z})^2\\)\ncomputed the equation for the Abel-Jacobi map of the Bolza surface \\(S_B\\)\nconstructed a degree \\(9\\) cover of the Jacobian \\(\\mathrm{Jac}(S_B)\\)\nobtained the equation for \\(K_9\\) dessin"
+  },
+  {
+    "objectID": "PhDInterview/index.html#equation-for-k_9-dessin",
+    "href": "PhDInterview/index.html#equation-for-k_9-dessin",
+    "title": "Interview Presentation",
+    "section": "Equation for \\(K_9\\) Dessin",
+    "text": "Equation for \\(K_9\\) Dessin"
   },
   {
     "objectID": "PhDInterview/index.html#future-plan",
