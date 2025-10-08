@@ -105,9 +105,9 @@ Focus on GKP stabilizer group
 
 - Geometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participated in it in the first semester of the sophomore year.<br>
 
-- Algebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the <a href="https://www.bilibili.com/video/BV1Fu41127KW/">video</a>.<br>
+- Algebraic Number Theory Seminar: This seminar mainly uses <a href="https://archive.org/download/topics-alg-nt-2024-12-29/TopicsAlgNT2024-12-29.pdf">lecture notes by Hu Yong</a>.<br>
 
-- Quasi-Conformal Mapping and Potential Theory: I studied this topic using  <a href="https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf">B. Khoruzhenko's lecture notes</a>. <br>
+- Quasi-Conformal Mapping and Potential Theory: I studied this topic using  <a href="https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf">B. Khoruzhenko's lecture notes</a>.<br>
 
 - Analytic Number Theory Online Seminar: Led by a senior alumna (M.S., University of Bonn). The main topic is o‑minimality and tame geometry.<br>
 
