@@ -69,7 +69,7 @@ Focus on GKP stabilizer group
 
 <div class="clear"></div>
 
-**RELEVANT COURSEWORK:**
+**RELEVANT COURSEWORK:**(<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
 
 - MATH0130 Mathematical Analysis I 100 (Honor Class)
 - MATH0083 Advanced Algebra and Analytic Geometry 2-1 (Linear Algebra) 100 (Honor Class)
