@@ -52,6 +52,12 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 | Ohio State University | December 5, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/osu.html">Statement of Purposes</a> |
 | Pennsylvania State University | January 5, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/psu.html">Statement of Purposes</a> |
 | Indiana University, Bloomington (Michael Larsen) | January 15 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/indiana.html">Statement of Purposes</a> |
+| University of Pittsburgh | January 15 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/pitt.html">Statement of Purposes</a> |
+| University of Oregon | January 15 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uoregon.html">Statement of Purposes</a> |
+| University of Georgia | January 1 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uga.html">Statement of Purposes</a> |
+| University of University of Virginia | January 15 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/virginia.html">Statement of Purposes</a> |
+| Michigan State University | December 1 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/msu.html">Statement of Purposes</a> |
+
 
 #### Mathematics PhD Program in Canada:
 
