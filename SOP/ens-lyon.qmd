@@ -9,9 +9,9 @@ format:
 
 format-links: [pdf]
 ---
-<div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
+<div style="font-size: 2em; font-weight: bold; text-align: center;">COVER LETTER</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
-My primary research interest lies in the area of number theory, and arithmetic geometry. I am actively involved in a research project that introduces a more streamlined version of the groupoid $\mathsf{GTSh}$, which is an approximation of a specific type of Grothendieck–Teichmüller group. But I am open to exploring new ideas as well.
+My primary research interest lies in the area of number theory, and arithmetic geometry. I have completed research in several specific topics but I am open to exploering new ideas in number theory, and arithmetic geometry as well. The relevant advanced courses I finished include (Algebraic) Number Theory ,Commutative Algebra, Galois Theory, Lie Groups and Algebraic Groups.
 
 {{< include _general_sop.qmd >}}
 
