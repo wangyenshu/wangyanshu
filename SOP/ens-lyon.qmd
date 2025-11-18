@@ -9,7 +9,7 @@ format:
 
 format-links: [pdf]
 ---
-<div style="font-size: 2em; font-weight: bold; text-align: center;">COVER LETTER</div>
+<div style="font-size: 2em; font-weight: bold; text-align: center;">MOTIVATION LETTER</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
 My primary research interest lies in the area of number theory, and arithmetic geometry. I have completed research in several specific topics but I am open to exploering new ideas in number theory, and arithmetic geometry as well. The relevant advanced courses I finished include (Algebraic) Number Theory ,Commutative Algebra, Galois Theory, Lie Groups and Algebraic Groups.
 
