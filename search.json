@@ -382,7 +382,7 @@
     "href": "CV/index.html",
     "title": "Yanshu Wang",
     "section": "",
-    "text": "Yanshu Wang\nCurriculum Vitae\nB.S. Overall GPA:3.72, Overall Grade 90.08, Overall Rank:12/109 (view proof)"
+    "text": "Yanshu Wang\nB.S. Overall GPA:3.72, Overall Grade 90.08, Overall Rank:12/109 (view proof)"
   },
   {
     "objectID": "CV/index.html#education",
@@ -396,7 +396,7 @@
     "href": "CV/index.html#research-experience",
     "title": "Yanshu Wang",
     "section": "Research Experience",
-    "text": "Research Experience\n\nMitacs Globalink Research Internship, Mentored by Professor Maxence Mayrand, Université de SherbrookeMay 2025 – Aug 2025\n\nConstruct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate as H-gate, S-gate and CNOT-gate.\n\n\n\n\nIndependent Study mentored by Professor Vasily Dolgushev, Temple UniversityJan 2025 – Current\n\nRevisit the gentle version \\(\\widehat{\\mathsf{GT}}_{gen}\\) of the Grothendieck-Teichmueller group \\(\\widehat{\\mathsf{GT}}\\) and introduce a more streamlined version of the groupoid \\(\\mathsf{GTSh}\\) of \\(\\mathsf{GT}\\)-shadows. The paper is in progress.\n\nPolymath Jr., OnlineJun 2024 – Sep 2024\n\nOur group gives algebraic and complex analytic approaches to computing an affine model for \\(K_9\\) dessin.\n\nBICMR AI4MATH, BICMR(Peking University)Jan 2024 – Feb 2024\n\nCollaborate with four students to formalize the statement that ‘Algebraic integer of \\(\\mathbb{Q}[\\sqrt{-3}]\\) is PID’ in lean4."
+    "text": "Research Experience\n\nMitacs Globalink Research Internship, Mentored by Professor Maxence Mayrand, Université de SherbrookeMay 2025 – Aug 2025\n\nConstruct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate as H-gate, S-gate and CNOT-gate.\n\n\n\n\nIndependent Study mentored by Professor Vasily Dolgushev, Temple UniversityJan 2025 – Current\n\nRevisit the gentle version \\(\\widehat{\\mathsf{GT}}_{gen}\\) of the Grothendieck-Teichmueller group \\(\\widehat{\\mathsf{GT}}\\) and introduce a more streamlined version of the groupoid \\(\\mathsf{GTSh}\\) of \\(\\mathsf{GT}\\)-shadows. The paper is in progress.\n\nPolymath Jr., OnlineJun 2024 – Sep 2024\n\nOur group gives algebraic and complex analytic approaches to computing an affine model for \\(K_9\\) dessin."
   },
   {
     "objectID": "CV/index.html#presentations-and-workshops",
