@@ -63,15 +63,15 @@ Focus on GKP stabilizer group
 
 - **JMM 2025 AMS-PME Undergraduate Poster Sessions**; topics: Obtaining Equations for $K_9$ Dessin (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">view poster</a>).[](Dessin_Equation_JMM_Poster.pdf)
 
-## Research Grants and Travel Grants
+## Research Grants
 - Mitacs Globalink Research Internship (CA$5,400)
-- JMM Student Reimbursement
 
 ## SCHOLARSHIP
 
 - **Gong Neng Scholarship (Top 5%)**
 
-## RELEVANT COURSEWORK: (<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
+## ADVANCED COURSEWORK
+(<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
 
 - MATH0055 Number Theory 92
 - MATH0102 Commutative Algebra 97
