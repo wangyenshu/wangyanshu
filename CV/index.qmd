@@ -16,10 +16,12 @@ Cell Phone Number: +86134<div id="hide" hidden> 7386727</div>08673568/+126790<di
 Email: wang<div id="hide" hidden> 7386727</div>yenshu@outlook.com <br>
 Website: https://wangyenshu.github.io/wangyanshu/ <div id="hide" hidden> 7386727</div>
 B.S. Math GPA:3.8, **Overall Rank:12/109**
+
 <!--
 ## Objective
 I am interested in algebra and number theory. I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
 -->
+
 ## Published Papers
 
 ## Research Experience
