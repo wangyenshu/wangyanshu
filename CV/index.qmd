@@ -37,8 +37,7 @@ I am interested in algebra and number theory. I have finished relevant courses i
 ## Research Experience
 
 - **Mitacs Globalink Research Internship**, Mentored by Professor Maxence Mayrand, Université de Sherbrooke<span class="cvdate">May 2025 – Aug 2025</span>  
-  - Construct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate (unitary operator) as H-gate, S-gate and CNOT-gate.
-  - Develop sagemath scripts for working with GKP codes constructed from the cyclotomic field.
+  - Construct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate as H-gate, S-gate and CNOT-gate.
 
 <!--
 A GKP code is a stabilizer code acting on the Hilbert space of n bosonic
@@ -49,15 +48,13 @@ Focus on GKP stabilizer group
 -->
 - **Independent Study mentored by Professor Vasily Dolgushev**, Temple University<span class="cvdate">Jan 2025 – Current</span>  
   - Revisit the gentle version $\widehat{\mathsf{GT}}_{gen}$ of the Grothendieck-Teichmueller group $\widehat{\mathsf{GT}}$ and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress.
-  - Contribute to sagemath package for working with $\mathsf{GT}$-shadows.
   
 - **Polymath Jr.**, Online<span class="cvdate">Jun 2024 – Sep 2024</span>  
-  - Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin, and I draw a visualization of $K_9$ dessin through the morphism $\pi_1(P_8/\sim) \to \mathbb{Z}[\zeta_8]/(1+\sqrt{-2})$.
-  - I Work out the algebraic approach and visualization, delivered the final presentation, drafted the algebraic section of the ongoing paper/report, and created the poster submitted to JMM 2025 with the help of mentors.
+  - Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin.
 
 - **BICMR AI4MATH**, BICMR(Peking University)<span class="cvdate">Jan 2024 – Feb 2024</span>  
-  - I collaborate with four students to formalize the statement that 'Algebraic integer of $\mathbb{Q}[\sqrt{-3}]$ is PID' in lean4.
-  - This project introduced me to functional programming, dependent type theory and proof‑assistant design, and sharpened my collaboration and rapid‑learning abilities.
+  - Collaborate with four students to formalize the statement that 'Algebraic integer of $\mathbb{Q}[\sqrt{-3}]$ is PID' in lean4.
+
 <div class="clear"></div>
 
 ## Presentations and Workshops
@@ -89,6 +86,7 @@ Focus on GKP stabilizer group
 - Analytic Number Theory
 - Differential Manifold
 
+<!--
 **UNDERGRADUATE SEMINAR:**<br>
 
 - Geometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participated in it in the first semester of the sophomore year.<br>
@@ -104,6 +102,7 @@ Focus on GKP stabilizer group
 - Propagation speed of non-linear parabolic equations on Riemannian manifolds by Prof. Alexander Grigor's yan
 
 - Preliminary Arizona Winter School 2024:Symmetries of root systems and local fields (unofficially following the course)
+-->
 
 <!--
 **REMARK:** <br> 
