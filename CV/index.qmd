@@ -18,7 +18,7 @@ Website: https://wangyenshu.github.io/wangyanshu/ <div id="hide" hidden> 7386727
 
 <!--
 ## Objective
-I am interested in algebra and number theory. I have done the Polymath Jr. REU with the topic of Dessin d'enfant (arithmetic approach). I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
+I am interested in algebra and number theory. I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
 -->
 ## Published Papers
 
@@ -64,9 +64,10 @@ Focus on GKP stabilizer group
 
 ## Education
 
-- **Exchange Student, Graduate Mathematics**, Temple University (tuition free)<span class="cvdate">Jan 2025 – May 2025</span>
+- **Exchange Student**, Temple University (tuition free)<span class="cvdate">Jan 2025 – May 2025</span>
+Math GPA:3.9
 - **B.S. Mathematics**, Nankai University<span class="cvdate">Sep 2022 – Jul 2026</span>
-
+Math GPA:3.8 Overall Rank:11.3%
 <div class="clear"></div>
 
 **RELEVANT COURSEWORK:**(<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
