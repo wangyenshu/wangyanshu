@@ -15,14 +15,24 @@ format-links: [pdf]
 Cell Phone Number: +86134<div id="hide" hidden> 7386727</div>08673568/+126790<div id="hide" hidden> 7386727</div>21268 <br>
 Email: wang<div id="hide" hidden> 7386727</div>yenshu@outlook.com <br>
 Website: https://wangyenshu.github.io/wangyanshu/ <div id="hide" hidden> 7386727</div>
-B.S. Overall GPA:3.72, Overall Grade 90.08, **Overall Rank:12/109**(<a href="https://wangyenshu.github.io/wangyanshu/CV/rank_proof.jpg">view proof</a>)[](rank_proof.jpg)
+B.S. Overall GPA:3.72, Overall Grade 90.08, **Overall Rank:12/109** (<a href="https://wangyenshu.github.io/wangyanshu/CV/rank_proof.jpg">view proof</a>)[](rank_proof.jpg)
 
 <!--
 ## Objective
 I am interested in algebra and number theory. I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
 -->
 
+## Education
+
+- **Exchange Student, Grad Course**, Temple University (tuition free)<span class="cvdate">Jan 2025 – May 2025</span>
+
+- **B.S. Mathematics**, Nankai University <span class="cvdate">Sep 2022 – Jul 2026</span>
+
+<div class="clear"></div>
+
+<!--
 ## Published Papers
+-->
 
 ## Research Experience
 
@@ -64,39 +74,14 @@ Focus on GKP stabilizer group
 
 - **Gong Neng Scholarship (Top 5%)**
 
-## Education
+**RELEVANT COURSEWORK:** (<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
 
-- **Exchange Student, Grad Course**, Temple University (tuition free)<span class="cvdate">Jan 2025 – May 2025</span>
-
-- **B.S. Mathematics**, Nankai University <span class="cvdate">Sep 2022 – Jul 2026</span>
-
-<div class="clear"></div>
-
-**RELEVANT COURSEWORK:**(<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
-
-- MATH0130 Mathematical Analysis I 100 (Honor Class)
-- MATH0083 Advanced Algebra and Analytic Geometry 2-1 (Linear Algebra) 100 (Honor Class)
-- MATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91
-- MATH0133 Mathematical Analysis II 97 (Honor Class)
-- MATH0078 Advanced Algebra and Analytic Geometry 2-2 (Linear Algebra) 92 (Honor Class)
-- MATH0097 Ordinary Differential Equations 96 (Honor Class)
-- MATH0147 Complex Analysis II passed (Honor Class)
-- MATH0132 Abstract Algebra I 88 (Honor Class)
-- MATH0145 Complex Analysis 97 (Honor Class)
-- MATH0146 Mathematical Analysis III 98 (Honor Class)
-- MATH0134 Abstract Algebra II 95 (Honor Class)
 - MATH0055 Number Theory 92
-- MATH0065 Probability Theory 85 (Honor Class)
-- MATH0079 General Topology 84 
 - MATH0102 Commutative Algebra 97
 - MATH0136 Galois Theory 96 
-- MATH0151 Real Analysis 81 (Honor Class)
 - MATH0162 Lie Groups and Algebraic Groups 90 
 - MATH0051 Functional Analysis 93 
 - MATH9100 Topics in Algebra A- (at Temple, Braid Groups) 
-- MATH8051 Functions of a Complex Variable I A (at Temple University) 
-- MATH4082 Senior Year Individual Study A (Grothendieck-Teichmueller group)
-- MATH0153 Algebraic methods in Combinatorics (Algebraic Combinactorics)
 
 **AUDITING:**
 
