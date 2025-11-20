@@ -9,8 +9,7 @@ format:
 css: cv.css
 format-links: [pdf]
 ---
-<div style="font-size: 2em; font-weight: bold; text-align: center;">Yanshu Wang</div>
-<p style="font-size: 1.5em; font-weight: bold; text-align: center;">Curriculum Vitae</p>
+<div style="font-size: 1.5em; font-weight: bold; text-align: center;">Yanshu Wang</div>
 
 Cell Phone Number: +86134<div id="hide" hidden> 7386727</div>08673568/+126790<div id="hide" hidden> 7386727</div>21268 <br>
 Email: wang<div id="hide" hidden> 7386727</div>yenshu@outlook.com <br>
@@ -51,9 +50,6 @@ Focus on GKP stabilizer group
   
 - **Polymath Jr.**, Online<span class="cvdate">Jun 2024 – Sep 2024</span>  
   - Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin.
-
-- **BICMR AI4MATH**, BICMR(Peking University)<span class="cvdate">Jan 2024 – Feb 2024</span>  
-  - Collaborate with four students to formalize the statement that 'Algebraic integer of $\mathbb{Q}[\sqrt{-3}]$ is PID' in lean4.
 
 <div class="clear"></div>
 
