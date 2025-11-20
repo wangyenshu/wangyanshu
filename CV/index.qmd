@@ -71,7 +71,7 @@ Focus on GKP stabilizer group
 
 - **Gong Neng Scholarship (Top 5%)**
 
-**RELEVANT COURSEWORK:** (<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
+##RELEVANT COURSEWORK: (<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
 
 - MATH0055 Number Theory 92
 - MATH0102 Commutative Algebra 97
