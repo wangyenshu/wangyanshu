@@ -57,7 +57,10 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 | University of Georgia | January 1 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uga.html">Statement of Purposes</a> |
 | University of University of Virginia | January 15 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/virginia.html">Statement of Purposes</a> |
 | Michigan State University | December 1 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/msu.html">Statement of Purposes</a> |
+
 -----
+
+| Graduate School Name | Deadline | My Statement of Purposes |
 |--------|--------|--------|
 | Boston University | January 15, 2026 | TBD |
 | University of Minnesota Twin Cities | December 15 | TBD |
