@@ -14,9 +14,9 @@ format-links: [pdf]
 | Graduate School Name | Deadline | My Statement of Purposes | Interested Instructor |
 |--------|--------|--------|--------|
 | Boston University | January 15, 2026 | TBD |  Robert Pollack & Glenn Stevens |
-| University of Minnesota Twin Cities | December 15 | TBD | |
-| University of Illinois Urbana-Champaign | December 15 | TBD | |
-| University of Wisconsin-Madison | December 15 | TBD | |
-| Northwestern University | December 31 | TBD | |
+| University of Minnesota Twin Cities | December 15 | TBD | Paul Garrett & Haoyang Guo |
+| University of Illinois Urbana-Champaign | December 15 | TBD | Florin P. Boca & Scott Ahlgren |
+| University of Wisconsin-Madison | December 15 | TBD | Jordan Ellenberg |
+| Northwestern University | December 31 | TBD | Aaron Greicius |
 | Brandeis University | January 15 | TBD | Justin Campbell & Omer Offen |
 | Boston College | January 20 | TBD | Benjamin Howard |
