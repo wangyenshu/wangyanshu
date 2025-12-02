@@ -1,0 +1,22 @@
+---
+title: "Professor I am Interested in"
+navbar: false
+format:
+  html:
+    page-footer: false
+    toc: true
+  pdf:
+    pdf-engine: weasyprint
+
+format-links: [pdf]
+---
+
+| Graduate School Name | Deadline | My Statement of Purposes | Interested Instructor |
+|--------|--------|--------|--------|
+| Boston University | January 15, 2026 | TBD |  Robert Pollack & Glenn Stevens |
+| University of Minnesota Twin Cities | December 15 | TBD | |
+| University of Illinois Urbana-Champaign | December 15 | TBD | |
+| University of Wisconsin-Madison | December 15 | TBD | |
+| Northwestern University | December 31 | TBD | |
+| Brandeis University | January 15 | TBD | Justin Campbell & Omer Offen |
+| Boston College | January 20 | TBD | Benjamin Howard |
