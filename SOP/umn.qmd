@@ -1,0 +1,18 @@
+---
+navbar: false
+format:
+  html:
+    page-footer: false
+    toc: false
+  pdf:
+    pdf-engine: weasyprint
+
+format-links: [pdf]
+---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">STATEMENT OF PURPOSE</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+My primary research interest lies in the area of number theory, and arithmetic geometry. I want to learn from and do research with Professor Paul Garrett or Professor Haoyang Guo.
+
+{{< include _general_sop.qmd >}}
+
+My short-term plan after admission is to try to pass the qualification exam in the first year, finish the required courses and teaching duties, attend colloquia, find an advisor, and begin my dissertation work as soon as possible. My long-term plan is to to become a Mathematics professor at a research institution and make original contributions to the mathematics community. I like University of Minnesota Twin Cities’s beautiful urban landscape and historical architecture. I believe University of Minnesota Twin Cities is the best place for me to build a successful mathematical career.
