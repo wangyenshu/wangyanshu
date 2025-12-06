@@ -1,0 +1,18 @@
+---
+navbar: false
+format:
+  html:
+    page-footer: false
+    toc: false
+  pdf:
+    pdf-engine: weasyprint
+
+format-links: [pdf]
+---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">SERVICE STATEMENT</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+
+Under the supervision of Professor Lisa Berger, Ajmain Yamin and Connor Stewart, I participated in the Polymath Jr. online collaborative research project on Dessins d'enfants and worked with students with diverse nationality background and academic interest. Our group is divided into three subgroups working on three aspects respectively: algebra, geometry and equation. We work together to obtain an affine model for $K_9$ dessin. We proved that the Riemann surface of the $K_9$ dessin is a degree $9$ cover of the Bolza surface $y^2=x(x^4-1)$ with covering group $(\mathbb{Z}/3\mathbb{Z})^2$. We used the fact that any unramified abelian cover of a Riemann surface $S$ is obtained from pulling back S along an unramified abelian cover of the Jacobian $\mathrm{Jac}(S)$ of $S$. So, we computed the equation for the Abel-Jacobi map of the Bolza surface $S_B$ and constructed a degree $9$ cover of the Jacobian $\mathrm{Jac}(S_B)$ and obtained the equation. 
+
+I work with Ruizhen from University of Torronto in the equation part. I contribute a different method to obtain the affine model. And I represent the equation group to present our results at JMM 2025 conference. I learned a lot of advanced (for a second year student) mathematics in this project, such as Riemann Surface, Divisors, Jacobian Variety. I also learned from peers in this project. Ruizhen taught me many algebraic geometry. And many students in this project organized study group in Discord.
+
