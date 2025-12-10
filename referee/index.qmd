@@ -84,12 +84,11 @@ Below is an iCalendar file (.ics) that can be imported to your Calendar app. Thi
 | University of Bonn | January 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-bonn.html">Statement of Purposes</a> |
 | Berlin Mathematical School | December 1, 2025 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/BMS.html">Statement of Purposes</a> |
 | ALGANT | January 31, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/ALGANT.html">Statement of Purposes</a> |
-| Heidelberg University (Germany) | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-heidelberg.html">Statement of Purposes</a> |
 | Universität Duisburg‑Essen | January 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-due.html">Statement of Purposes</a> |
 | University of Münster | January 15, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/uni-muenster.html">Statement of Purposes</a> |
-| University of Padua | TBD | <a href="https://wangyenshu.github.io/wangyanshu/SOP/unipd.html">Statement of Purposes</a> |
-
-#### Schools under consideration
-| Graduate School Name | Deadline | My Statement of Purposes |
-|--------|--------|--------|
 | ENS Lyon M2 | January 23, 2026 | <a href="https://wangyenshu.github.io/wangyanshu/SOP/ens-lyon.html">Statement of Purposes</a> |
+| Paris Graduate School for Mathematical Sciences | Feb 3, 2026 | TBD |
+| Fondation Mathématique Jacques Hadamard | End of Jan, 2026 | TBD |
+| Mathematics and INteractions in Toulouse | Feb 9, 2026 | TBD |
+| University Grenoble Alpes M2 | Should start on Feb? | TBD |
+| Université de Lille M2 | Should start on Jan, 27? | TBD |
