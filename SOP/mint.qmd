@@ -11,7 +11,7 @@ format-links: [pdf]
 ---
 <div style="font-size: 2em; font-weight: bold; text-align: center;">MOTIVATION LETTER</div>
 <p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
-My primary research interest lies in the area of number theory, and arithmetic geometry. I want to apply for Master 2 "Research & Innovation" of Applied and Pure Mathematics in Toulouse.
+My primary research interest lies in the area of number theory, and arithmetic geometry. I want to apply for Master 2 "Research & Innovation" of Applied and Pure Mathematics in Toulouse(UPS).
 
 {{< include _general_sop.qmd >}}
 
