@@ -1,0 +1,18 @@
+---
+navbar: false
+format:
+  html:
+    page-footer: false
+    toc: false
+  pdf:
+    pdf-engine: weasyprint
+format-links: [pdf]
+---
+<div style="font-size: 2em; font-weight: bold; text-align: center;">PERSONAL STATEMENT</div>
+<p style="font-size: 1.5em; font-weight: bold; text-align: center;">YANSHU WANG</p>
+
+At Nankai University, I completed the course of honour mathematical analysis and honour linear algebra with good grades and enrolled in a variety of graduate-level mathematics courses. The abstract algebra course by Prof. Binbin Xu led me to make the decision to study algebra and number theory. His course is very clear, the theory of groups, rings, fields, and modules is well-organized, and theorems are beautiful. So I enrolled in Galois theory, commutative algebra, (algebraic) number theory, and linear algebraic groups to dive deeper into algebraic topics. I also self-learned some algebraic geometry from Prof. Richard Borcherds’ YouTube channel.
+
+## Overcoming Obstacles 
+
+By determination and the help of professors and friends, I have overcome various obstacles encountered on my mathematical path. The most harmful (bureaucratic) obstacle was a policy that limited a particular portion of students' options to either pursue a Ph.D. in mathematics at their current institution or change their academic focus (from pure mathematics to applied mathematics). I overcame this obstacle by taking the required courses in both pure mathematics and applied mathematics and devoting double efforts to coursework. Another obstacle was that as an exchange undergraduate student at Temple University, I was not allowed to enroll in graduate mathematics courses. Thanks to Prof. David Futer, the Graduate Director, I was granted permission to enroll in graduate mathematics courses after reaching out.
