@@ -44,7 +44,7 @@ format:
   html:
     theme: sandstone
     css: styles.css
-    toc: true
+    toc: false
     
 filters:
   - shinylive
