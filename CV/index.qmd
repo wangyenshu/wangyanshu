@@ -7,6 +7,7 @@ format:
     page-footer: false
     toc: false
     css: cv.css
+    include-before-body: []
     include-in-header:
       - text: |
           <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
