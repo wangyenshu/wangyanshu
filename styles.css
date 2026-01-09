@@ -70,7 +70,7 @@ body {
 }
 
 .navbar {
-  background-color: #2c2abe !important;
+  background-color: linear-gradient(to bottom, #29abe2 0%, #177bc9 100%) !important;
   border-radius: 0;
   min-height: 40px;
   padding: 0 1rem;
