@@ -10,33 +10,55 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // 1. SELECT KEY ELEMENTS
+  
+  // 1. SELECT THE PIECES
   const banner = document.querySelector('#wang-banner');
   const navbar = document.querySelector('#quarto-header');
   const content = document.querySelector('#quarto-content');
   const search = document.querySelector('#quarto-search');
-
-  // 2. DEFINE THE CORRECT ORDER IN THE DOM
-  // We want: BODY -> BANNER -> NAVBAR -> CONTENT
   
-  if (content && banner && navbar) {
-    // Move Banner OUT of the content area and place it BEFORE the content box
-    content.parentNode.insertBefore(banner, content);
-    
-    // Move Navbar AFTER the Banner (so it sits between Banner and Content)
-    banner.after(navbar);
-    
-    // Reset Navbar positioning so it doesn't float
+  // 2. CREATE THE MASTER WRAPPER (The 1100px Centered Box)
+  const master = document.createElement('div');
+  master.id = 'master-wrapper';
+  
+  // 3. INSERT MASTER WRAPPER INTO BODY
+  document.body.prepend(master);
+
+  // 4. MOVE PIECES INTO MASTER WRAPPER (Order matters!)
+  
+  // A. Banner
+  if (banner) master.appendChild(banner);
+  
+  // B. Navbar
+  if (navbar) {
+    master.appendChild(navbar);
+    // Remove "fixed" classes so it sits naturally in the stack
     navbar.classList.remove('fixed-top', 'sticky-top');
     navbar.style.position = 'relative';
-    navbar.style.top = 'auto';
+    navbar.style.width = '100%';
+  }
+  
+  // C. Content
+  if (content) {
+    master.appendChild(content);
+    // Reset content margins
+    content.style.marginTop = '0';
+    content.style.paddingTop = '40px'; 
   }
 
-  // 3. HANDLE SEARCH BAR (Simple right-side placement)
+  // 5. HANDLE SEARCH BAR
   if (search) {
     search.style.display = 'block';
     const rightDest = document.querySelector('#search-right-container');
-    if (rightDest) rightDest.appendChild(search);
+    const leftDest = document.querySelector('#search-left-container');
+    const path = window.location.pathname.toLowerCase();
+    
+    // Check if we have destinations before moving
+    if (path.includes("presentations") && leftDest) {
+       leftDest.appendChild(search);
+    } else if (rightDest) {
+       rightDest.appendChild(search);
+    }
   }
 });
 </script>
