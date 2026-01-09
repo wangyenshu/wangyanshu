@@ -2,6 +2,7 @@
 navbar: false
 format:
   html:
+    html-math-method: mathjax
     page-footer: false
     toc: false
     css: cv.css
@@ -14,6 +15,17 @@ format:
           <link rel="stylesheet" type="text/css" href="preview.css" media="screen">
 
 ---
+```{=html}
+<script>
+  window.PagedConfig = {
+    after: (flow) => {
+      // Force MathJax to re-process the newly paged content
+      if (window.MathJax) {
+        window.MathJax.typesetPromise();
+      }
+    }
+  };
+</script>
 <div style="font-size: 1.5em; font-weight: bold; text-align: center;">Yanshu Wang</div><br>
 
 Cell Phone Number: +86134<div id="hide" hidden> 7386727</div>08673568/+126790<div id="hide" hidden> 7386727</div>21268 <br>
