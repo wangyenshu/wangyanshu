@@ -23,36 +23,29 @@ document.addEventListener("DOMContentLoaded", function() {
   document.body.prepend(master);
 
   // 3. MOVE ELEMENTS INTO WRAPPER
-  
   // A. Banner
   if (banner) master.appendChild(banner);
   
   // B. Navbar
   if (navbar) {
     master.appendChild(navbar);
-    // CRITICAL: Remove Quarto's sticky classes
+    // Remove "fixed" classes just in case, though CSS overrides them now
     navbar.classList.remove('fixed-top', 'sticky-top');
-    // We also forcefully disable the 'headroom' behavior by un-initializing it if we can,
-    // but usually CSS override is enough.
-    navbar.style.position = 'relative';
-    navbar.style.top = 'auto';
-    navbar.style.width = '100%';
   }
   
   // C. Content
   if (content) {
     master.appendChild(content);
+    // Reset margins to prevent gaps
     content.style.marginTop = '0';
     content.style.paddingTop = '40px'; 
   }
 
-  // 4. HANDLE SEARCH BAR (Always Right)
+  // 4. SEARCH BAR (Always Right)
   if (search) {
     search.style.display = 'block';
     const rightDest = document.querySelector('#search-right-container');
-    if (rightDest) {
-       rightDest.appendChild(search);
-    }
+    if (rightDest) rightDest.appendChild(search);
   }
 });
 </script>

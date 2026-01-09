@@ -114,3 +114,29 @@ main.content {
   min-width: 200px;
   border-radius: 2px;
 }
+
+/* 1. FORCE NATURAL SCROLLING (Kill Headroom.js) */
+#quarto-header,
+#quarto-header.headroom--unpinned, 
+#quarto-header.headroom--pinned {
+    position: relative !important;
+    transform: none !important; /* Stops the "moving faster" slide animation */
+    top: 0 !important;
+    margin-top: 0 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* 2. ENSURE WRAPPER INTEGRITY */
+#master-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack them strictly */
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* 3. STRICT WIDTHS */
+#quarto-header, .custom-banner, #quarto-content {
+    width: 100% !important;
+    max-width: 100% !important;
+}
