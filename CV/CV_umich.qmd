@@ -4,8 +4,6 @@ format:
   html:
     page-footer: false
     toc: false
-  pdf:
-    pdf-engine: wkhtmltopdf
 css: cv.css
 format-links: [pdf]
 ---
