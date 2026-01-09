@@ -1,0 +1,36 @@
+---
+title: "Gallery"
+lightbox: true
+filters:
+  - masonry
+include-in-header:
+  - text: |
+      <style>
+        .grid-item {
+          width: 200px;
+          height: 160px;
+          float: left;
+          background: #D26;
+          border: 2px solid #333;
+          border-color: hsla(0, 0%, 0%, 0.5);
+          border-radius: 5px;
+        }
+      <style>
+---
+:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0 }'}
+:::{.grid-item}
+![](JMMPosterYSW.jpg)
+:::
+:::{.grid-item}
+![](JMMBadge.jpg)
+:::
+:::{.grid-item}
+![](Penn_Temple_Algebra_Day.jpg)
+:::
+:::{.grid-item}
+![](ICMBooks.jpg)
+:::
+:::{.grid-item}
+![](MathAnn.jpg)
+:::
+::::

@@ -29,6 +29,9 @@ website:
         
       - href: CV/index.qmd
         text: CV
+      
+      - href: gallery/index.qmd
+        text: Gallery
 
     right:
       
