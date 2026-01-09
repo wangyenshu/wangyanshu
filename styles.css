@@ -17,67 +17,87 @@ div.navbar-collapse {
 
 /* --- styles.css --- */
 
-/* 1. The Custom Banner Style */
-.custom-header-banner {
-  background: linear-gradient(to bottom, #a2d9f7 0%, #29abe2 50%, #007bb5 100%); /* Blue gradient */
-  padding: 40px 20px;
-  color: white;
+/* 1. Reset Body to plain white */
+body {
+  background-color: white;
+  margin: 0;
 }
 
-.header-inner {
+/* 2. The Top "Sky Blue" Banner */
+.custom-banner {
+  /* Gradient from light blue to slightly darker blue (Top half of your image) */
+  background: linear-gradient(to bottom, #aee2fa 0%, #29abe2 100%);
+  padding: 50px 0; /* Makes the banner tall */
+  width: 100%;
+  border-bottom: 1px solid #1a80b6; /* Subtle border */
+}
+
+.banner-inner {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
   display: flex;
-  justify-content: space-between; /* Title left, Search right */
-  align-items: center;
+  justify-content: space-between; /* Pushes Title left, Search right */
+  align-items: flex-end; /* Aligns them at the bottom like the picture */
 }
 
-.header-title {
+.banner-title {
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 3em;
-  color: white !important;
-  margin: 0;
-  border: none !important; /* Remove any previous border hacks */
+  font-size: 3rem;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
-/* 2. Position the Navbar BELOW the banner */
-/* Quarto default is 'fixed-top', we need to make it flow naturally */
+/* 3. Style the Search Box (Now inside the banner) */
+#new-search-location {
+  margin-bottom: 5px;
+}
+/* Force search input to look like the grey box in your image */
+#quarto-search .search-input {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border: 1px solid #666 !important;
+  color: #333 !important;
+  border-radius: 0 !important; /* Square corners */
+}
+
+/* 4. The Navigation Bar (The "Metallic" Strip Below) */
+/* We need to override Quarto's default "Fixed Top" behavior so it sits UNDER the banner */
 #quarto-header {
-  position: relative !important;
-  background: none !important; /* Remove default background if needed */
+  position: relative !important; 
+  background: none !important;
   margin-top: 0;
+  width: 100%;
 }
 
 .navbar {
-  background: linear-gradient(to bottom, #4c9bc4 0%, #2d6da0 100%) !important; /* Navbar gradient */
-  border-radius: 0;
+  /* The glossy dark blue gradient */
+  background: linear-gradient(to bottom, #7abcff 0%, #4096ee 50%, #1c6ab9 100%) !important;
   padding: 0 1rem;
+  min-height: 40px; /* Make it thinner */
+  box-shadow: 0 5px 5px -5px rgba(0,0,0,0.5); /* Drop shadow below nav */
 }
 
-/* Hide the default navbar title since we have the big one now */
+/* 5. Navigation Links */
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  padding: 10px 15px !important;
+  border-right: 1px solid rgba(255,255,255,0.3); /* Separator lines */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* 6. Hide the Default Title (Since we have the big banner) */
 .navbar-brand {
   display: none !important;
 }
 
-/* 3. Style the Navigation Links */
-.navbar-nav .nav-link {
-  color: white !important;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-/* 4. Logic to Hide Header on CV Page */
-/* This works with the YAML change in Step 4 */
-body.cv-page .custom-header-banner {
+/* 7. Hide Banner on CV Page (Optional, per your previous request) */
+body.cv-page .custom-banner {
   display: none;
-}
-
-/* Restore standard navbar behavior for CV page only if desired */
-body.cv-page #quarto-header {
-  position: sticky !important; 
-  top: 0;
-}
-body.cv-page .navbar-brand {
-  display: inline-block !important; /* Show title again on CV page */
 }

@@ -7,6 +7,8 @@ website:
   title: "Yanshu Wang"
   site-url: https://wangyenshu.github.io/wangyanshu
   description: "Yanshu Wang's Academic Homepage"
+  search: true
+  include-before-body: header.html
 
   page-footer:
     left: ""

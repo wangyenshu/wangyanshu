@@ -1,0 +1,24 @@
+<div class="custom-banner">
+  <div class="banner-inner">
+    <div class="banner-title">Yanshu Wang</div>
+    <div id="new-search-location">
+      </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // 1. Find the original Quarto search button/box
+  // Note: Quarto renders search differently depending on screen size, 
+  // but usually it's inside #quarto-search or .navbar-search
+  let searchItem = document.querySelector('#quarto-search');
+  
+  // 2. Find our new destination
+  let destination = document.querySelector('#new-search-location');
+
+  // 3. Move it
+  if (searchItem && destination) {
+    destination.appendChild(searchItem);
+  }
+});
+</script>
