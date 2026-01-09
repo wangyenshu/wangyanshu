@@ -15,57 +15,69 @@ div.navbar-collapse {
   margin-right: auto;
 }
 
-/* --- K2 Theme Adaptation --- */
+/* --- styles.css --- */
 
-/* 1. The Outer Background */
-body {
-  background-color: #e9e9e9; /* Classic K2 Light Grey */
+/* 1. The Custom Banner Style */
+.custom-header-banner {
+  background: linear-gradient(to bottom, #a2d9f7 0%, #29abe2 50%, #007bb5 100%); /* Blue gradient */
+  padding: 40px 20px;
+  color: white;
 }
 
-/* 2. The "White Sheet" Box */
-/* This targets the main container of the page */
-#quarto-content {
-  background-color: #ffffff;
-  max-width: 980px;      /* Standard width for K2 style */
-  margin: 0 auto;        /* Centers the box */
-  padding: 40px;         /* Inner spacing */
-  box-shadow: 0 0 10px rgba(0,0,0,0.15); /* The drop shadow */
-  min-height: 800px;     /* Ensures the white box is always substantial */
-}
-
-/* 3. Navigation Bar adjustments to match */
-/* Center the navbar content to match the white box width */
-.navbar-container {
-  max-width: 980px;
+.header-inner {
+  max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Title left, Search right */
+  align-items: center;
 }
 
-/* Make the Navbar background blend with the body or stand out */
-div.navbar {
-  background-color: #333; /* Dark header bar like some K2 variants */
-  /* OR use background-color: #e9e9e9; if you want it to blend with the background */
-  box-shadow: none;
-}
-
-/* Style the links to look big and clickable (Tab-like) */
-.navbar-nav .nav-link {
-  color: #fff !important; /* White text */
-  font-size: 1.1rem;
+.header-title {
+  font-family: sans-serif;
   font-weight: bold;
-  padding: 15px 25px !important;
-  text-transform: uppercase; /* Optional: makes it look more formal */
+  font-size: 3em;
+  color: white !important;
+  margin: 0;
+  border: none !important; /* Remove any previous border hacks */
 }
 
-/* Hover effect for links */
-.navbar-nav .nav-link:hover {
-  background-color: #555; /* Slightly lighter grey on hover */
-  border-radius: 4px;
+/* 2. Position the Navbar BELOW the banner */
+/* Quarto default is 'fixed-top', we need to make it flow naturally */
+#quarto-header {
+  position: relative !important;
+  background: none !important; /* Remove default background if needed */
+  margin-top: 0;
 }
 
-/* 4. Footer Adjustment */
-footer.footer {
-  background-color: #e9e9e9; /* Match outer background */
-  max-width: 980px;
-  margin: 0 auto;
-  padding-top: 20px;
+.navbar {
+  background: linear-gradient(to bottom, #4c9bc4 0%, #2d6da0 100%) !important; /* Navbar gradient */
+  border-radius: 0;
+  padding: 0 1rem;
+}
+
+/* Hide the default navbar title since we have the big one now */
+.navbar-brand {
+  display: none !important;
+}
+
+/* 3. Style the Navigation Links */
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* 4. Logic to Hide Header on CV Page */
+/* This works with the YAML change in Step 4 */
+body.cv-page .custom-header-banner {
+  display: none;
+}
+
+/* Restore standard navbar behavior for CV page only if desired */
+body.cv-page #quarto-header {
+  position: sticky !important; 
+  top: 0;
+}
+body.cv-page .navbar-brand {
+  display: inline-block !important; /* Show title again on CV page */
 }
