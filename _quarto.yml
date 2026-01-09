@@ -12,20 +12,24 @@ website:
     left: ""
     right: ""
 
-sidebar:
-    style: "docked" # 'docked' creates the distinct left column look
-    align: left
-    contents:
+  navbar:
+    left:
+    
       - href: index.qmd
         text: Home
+        
       - href: publications/index.qmd
         text: Publications
+        
       - href: presentations/index.qmd
         text: Presentations
+        
       - href: teaching/index.qmd
         text: Teaching
+        
       - href: CV/index.qmd
         text: CV
+        
       - href: gallery/index.qmd
         text: Gallery
       
