@@ -39,9 +39,6 @@ include-in-header:
 ![](JMMBadge.jpg)
 :::
 :::{.grid-item}
-![](Penn_Temple_Algebra_Day.jpg)
-:::
-:::{.grid-item}
 ![](ICMBooks.jpg)
 :::
 :::{.grid-item}
