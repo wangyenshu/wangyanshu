@@ -2,6 +2,7 @@
 navbar: false
 format:
   html:
+    body-class: cv-page
     html-math-method: mathjax
     page-footer: false
     toc: false

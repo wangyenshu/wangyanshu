@@ -17,93 +17,99 @@ div.navbar-collapse {
 
 /* --- styles.css --- */
 
-/* 1. RESET BODY */
+/* 1. Global Page Layout (The "Grey Outside") */
 body {
+  background-color: #e9e9e9; /* Grey background outside */
   margin: 0;
   padding: 0;
-  background-color: white;
 }
 
-/* 2. THE TOP BANNER (Sky Blue) */
+/* Common width setting for Banner, Navbar, and Content */
+.custom-banner, 
+#quarto-header > .navbar, 
+#quarto-content {
+  max-width: 1100px !important; /* Widen from 799px to 1100px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 2. The Custom Banner (Sky Blue) */
 .custom-banner {
-  /* Gradient matching your target image: Light Blue -> Cyan */
-  background: linear-gradient(to bottom, #b4e4fa 0%, #2ebcfc 50%, #29abe2 100%);
-  width: 100%;
-  height: 140px; /* Adjust height as needed */
-  display: flex;
-  align-items: center; /* Vertically center content */
-  border-bottom: 1px solid #1a80b6;
+  background: linear-gradient(to bottom, #aee2fa 0%, #29abe2 100%);
+  padding: 40px 0;
+  border-top: none;
+  /* Ensure no gap above */
+  margin-top: 0 !important; 
 }
 
-.banner-content {
-  width: 100%;
-  max-width: 1200px; /* Limits width on big screens */
-  margin: 0 auto;
-  padding: 0 20px;
+.banner-inner {
   display: flex;
-  justify-content: space-between; /* Title Left, Search Right */
-  align-items: center;
-  margin-top: 30px; /* Pushes text down slightly */
+  justify-content: space-between; /* Pushes Title left, Search right */
+  align-items: flex-end; /* Aligns text to bottom */
+  padding: 0 30px;
 }
 
 .banner-title {
-  font-family: sans-serif;
+  color: white;
   font-weight: bold;
   font-size: 3rem;
-  color: white;
   margin: 0;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
-/* 3. THE NAVBAR (Metallic Glassy Strip) */
-/* The script moves this BELOW the banner */
+/* 3. The Navigation Bar (Metallic Blue) */
 #quarto-header {
+  background-color: #e9e9e9; /* Match body grey so only the bar shows */
   margin-top: 0;
-  z-index: 999;
 }
 
 .navbar {
-  /* The "Glassy" Gel Effect: Lighter top, Darker bottom */
-  background: linear-gradient(to bottom, #7abcff 0%, #4096ee 49%, #1c6ab9 50%, #1c6ab9 100%) !important;
-  min-height: 35px; /* Thin bar */
+  background: linear-gradient(to bottom, #7abcff 0%, #4096ee 50%, #1c6ab9 100%) !important;
+  border-radius: 0; /* Sharp corners */
+  min-height: 40px;
   padding: 0 1rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* Drop shadow below bar */
-}
-
-/* 4. NAVIGATION LINKS */
-.navbar-nav {
-  margin-left: 0; /* Align links to the left */
 }
 
 .navbar-nav .nav-link {
   color: white !important;
   font-weight: bold;
-  font-size: 0.95rem;
-  padding: 8px 15px !important;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-  border-right: 1px solid rgba(255,255,255,0.3); /* Separator lines */
+  font-size: 1rem;
+  padding: 10px 15px !important;
+  border-right: 1px solid rgba(255,255,255,0.3);
 }
 
-.navbar-nav .nav-link:hover {
-  background-color: rgba(255,255,255,0.3); /* Shine effect on hover */
+.navbar-brand {
+  display: none !important; /* Hide small title in navbar */
 }
 
-/* 5. SEARCH BOX STYLING */
-/* Make it look like the grey box in your screenshot */
-#banner-search-box .search-input {
-  background-color: #e0e0e0 !important; /* Grey background */
+/* 4. Main Content Area (White Box) */
+#quarto-content {
+  background-color: white;
+  padding: 40px;
+  min-height: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Shadow for "paper" look */
+}
+
+/* Fix for Quarto's internal column width limits */
+.page-columns, .grid, .container-fluid {
+  display: block !important; /* Removes grid constraints */
+  max-width: 100% !important;
+}
+
+/* 5. Custom Search Bar Styling */
+#banner-search-container .search-input {
+  background-color: rgba(255,255,255,0.8) !important;
   border: 1px solid #666 !important;
   color: #333 !important;
-  border-radius: 0 !important; /* Square corners */
-  min-width: 200px;
+  border-radius: 0 !important;
 }
 
-/* Hide the default tiny title in navbar */
-.navbar-brand {
+/* --- EXCEPTION FOR CV PAGE --- */
+
+/* Hide the big banner on CV page */
+body.cv-page .custom-banner {
   display: none !important;
 }
 
-/* Hide banner on CV page if needed */
-body.cv-page .custom-banner {
-  display: none;
-}
+/* Optional: If you want CV page to be white instead of grey */
+/* body.cv-page { background-color: white; } */

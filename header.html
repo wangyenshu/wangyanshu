@@ -1,7 +1,7 @@
 <div id="wang-banner" class="custom-banner">
-  <div class="banner-content">
+  <div class="banner-inner">
     <h1 class="banner-title">Yanshu Wang</h1>
-    <div id="banner-search-box">
+    <div id="banner-search-container">
       </div>
   </div>
 </div>
@@ -12,19 +12,18 @@ document.addEventListener("DOMContentLoaded", function() {
   const banner = document.querySelector('#wang-banner');
   const navbar = document.querySelector('#quarto-header');
   const search = document.querySelector('#quarto-search');
-  const searchDest = document.querySelector('#banner-search-box');
+  const searchDest = document.querySelector('#banner-search-container');
 
-  // 2. MOVE NAVBAR BELOW BANNER
+  // 2. MOVE NAVBAR BENEATH BANNER
   if (banner && navbar) {
-    // This command physically moves the Quarto navbar to sit AFTER your banner
-    banner.after(navbar);
+    banner.after(navbar); // Moves navbar physically after the banner
     
-    // Remove "fixed" positioning so it doesn't float on top of the banner
+    // Remove "sticky/fixed" behavior so it flows naturally
     navbar.classList.remove('fixed-top', 'sticky-top');
     navbar.style.position = 'relative';
   }
 
-  // 3. MOVE SEARCH BOX INTO BANNER
+  // 3. MOVE SEARCH BAR TO RIGHT
   if (search && searchDest) {
     searchDest.appendChild(search);
   }
