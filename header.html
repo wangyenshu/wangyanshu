@@ -11,20 +11,18 @@
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   
-  // 1. SELECT THE PIECES
+  // 1. SELECT ELEMENTS
   const banner = document.querySelector('#wang-banner');
   const navbar = document.querySelector('#quarto-header');
   const content = document.querySelector('#quarto-content');
   const search = document.querySelector('#quarto-search');
   
-  // 2. CREATE THE MASTER WRAPPER (The 1100px Centered Box)
+  // 2. CREATE MASTER WRAPPER
   const master = document.createElement('div');
   master.id = 'master-wrapper';
-  
-  // 3. INSERT MASTER WRAPPER INTO BODY
   document.body.prepend(master);
 
-  // 4. MOVE PIECES INTO MASTER WRAPPER (Order matters!)
+  // 3. MOVE ELEMENTS INTO WRAPPER
   
   // A. Banner
   if (banner) master.appendChild(banner);
@@ -32,31 +30,27 @@ document.addEventListener("DOMContentLoaded", function() {
   // B. Navbar
   if (navbar) {
     master.appendChild(navbar);
-    // Remove "fixed" classes so it sits naturally in the stack
+    // CRITICAL: Remove Quarto's sticky classes
     navbar.classList.remove('fixed-top', 'sticky-top');
+    // We also forcefully disable the 'headroom' behavior by un-initializing it if we can,
+    // but usually CSS override is enough.
     navbar.style.position = 'relative';
+    navbar.style.top = 'auto';
     navbar.style.width = '100%';
   }
   
   // C. Content
   if (content) {
     master.appendChild(content);
-    // Reset content margins
     content.style.marginTop = '0';
     content.style.paddingTop = '40px'; 
   }
 
-  // 5. HANDLE SEARCH BAR
+  // 4. HANDLE SEARCH BAR (Always Right)
   if (search) {
     search.style.display = 'block';
     const rightDest = document.querySelector('#search-right-container');
-    const leftDest = document.querySelector('#search-left-container');
-    const path = window.location.pathname.toLowerCase();
-    
-    // Check if we have destinations before moving
-    if (path.includes("presentations") && leftDest) {
-       leftDest.appendChild(search);
-    } else if (rightDest) {
+    if (rightDest) {
        rightDest.appendChild(search);
     }
   }
