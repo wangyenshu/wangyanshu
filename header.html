@@ -1,24 +1,32 @@
-<div class="custom-banner">
-  <div class="banner-inner">
-    <div class="banner-title">Yanshu Wang</div>
-    <div id="new-search-location">
+<div id="wang-banner" class="custom-banner">
+  <div class="banner-content">
+    <h1 class="banner-title">Yanshu Wang</h1>
+    <div id="banner-search-box">
       </div>
   </div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // 1. Find the original Quarto search button/box
-  // Note: Quarto renders search differently depending on screen size, 
-  // but usually it's inside #quarto-search or .navbar-search
-  let searchItem = document.querySelector('#quarto-search');
-  
-  // 2. Find our new destination
-  let destination = document.querySelector('#new-search-location');
+  // 1. SELECT ELEMENTS
+  const banner = document.querySelector('#wang-banner');
+  const navbar = document.querySelector('#quarto-header');
+  const search = document.querySelector('#quarto-search');
+  const searchDest = document.querySelector('#banner-search-box');
 
-  // 3. Move it
-  if (searchItem && destination) {
-    destination.appendChild(searchItem);
+  // 2. MOVE NAVBAR BELOW BANNER
+  if (banner && navbar) {
+    // This command physically moves the Quarto navbar to sit AFTER your banner
+    banner.after(navbar);
+    
+    // Remove "fixed" positioning so it doesn't float on top of the banner
+    navbar.classList.remove('fixed-top', 'sticky-top');
+    navbar.style.position = 'relative';
+  }
+
+  // 3. MOVE SEARCH BOX INTO BANNER
+  if (search && searchDest) {
+    searchDest.appendChild(search);
   }
 });
 </script>
