@@ -16,28 +16,6 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x' # Use a specific Python version, e.g., '3.9', '3.10', '3.11'
-
-      - name: Install WeasyPrint
-        run: pip install weasyprint
-
-      - name: Install TinyTex
-        run: quarto install tinytex
-
-      - name: Download wkhtmltopdf .deb package
-        run: |
-          wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
-
-      - name: Install wkhtmltopdf
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y xfonts-base xfonts-75dpi
-          sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
-          sudo apt-get install -f
         
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
