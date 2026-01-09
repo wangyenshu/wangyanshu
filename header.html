@@ -1,31 +1,42 @@
 <div id="wang-banner" class="custom-banner">
   <div class="banner-inner">
-    <h1 class="banner-title">Yanshu Wang</h1>
-    <div id="banner-search-container">
-      </div>
+    <div class="banner-left-group">
+      <h1 class="banner-title">Yanshu Wang</h1>
+      <div id="search-left-container"></div>
+    </div>
+    <div id="search-right-container"></div>
   </div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  // 1. SELECT ELEMENTS
+  // 1. SELECT KEY ELEMENTS
   const banner = document.querySelector('#wang-banner');
   const navbar = document.querySelector('#quarto-header');
+  const content = document.querySelector('#quarto-content');
   const search = document.querySelector('#quarto-search');
-  const searchDest = document.querySelector('#banner-search-container');
 
-  // 2. MOVE NAVBAR BENEATH BANNER
-  if (banner && navbar) {
-    banner.after(navbar); // Moves navbar physically after the banner
+  // 2. DEFINE THE CORRECT ORDER IN THE DOM
+  // We want: BODY -> BANNER -> NAVBAR -> CONTENT
+  
+  if (content && banner && navbar) {
+    // Move Banner OUT of the content area and place it BEFORE the content box
+    content.parentNode.insertBefore(banner, content);
     
-    // Remove "sticky/fixed" behavior so it flows naturally
+    // Move Navbar AFTER the Banner (so it sits between Banner and Content)
+    banner.after(navbar);
+    
+    // Reset Navbar positioning so it doesn't float
     navbar.classList.remove('fixed-top', 'sticky-top');
     navbar.style.position = 'relative';
+    navbar.style.top = 'auto';
   }
 
-  // 3. MOVE SEARCH BAR TO RIGHT
-  if (search && searchDest) {
-    searchDest.appendChild(search);
+  // 3. HANDLE SEARCH BAR (Simple right-side placement)
+  if (search) {
+    search.style.display = 'block';
+    const rightDest = document.querySelector('#search-right-container');
+    if (rightDest) rightDest.appendChild(search);
   }
 });
 </script>

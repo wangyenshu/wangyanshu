@@ -17,39 +17,36 @@ div.navbar-collapse {
 
 /* --- styles.css --- */
 
-/* 1. Global Page Layout (The "Grey Outside") */
+/* 1. Global Grey Background */
 body {
-  background-color: #e9e9e9; /* Grey background outside */
+  background-color: #e9e9e9;
   margin: 0;
   padding: 0;
 }
 
-/* 2. CENTER EVERYTHING (The Layout Fix) */
-/* We target the specific centered containers */
+/* 2. CENTER THE LAYOUT BLOCKS */
+/* Apply this to the three main blocks to align them perfectly */
 .custom-banner, 
-#quarto-header .navbar, 
+#quarto-header, 
 #quarto-content {
-  max-width: 1100px !important; /* Strict width constraint */
-  width: 100%;                   /* Fill space up to 1100px */
+  max-width: 1100px;
+  width: 100%;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* 3. The Custom Banner (Sky Blue) */
+/* 3. Banner Styling */
 .custom-banner {
   background: linear-gradient(to bottom, #aee2fa 0%, #29abe2 100%);
   padding: 40px 0;
-  border-top: none;
-  margin-top: 0 !important; 
-  /* Add shadow to separate it from the grey background */
-  box-shadow: 0 -5px 10px rgba(0,0,0,0.1); 
+  margin-top: 0;
 }
 
 .banner-inner {
-  display: flex;
-  justify-content: space-between; 
-  align-items: flex-end; 
   padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .banner-title {
@@ -58,25 +55,22 @@ body {
   font-size: 3rem;
   margin: 0;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  line-height: 1;
 }
 
-/* 4. The Navigation Bar (Metallic Blue) */
-/* Make the container transparent so the grey body shows on the sides */
+/* 4. Navbar Styling */
 #quarto-header {
-  background-color: transparent !important; 
-  margin-top: 0;
-  /* Add space below the navbar as requested previously */
-  margin-bottom: 40px; 
+  background-color: transparent; /* No background outside the bar */
+  margin-bottom: 20px; /* Gap between Nav and Content */
+  z-index: 10;
 }
 
 .navbar {
-  /* Apply the gradient ONLY to the centered bar, not the full width */
+  /* Blue Gradient Strip */
   background: linear-gradient(to bottom, #7abcff 0%, #4096ee 50%, #1c6ab9 100%) !important;
-  border-radius: 0 0 5px 5px; /* Round bottom corners */
+  border-radius: 0 0 5px 5px; /* Rounded bottom */
   min-height: 40px;
   padding: 0 1rem;
-  /* Ensure it doesn't stick to the top edge if Quarto tries to force it */
-  position: relative !important; 
 }
 
 .navbar-nav .nav-link {
@@ -87,30 +81,31 @@ body {
   border-right: 1px solid rgba(255,255,255,0.3);
 }
 
-.navbar-brand {
-  display: none !important; 
-}
+.navbar-brand { display: none !important; }
 
-/* 5. Main Content Area (White Box) */
+/* 5. Content Styling (The White Box) */
 #quarto-content {
   background-color: white;
   padding: 40px;
   min-height: 800px;
-  /* Shadow to create the "Paper" effect */
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Paper shadow */
+  
+  /* Reset Quarto's internal margins */
+  margin-top: 0; 
 }
 
-/* Fix for Quarto's internal column width limits */
-.page-columns, .grid, .container-fluid {
-  display: block !important; 
+/* 6. Layout Fixes */
+.page-columns, .grid, .container-fluid, main.content {
+  display: block !important;
   max-width: 100% !important;
+  padding: 0 !important;
 }
 
-/* 6. Custom Search Bar Styling */
-#banner-search-container .search-input {
-  background-color: rgba(255,255,255,0.8) !important;
+/* Search Input Styling */
+#quarto-search .search-input {
+  background-color: rgba(255,255,255,0.9) !important;
   border: 1px solid #666 !important;
   color: #333 !important;
-  border-radius: 0 !important;
   min-width: 200px;
+  border-radius: 2px;
 }
