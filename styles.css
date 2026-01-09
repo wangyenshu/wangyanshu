@@ -35,7 +35,7 @@ body {
 
 /* 3. Banner Styling */
 .custom-banner {
-  background: linear-gradient(to bottom, #aee2fa 0%, #29abe2 100%);
+  background: linear-gradient(to bottom, #f17011 0%, #ea6410 100%);
   padding: 40px 0;
   width: 100%;
 }
@@ -70,7 +70,7 @@ body {
 }
 
 .navbar {
-  background-color: linear-gradient(to bottom, #29abe2 0%, #177bc9 100%) !important;
+  background: #000000 !important;
   border-radius: 0;
   min-height: 40px;
   padding: 0 1rem;
