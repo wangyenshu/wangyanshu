@@ -13,7 +13,6 @@ website:
     right: ""
 
   navbar:
-    background: primary
     left:
     
       - href: index.qmd
@@ -39,7 +38,7 @@ format:
     theme: sandstone
     css: styles.css
     toc: false
-    page-layout: article
+    page-layout: full
     
 filters:
   - shinylive

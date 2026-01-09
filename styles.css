@@ -14,3 +14,58 @@ div.navbar-collapse {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* --- K2 Theme Adaptation --- */
+
+/* 1. The Outer Background */
+body {
+  background-color: #e9e9e9; /* Classic K2 Light Grey */
+}
+
+/* 2. The "White Sheet" Box */
+/* This targets the main container of the page */
+#quarto-content {
+  background-color: #ffffff;
+  max-width: 980px;      /* Standard width for K2 style */
+  margin: 0 auto;        /* Centers the box */
+  padding: 40px;         /* Inner spacing */
+  box-shadow: 0 0 10px rgba(0,0,0,0.15); /* The drop shadow */
+  min-height: 800px;     /* Ensures the white box is always substantial */
+}
+
+/* 3. Navigation Bar adjustments to match */
+/* Center the navbar content to match the white box width */
+.navbar-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* Make the Navbar background blend with the body or stand out */
+div.navbar {
+  background-color: #333; /* Dark header bar like some K2 variants */
+  /* OR use background-color: #e9e9e9; if you want it to blend with the background */
+  box-shadow: none;
+}
+
+/* Style the links to look big and clickable (Tab-like) */
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text */
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 15px 25px !important;
+  text-transform: uppercase; /* Optional: makes it look more formal */
+}
+
+/* Hover effect for links */
+.navbar-nav .nav-link:hover {
+  background-color: #555; /* Slightly lighter grey on hover */
+  border-radius: 4px;
+}
+
+/* 4. Footer Adjustment */
+footer.footer {
+  background-color: #e9e9e9; /* Match outer background */
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
