@@ -140,3 +140,58 @@ main.content {
     width: 100% !important;
     max-width: 100% !important;
 }
+
+/* =========================================
+   MOBILE / RESPONSIVE OVERRIDES
+   Add this to the very bottom of styles.css
+   ========================================= */
+
+@media only screen and (max-width: 1120px) {
+
+  /* 1. Unlock the fixed 1100px width */
+  #master-wrapper,
+  .custom-banner, 
+  #quarto-content,
+  #quarto-header {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important; /* Allow shrinking */
+  }
+
+  /* 2. Fix the Banner Layout for small screens */
+  .banner-inner {
+    flex-direction: column; /* Stack Title on top of Search */
+    align-items: center;    /* Center align everything */
+    padding: 20px 15px;     /* Less padding on sides */
+    gap: 20px;              /* Space between title and search */
+  }
+
+  .banner-title {
+    font-size: 2rem;       /* Smaller font (was 3rem) */
+    text-align: center;
+    word-wrap: break-word; /* Prevent long words breaking layout */
+  }
+
+  /* 3. Adjust Content Padding */
+  #quarto-content {
+    padding: 20px 15px !important; /* Less whitespace */
+  }
+
+  /* 4. Fix Search Bar width on mobile */
+  #quarto-search .search-input {
+    width: 100% !important; /* Full width search bar */
+    min-width: unset !important;
+  }
+  
+  /* 5. Ensure Navbar items don't overflow */
+  .navbar-nav {
+    flex-direction: column; /* Stack menu items vertically if needed */
+    width: 100%;
+  }
+  
+  .navbar-nav .nav-link {
+    border-right: none !important; /* Remove separator lines on mobile */
+    border-bottom: 1px solid rgba(255,255,255,0.3); /* Add bottom lines instead */
+    text-align: center;
+  }
+}
