@@ -18,13 +18,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/wangyenshu
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: false
-  feed: 
-    categories: [news, posts]
     
 ---
 
