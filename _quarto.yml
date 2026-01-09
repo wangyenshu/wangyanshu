@@ -35,8 +35,6 @@ website:
 
     right:
       
-      - icon: rss
-        href: index.xml
 format:
   html:
     theme: sandstone
