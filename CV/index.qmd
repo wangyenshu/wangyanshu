@@ -4,10 +4,15 @@ format:
   html:
     page-footer: false
     toc: false
-  pdf:
-    pdf-engine: wkhtmltopdf
-css: cv.css
-format-links: [pdf]
+    css: cv.css
+    include-in-header:
+      - text: |
+          <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+      - text: |
+          <link rel="stylesheet" type="text/css" href="print.css">
+      - text: |
+          <link rel="stylesheet" type="text/css" href="preview.css" media="screen">
+
 ---
 <div style="font-size: 1.5em; font-weight: bold; text-align: center;">Yanshu Wang</div>
 

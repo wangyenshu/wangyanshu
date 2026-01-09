@@ -17,18 +17,12 @@ website:
     
       - href: index.qmd
         text: Home
-        
-      - href: news/index.qmd
-        text: News
 
       - href: publications/index.qmd
         text: Publications
         
       - href: presentations/index.qmd
         text: Presentations
-        
-      - href: projects/index.qmd
-        text: Projects
       
       - href: teaching/index.qmd
         text: Teaching

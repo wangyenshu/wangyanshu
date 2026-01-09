@@ -7,8 +7,11 @@ about:
   image-shape: rectangle
   links:
     - icon: email
-      text: Email
+      text: "{{< fa envelope >}} Email"
       href: mailto:wangyenshu@outlook.com
+    - icon: pgp
+      text: "{{< fa key >}} PGP Key"
+      href: https://keys.openpgp.org/vks/v1/by-fingerprint/ED380BB282C4B88C6608C3E2B340E2127F6F7E79
     - icon: orcid
       text: "{{< ai orcid >}} ORCID"
       href: https://orcid.org/0009-0003-2217-3295
