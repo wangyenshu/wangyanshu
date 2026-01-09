@@ -38,6 +38,7 @@ format:
     theme: sandstone
     css: styles.css
     toc: false
+    page-layout: full
     
 filters:
   - shinylive
