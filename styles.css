@@ -194,4 +194,19 @@ main.content {
     border-bottom: 1px solid rgba(255,255,255,0.3); /* Add bottom lines instead */
     text-align: center;
   }
+  /* Fix Mobile Menu Background Color */
+  .navbar-collapse {
+    /* Use the same gradient as desktop */
+    background: linear-gradient(to bottom, #7abcff 0%, #4096ee 50%, #1c6ab9 100%) !important;
+    
+    /* Add a slight shadow so it pops out */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    
+    /* Add some padding so links aren't squished */
+    padding: 10px 0;
+    
+    /* Ensure it sits on top of other content */
+    z-index: 1000;
+  }
 }
+
