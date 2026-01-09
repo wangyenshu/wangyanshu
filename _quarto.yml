@@ -41,7 +41,6 @@ format:
     css: styles.css
     toc: false
     page-layout: article
-    include-before-body: header.html
     
 filters:
   - shinylive

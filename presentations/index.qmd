@@ -1,6 +1,9 @@
 ---
 title: "Presentations"
 editor: visual
+format:
+  html:
+    include-before-body: ../header.html
 ---
 
 * JMM 2025 Polymath Jr. Dessin d'enfant Project [(JMM2025Poster)](Dessin_Equation_JMM_Poster.pdf)

@@ -1,5 +1,8 @@
 ---
 title: "Yanshu Wang"
+format:
+  html:
+    include-before-body: header.html
 image: profile.png
 about:
   id: hero-heading

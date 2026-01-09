@@ -1,6 +1,9 @@
 ---
 title: "Teaching"
 subtitle: ""
+format:
+  html:
+    include-before-body: ../header.html
 ---
 
 

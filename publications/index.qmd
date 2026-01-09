@@ -1,4 +1,7 @@
 ---
 title: "Publications"
 subtitle: ""
+format:
+  html:
+    include-before-body: ../header.html
 ---

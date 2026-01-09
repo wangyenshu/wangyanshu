@@ -1,6 +1,9 @@
 ---
 title: "Gallery"
 lightbox: true
+format:
+  html:
+    include-before-body: ../header.html
 filters:
   - masonry
 include-in-header:
