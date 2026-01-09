@@ -32,8 +32,6 @@ website:
       
       - href: gallery/index.qmd
         text: Gallery
-
-    right:
       
 format:
   html:
