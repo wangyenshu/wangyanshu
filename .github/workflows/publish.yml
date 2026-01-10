@@ -13,6 +13,33 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Required to see all branches
+
+      - name: Create gh-pages branch if missing
+        run: |
+          # Fetch all remote branches to ensure we can see gh-pages
+          git fetch origin 
+
+          # Check if origin/gh-pages exists
+          if ! git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            echo "gh-pages branch not found. Creating it..."
+            
+            # Configure git user for the commit
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            
+            # Create orphan branch, clean it, and push
+            git checkout --orphan gh-pages
+            git reset --hard
+            git commit --allow-empty -m "Initialize gh-pages branch"
+            git push origin gh-pages
+            
+            # Switch back to the branch that triggered the workflow (main)
+            git checkout -
+          else
+            echo "gh-pages branch already exists."
+          fi
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
