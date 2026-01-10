@@ -9,6 +9,8 @@ format:
     page-footer: false
     toc: false
     css: cv.css
+    resources: 
+      - fonts
     include-in-header:
       - text: |
           <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
