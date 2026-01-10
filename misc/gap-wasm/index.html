@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gap-wasm</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm@4.17.0/css/xterm.css">
+    <style>
+      /* Ensure the terminal fills the iframe with no white borders */
+      body { margin: 0; padding: 0; background-color: #000; overflow: hidden; }
+      #terminal { width: 100vw; height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <div id="terminal"></div>
+    <script src="https://cdn.jsdelivr.net/npm/xterm@4.17.0/lib/xterm.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xterm-pty@0.9.4/index.js"></script>
+    <script>
+      // Initialize xterm to fill the window
+      const xterm = new Terminal({
+        cursorBlink: true,
+        theme: { background: '#000000' }
+      });
+      // Fit addon is usually recommended for iframes, but basic open works too:
+      xterm.open(document.getElementById("terminal"));
+
+      const { master, slave } = openpty();
+      xterm.loadAddon(master);
+
+      const worker = new Worker("gap-worker.js");
+      new TtyServer(slave).start(worker);
+      
+      // Handle resizing so terminal adjusts to iframe size
+      window.addEventListener('resize', () => {
+        // Simple resizing logic or use xterm-addon-fit if available
+        xterm.resize(Math.floor(window.innerWidth / 9), Math.floor(window.innerHeight / 17));
+      });
+    </script>
+
+    <script src="coi-serviceworker.js"></script>
+  </body>
+</html>

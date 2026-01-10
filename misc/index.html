@@ -211,8 +211,36 @@ document.addEventListener("DOMContentLoaded", function() {
 <li><p><a href="applets/guassianelimination.html">Guass Elimination Solver</a></p></li>
 <li><p><a href="https://github.com/wangyenshu/keyboardpiano">Keyboard Piano</a></p></li>
 </ul>
+</section>
+<section id="gap-system-shell" class="level2">
+<h2 class="anchored" data-anchor-id="gap-system-shell">GAP-system Shell</h2>
+<p>Warning: GAP-system in browser is RAM-intensive and clicking this button will download 1GB data files.</p>
+<div id="gap-container" style="text-align: center; margin: 20px 0;">
+<p><button id="btn-launch-gap" class="btn btn-primary"> Start GAP Shell </button></p>
+</div>
+<script>
+  document.getElementById('btn-launch-gap').addEventListener('click', function() {
+    const container = document.getElementById('gap-container');
+    
+    // Create the iframe element
+    const iframe = document.createElement('iframe');
+    iframe.src = "gap-wasm/index.html"; 
+    
+    // Styling to match the 'no white area' request
+    iframe.style.width = "100%";
+    iframe.style.height = "500px"; // Adjust height as needed
+    iframe.style.border = "none";
+    iframe.style.backgroundColor = "#000"; // Prevents white flash while loading
+    iframe.style.display = "block";
+    
+    // Clear the button and append the iframe
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  });
+</script>
+<p><a href="gap-wasm/COPYRIGHT">COPYRIGHT</a> <a href="gap-wasm/LICENSE">LICENSE</a> <a href="https://github.com/wangyenshu/gap-wasm/tree/gap-wasm/etc/emscripten">How to build</a></p>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-01-10 14:02:12</p>
+<p>Document last rendered: 2026-01-10 15:44:50</p>
 </div>
 
 
