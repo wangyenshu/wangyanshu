@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Yanshu Wang</title>
+<link>https://wangyenshu.github.io/wangyanshu/#category=news</link>
+<atom:link href="https://wangyenshu.github.io/wangyanshu/index-news.xml" rel="self" type="application/rss+xml"/>
+<description>Yanshu Wang&#39;s Academic Homepage</description>
+<image>
+<url>https://wangyenshu.github.io/wangyanshu/profile.png</url>
+<title>Yanshu Wang</title>
+<link>https://wangyenshu.github.io/wangyanshu/#category=news</link>
+<height>124</height>
+<width>144</width>
+</image>
+<generator>quarto-1.5.43</generator>
+<lastBuildDate>Sun, 27 Jul 2025 15:14:07 GMT</lastBuildDate>
+</channel>
+</rss>

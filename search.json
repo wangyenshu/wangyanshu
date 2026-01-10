@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-01-10 03:24:20"
+  },
+  {
+    "objectID": "referee/prof_list.html",
+    "href": "referee/prof_list.html",
+    "title": "Professor I am Interested in",
+    "section": "",
+    "text": "Graduate School Name\nDeadline\nMy Statement of Purposes\nInterested Instructor\n\n\n\n\nBoston University\nJanuary 15, 2026\nTBD\nJared Weinstein & Robert Pollack\n\n\nUniversity of Minnesota Twin Cities\nDecember 15\nTBD\nPaul Garrett & Haoyang Guo\n\n\nUniversity of Illinois Urbana-Champaign\nDecember 15\nTBD\nYuan Liu & Scott Ahlgren\n\n\nUniversity of Wisconsin-Madison\nDecember 15\nTBD\nJordan Ellenberg\n\n\nNorthwestern University\nDecember 31\nTBD\nAaron Greicius\n\n\nBrandeis University\nJanuary 15\nTBD\nJustin Campbell & Omer Offen\n\n\nBoston College\nJanuary 20\nTBD\nSolomon Friedberg & David Chen & Benjamin Howard"
+  },
+  {
+    "objectID": "PhDInterview/template.html#example-slide",
+    "href": "PhDInterview/template.html#example-slide",
+    "title": "A title",
+    "section": "Example slide",
+    "text": "Example slide\nThis is a subtitle\nHere we have some text that may run over several lines of the slide frame, depending on how long it is.\n\nfirst item\n\nA sub item\n\n\nNext, we’ll brief review some theme-specific components.\n\nNote that all of the standard Reveal.js features can be used with this theme, even if we don’t highlight them here."
+  },
+  {
+    "objectID": "PhDInterview/template.html#additional-theme-classes",
+    "href": "PhDInterview/template.html#additional-theme-classes",
+    "title": "A title",
+    "section": "Additional theme classes",
+    "text": "Additional theme classes\nSome extra things you can do with the clean theme\nSpecial classes for emphasis\n\n.alert class for default emphasis, e.g. important note.\n.fg class for custom colour, e.g. important note.\n.bg class for custom background, e.g. important note.\n\nCross-references\n\n.button class provides a Beamer-like button, e.g. Summary"
+  },
+  {
+    "objectID": "PhDInterview/template.html#want-more",
+    "href": "PhDInterview/template.html#want-more",
+    "title": "A title",
+    "section": "Want more?",
+    "text": "Want more?\nSee our longer demo slides\nWe’ve deliberarely kept this template lean, to get you up and running as fast as possible.\nWe provide a separate demo template, with more examples for integrating code, tables, figures, etc.\n\nSee the live demo slides here."
+  },
+  {
+    "objectID": "PhDInterview/template.html#sec-summary",
+    "href": "PhDInterview/template.html#sec-summary",
+    "title": "A title",
+    "section": "Summary",
+    "text": "Summary\nA minimalist and elegant presentation theme\nThe Quarto reveal.js clean theme aims to be a minimalist and elegant presention theme. Here are some options to get you started:\nAdd the theme to an existing project.\nquarto install extension grantmcdermott/quarto-revealjs-clean\n… or, create a new project using this slide deck as a lean template.\nquarto use template grantmcdermott/quarto-revealjs-clean\n… or, create a new project using the demo slide deck as a full template.\nquarto use template grantmcdermott/quarto-revealjs-clean-demo"
+  },
+  {
+    "objectID": "CV/CV_umich.html",
+    "href": "CV/CV_umich.html",
+    "title": "Yanshu Wang",
+    "section": "",
+    "text": "Curriculum Vitae\nYanshu Wang\nProgram: University of Michigan Rackham Graduate School, Mathematics Ph.D."
+  },
+  {
+    "objectID": "CV/CV_umich.html#published-papers",
+    "href": "CV/CV_umich.html#published-papers",
+    "title": "Yanshu Wang",
+    "section": "Published Papers",
+    "text": "Published Papers"
+  },
+  {
+    "objectID": "CV/CV_umich.html#research-experience",
+    "href": "CV/CV_umich.html#research-experience",
+    "title": "Yanshu Wang",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nMitacs Globalink Research Internship, Mentored by Professor Maxence Mayrand, Université de SherbrookeMay 2025 – Current\n\nConstruct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate (unitary operator) as H-gate, S-gate and CNOT-gate.\nDevelop sagemath scripts for working with GKP codes constructed from the cyclotomic field.\n\n\n\n\nIndependent Study mentored by Professor Vasily Dolgushev, Temple UniversityJan 2025 – Current\n\nRevisit the gentle version \\(\\widehat{\\mathsf{GT}}_{gen}\\) of the Grothendieck-Teichmueller group \\(\\widehat{\\mathsf{GT}}\\) and introduce a more streamlined version of the groupoid \\(\\mathsf{GTSh}\\) of \\(\\mathsf{GT}\\)-shadows. The paper is in progress.\nContribute to sagemath package for working with \\(\\mathsf{GT}\\)-shadows.\n\nPolymath Jr., OnlineJun 2024 – Sep 2024\n\nOur group gives algebraic and complex analytic approaches to computing an affine model for \\(K_9\\) dessin, and I draw a visualization of \\(K_9\\) dessin through the morphism \\(\\pi_1(P_8/\\sim) \\to \\mathbb{Z}[\\zeta_8]/(1+\\sqrt{-2})\\).\nI Work out the algebraic approach and visualization, delivered the final presentation, drafted the algebraic section of the ongoing paper/report, and created the poster submitted to JMM 2025 with the help of mentors.\n\nBICMR AI4MATH, BICMR(Peking University)Jan 2024 – Feb 2024\n\nI collaborate with four students to formalize the statement that ‘Algebraic integer of \\(\\mathbb{Q}[\\sqrt{-3}]\\) is PID’ in lean4.\nThis project introduced me to functional programming, dependent type theory and proof‑assistant design, and sharpened my collaboration and rapid‑learning abilities."
+  },
+  {
+    "objectID": "CV/CV_umich.html#presentations-and-workshops",
+    "href": "CV/CV_umich.html#presentations-and-workshops",
+    "title": "Yanshu Wang",
+    "section": "Presentations and Workshops",
+    "text": "Presentations and Workshops\n\nJMM 2025 AMS Special Session on Polymath Jr REU Student Research Session; topics: Dessin d’enfant and Complete Regular Maps (view slides);\nJMM 2025 AMS-PME Undergraduate Poster Sessions; topics: Obtaining Equations for \\(K_9\\) Dessin (view poster)."
+  },
+  {
+    "objectID": "CV/CV_umich.html#research-grants-and-travel-grants",
+    "href": "CV/CV_umich.html#research-grants-and-travel-grants",
+    "title": "Yanshu Wang",
+    "section": "Research Grants and Travel Grants",
+    "text": "Research Grants and Travel Grants\n\nMitacs Globalink Research Internship (CA$5,400)\nJMM Student Reimbursement"
+  },
+  {
+    "objectID": "CV/CV_umich.html#scholarship",
+    "href": "CV/CV_umich.html#scholarship",
+    "title": "Yanshu Wang",
+    "section": "SCHOLARSHIP",
+    "text": "SCHOLARSHIP\n\nGong Neng Scholarship"
+  },
+  {
+    "objectID": "CV/CV_umich.html#education",
+    "href": "CV/CV_umich.html#education",
+    "title": "Yanshu Wang",
+    "section": "Education",
+    "text": "Education\n\nExchange Student, Graduate Mathematics, Temple University (tuition free)Jan 2025 – May 2025\nB.S. Mathematics, Nankai UniversitySep 2022 – Jun 2026\n\n\n\n\nRELEVANT COURSEWORK:\n\nMATH0130 Mathematical Analysis I 100 (Honor Class)\nMATH0083 Advanced Algebra and Analytic Geometry 2-1 (Linear Algebra) 100 (Honor Class)\nMATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91\nMATH0133 Mathematical Analysis II 97 (Honor Class)\nMATH0078 Advanced Algebra and Analytic Geometry 2-2 (Linear Algebra) 92 (Honor Class)\nMATH0097 Ordinary Differential Equations 96 (Honor Class)\nMATH0147 Complex Analysis II passed (Honor Class)\nMATH0132 Abstract Algebra I 88 (Honor Class)\nMATH0145 Complex Analysis 97 (Honor Class)\nMATH0146 Mathematical Analysis III 98 (Honor Class)\nMATH0134 Abstract Algebra II 95 (Honor Class)\nMATH0055 Number Theory 92\nMATH0065 Probability Theory 85 (Honor Class)\nMATH0079 General Topology 84\nMATH0102 Commutative Algebra 97\nMATH0136 Galois Theory 96\nMATH0151 Real Analysis 81 (Honor Class)\nMATH0162 Lie Groups and Algebraic Groups 90\nMATH0051 Functional Analysis 93\nMATH9100 Topics in Algebra A- (at Temple, Braid Groups)\nMATH8051 Functions of a Complex Variable I A (at Temple University)\nMATH4082 Senior Year Individual Study A (Grothendieck-Teichmueller group)\n\nAUDITING:\n\nElementary Algebraic Topology\nAnalytic Number Theory\n\nUNDERGRADUATE SEMINAR:\n\nGeometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participated in it in the first semester of the sophomore year.\nAlgebraic Number Theory Seminar: This seminar mainly uses lecture notes by Hu Yong. I learned many algebraic number theory from the video.\nQuasi-Conformal Mapping and Potential Theory: I studied this topic using B. Khoruzhenko’s lecture notes. \nAnalytic Number Theory Online Seminar: Led by a senior alumna (M.S., University of Bonn). The main topic is o‑minimality and tame geometry.\n\nMINI COURSE:\n\nPropagation speed of non-linear parabolic equations on Riemannian manifolds by Prof. Alexander Grigor’s yan\nPreliminary Arizona Winter School 2024:Symmetries of root systems and local fields (unofficially following the course)"
+  },
+  {
+    "objectID": "CV/CV_umich.html#skills",
+    "href": "CV/CV_umich.html#skills",
+    "title": "Yanshu Wang",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages: python(fluent); sagemath(fluent, especially libgap); C++; Mathematica; latex(fluent); lean4; html & css & javascript;\nDevOps: Docker; Github Actions."
+  },
+  {
+    "objectID": "CV/CV_umich.html#human-languages",
+    "href": "CV/CV_umich.html#human-languages",
+    "title": "Yanshu Wang",
+    "section": "Human Languages",
+    "text": "Human Languages\n\nEnglish (fluent); French (beginner); Mandarin (native)"
+  },
+  {
+    "objectID": "gallery/index.html",
+    "href": "gallery/index.html",
+    "title": "Gallery",
+    "section": "",
+    "text": "Yanshu Wang"
+  },
+  {
+    "objectID": "presentations/index.html",
+    "href": "presentations/index.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nJMM 2025 Polymath Jr. Dessin d’enfant Project (JMM2025Poster)\n\n\nDocument last rendered: 2026-01-10 03:24:14"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Yanshu Wang",
+    "section": "Introduction",
+    "text": "Introduction\nI am an undergraduate student at Nankai University (due on Jul 2026). Previously, I was a research intern (Mitacs GRI) at Université de Sherbrooke under the supervision of Maxence Mayrand. Before that, I was an exchange student (tuition free) at Temple University under the supervision of Vasily Dolgushev.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-01-10 03:24:14"
+  },
+  {
+    "objectID": "CV/index.html",
+    "href": "CV/index.html",
+    "title": "Yanshu Wang",
+    "section": "",
+    "text": "Yanshu Wang\nB.S. Overall GPA:3.72, Overall Grade 90.08, Overall Rank:12/109 (view proof)"
+  },
+  {
+    "objectID": "CV/index.html#education",
+    "href": "CV/index.html#education",
+    "title": "Yanshu Wang",
+    "section": "Education",
+    "text": "Education\n\nExchange Student, Grad Course, Temple University (tuition free, 11,000 ¥ scholarship)Jan 2025 – May 2025\nB.S. Mathematics, Nankai University Sep 2022 – Jul 2026"
+  },
+  {
+    "objectID": "CV/index.html#research-experience",
+    "href": "CV/index.html#research-experience",
+    "title": "Yanshu Wang",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nMitacs Globalink Research Internship, Mentored by Professor Maxence Mayrand, Université de SherbrookeMay 2025 – Aug 2025\n\nConstruct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate as H-gate, S-gate and CNOT-gate.\n\n\n\n\nIndependent Study mentored by Professor Vasily Dolgushev, Temple UniversityJan 2025 – Current\n\nRevisit the gentle version \\(\\widehat{\\mathsf{GT}}_{gen}\\) of the Grothendieck-Teichmueller group \\(\\widehat{\\mathsf{GT}}\\) and introduce a more streamlined version of the groupoid \\(\\mathsf{GTSh}\\) of \\(\\mathsf{GT}\\)-shadows. The paper is in progress.\n\nPolymath Jr., OnlineJun 2024 – Sep 2024\n\nOur group gives algebraic and complex analytic approaches to computing an affine model for \\(K_9\\) dessin."
+  },
+  {
+    "objectID": "CV/index.html#presentations-and-workshops",
+    "href": "CV/index.html#presentations-and-workshops",
+    "title": "Yanshu Wang",
+    "section": "Presentations and Workshops",
+    "text": "Presentations and Workshops\n\nJMM 2025 AMS Special Session on Polymath Jr REU Student Research Session; topics: Dessin d’enfant and Complete Regular Maps (view slides);\nJMM 2025 AMS-PME Undergraduate Poster Sessions; topics: Obtaining Equations for \\(K_9\\) Dessin (view poster)."
+  },
+  {
+    "objectID": "CV/index.html#research-grants",
+    "href": "CV/index.html#research-grants",
+    "title": "Yanshu Wang",
+    "section": "Research Grants",
+    "text": "Research Grants\n\nMitacs Globalink Research Internship (CA$5,400)"
+  },
+  {
+    "objectID": "CV/index.html#scholarship",
+    "href": "CV/index.html#scholarship",
+    "title": "Yanshu Wang",
+    "section": "SCHOLARSHIP",
+    "text": "SCHOLARSHIP\n\nGong Neng Scholarship (Top 5%)"
+  },
+  {
+    "objectID": "CV/index.html#advanced-coursework",
+    "href": "CV/index.html#advanced-coursework",
+    "title": "Yanshu Wang",
+    "section": "ADVANCED COURSEWORK",
+    "text": "ADVANCED COURSEWORK\n(view complete course table)\n\nMATH0055 Number Theory 92\nMATH0102 Commutative Algebra 97\nMATH0136 Galois Theory 96\nMATH0162 Lie Groups and Algebraic Groups 90\nMATH0051 Functional Analysis 93\nMATH9100 Topics in Algebra A- (at Temple, Braid Groups)\n\nAUDITING:\n\nElementary Algebraic Topology\nAnalytic Number Theory\nDifferential Manifold"
+  },
+  {
+    "objectID": "CV/index.html#skills",
+    "href": "CV/index.html#skills",
+    "title": "Yanshu Wang",
+    "section": "Skills",
+    "text": "Skills\n\nLanguages: python(fluent); sagemath(fluent, especially libgap); C++; Mathematica; latex(fluent); lean4; html & css & javascript;\nDevOps: Docker; Github Actions."
+  },
+  {
+    "objectID": "CV/index.html#human-languages",
+    "href": "CV/index.html#human-languages",
+    "title": "Yanshu Wang",
+    "section": "Human Languages",
+    "text": "Human Languages\n\nEnglish (fluent); French (beginner); Mandarin (native)"
+  },
+  {
+    "objectID": "PhDInterview/index.html#background",
+    "href": "PhDInterview/index.html#background",
+    "title": "Interview Presentation",
+    "section": "Background",
+    "text": "Background\nRELEVANT COURSEWORK:\n\nMATH0068 Computers, Set Theory and Logic (Mathematical Logic) 91\nMATH0132 Abstract Algebra I 88 (Honor Class)\nMATH0134 Abstract Algebra II 95 (Honor Class)\nMATH0055 Number Theory 92\nMATH0079 General Topology 84\nMATH0102 Commutative Algebra 97\nMATH0136 Galois Theory 96\nMATH0151 Real Analysis 81 (Honor Class)\nMATH0162 Lie Groups and Algebraic Groups 90\nMATH0051 Functional Analysis 93\nMATH9100 Topics in Algebra A- (at Temple, Braid Groups)\nMATH0153 Algebraic methods in Combinatorics (Algebraic Combinactorics)\n\nAUDITING:\n\nElementary Algebraic Topology\nAnalytic Number Theory\nDifferential Manifold"
+  },
+  {
+    "objectID": "PhDInterview/index.html#research-interest",
+    "href": "PhDInterview/index.html#research-interest",
+    "title": "Interview Presentation",
+    "section": "Research Interest",
+    "text": "Research Interest\n\n\nAlgebra, Number theory and Arithmetic Geometry"
+  },
+  {
+    "objectID": "PhDInterview/index.html#research-experience",
+    "href": "PhDInterview/index.html#research-experience",
+    "title": "Interview Presentation",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nMitacs Globalink Research Internship, Mentored by Prof. Maxence Mayrand, Université de Sherbrooke, May 2025 – Aug 2025\nSenior Year Individual Study, Mentored by Prof. Vasily Dolgushev, Temple University, Jan 2025 – Current\nPolymath Jr., Online, Jun 2024 – Sep 2024"
+  },
+  {
+    "objectID": "PhDInterview/index.html#mitacs-gri",
+    "href": "PhDInterview/index.html#mitacs-gri",
+    "title": "Interview Presentation",
+    "section": "Mitacs GRI",
+    "text": "Mitacs GRI\n\nconstructed new GKP code from the Abelian varieties on the cyclotomic field \\(K = \\mathbb{Q}(\\zeta_n)\\)\nwrite the SageMath script for working with GKP code constructed from the cyclotomic field"
+  },
+  {
+    "objectID": "PhDInterview/index.html#gkp-code-from-abelian-varieties",
+    "href": "PhDInterview/index.html#gkp-code-from-abelian-varieties",
+    "title": "Interview Presentation",
+    "section": "GKP Code From Abelian Varieties",
+    "text": "GKP Code From Abelian Varieties"
+  },
+  {
+    "objectID": "PhDInterview/index.html#senior-year-individual-study",
+    "href": "PhDInterview/index.html#senior-year-individual-study",
+    "title": "Interview Presentation",
+    "section": "Senior Year Individual Study",
+    "text": "Senior Year Individual Study\n\nintroduced a more streamlined version of the groupoid \\(\\mathsf{GTSh}\\) of \\(\\mathsf{GT}\\)-shadows\ncontributed to the SageMath package for working with \\(\\mathsf{GT}\\)-shadows"
+  },
+  {
+    "objectID": "PhDInterview/index.html#gt-shadows",
+    "href": "PhDInterview/index.html#gt-shadows",
+    "title": "Interview Presentation",
+    "section": "GT-Shadows",
+    "text": "GT-Shadows"
+  },
+  {
+    "objectID": "PhDInterview/index.html#polymath-jr.",
+    "href": "PhDInterview/index.html#polymath-jr.",
+    "title": "Interview Presentation",
+    "section": "Polymath Jr. ",
+    "text": "Polymath Jr. \n\nproved that the Riemann surface of the \\(K_9\\) dessin is a degree \\(9\\) cover of the Bolza surface \\(y^2=x(x^4-1)\\) with covering group \\((\\mathbb{Z}/3\\mathbb{Z})^2\\)\ncomputed the equation for the Abel-Jacobi map of the Bolza surface \\(S_B\\)\nconstructed a degree \\(9\\) cover of the Jacobian \\(\\mathrm{Jac}(S_B)\\)\nobtained the equation for \\(K_9\\) dessin"
+  },
+  {
+    "objectID": "PhDInterview/index.html#equation-for-k_9-dessin",
+    "href": "PhDInterview/index.html#equation-for-k_9-dessin",
+    "title": "Interview Presentation",
+    "section": "Equation for \\(K_9\\) Dessin",
+    "text": "Equation for \\(K_9\\) Dessin"
+  },
+  {
+    "objectID": "PhDInterview/index.html#future-plan",
+    "href": "PhDInterview/index.html#future-plan",
+    "title": "Interview Presentation",
+    "section": "Future Plan",
+    "text": "Future Plan\nshort-term plan\n\ntry to pass the qualification exam in the first year\nfinish the required courses and teaching duties\nfind an advisor\n\nlong-term plan\n\nbecome a Mathematics professor at a research institution\nmake original contributions to the mathematics community"
+  },
+  {
+    "objectID": "PhDInterview/index.html#thanks-for-listening",
+    "href": "PhDInterview/index.html#thanks-for-listening",
+    "title": "Interview Presentation",
+    "section": "Thanks for Listening",
+    "text": "Thanks for Listening"
+  },
+  {
+    "objectID": "referee/index.html",
+    "href": "referee/index.html",
+    "title": "Information for Referees",
+    "section": "",
+    "text": "This page is for the convenience of referees.\n\nBasic Information:\n\nCV:\n\nHTML version of CV\nPDF version of CV\n\nTranscript:\n\nTranscript at Nankai University.\nTranscript at Temple University.\n\n\nBelow are tables that contains\n\nThe graduate schools I am going to apply to\nDeadline to submit the reference letter\nMy Statement of Purposes for that school\n\nBelow is an iCalendar file (.ics) that can be imported to your Calendar app. This file includes a notification for a reference letter for each of the listed graduate programs, with the event date set 22 days before the application deadline.\n\nDownload iCalendar file.\n\n\n\nMathematics PhD Program in USA:\n\n\n\n\n\n\n\n\nGraduate School Name\nDeadline\nMy Statement of Purposes\n\n\n\n\nUniversity of Iowa\nJan. 15, 2026\nStatement of Purposes\n\n\nUniversity of Colorado Boulder\nDecember 1, 2025 at 10pm Mountain Time\nStatement of Purposes\n\n\nColorado State University\nTBD\nStatement of Purposes\n\n\nOklahoma State University\nFebruary 1, 2026\nStatement of Purposes\n\n\nUniversity of Arkansas\nFebruary 1, 2026\nStatement of Purposes\n\n\nUniversity of Utah\nJan 1, 2026\nStatement of Purposes\n\n\nUniversity of California, Los Angeles\nDecember 13, 2025\nStatement of Purposes\n\n\nUniversity of Michigan\nFebruary 1, 2026\nStatement of Purposes\n\n\nUniversity of Arizona\nJanuary 1, 2026\nStatement of Purposes\n\n\nBrown University\nDecember 8, 2025\nStatement of Purposes\n\n\nOhio State University\nDecember 5, 2025\nStatement of Purposes\n\n\nPennsylvania State University\nJanuary 5, 2026\nStatement of Purposes\n\n\nIndiana University, Bloomington (Michael Larsen)\nJanuary 15\nStatement of Purposes\n\n\nUniversity of Pittsburgh\nJanuary 15\nStatement of Purposes\n\n\nUniversity of Oregon\nJanuary 15\nStatement of Purposes\n\n\nUniversity of Georgia\nJanuary 1\nStatement of Purposes\n\n\nUniversity of University of Virginia\nJanuary 15\nStatement of Purposes\n\n\nMichigan State University\nDecember 1\nStatement of Purposes\n\n\n\n\n\n\n\n\n\n\n\n\n\nGraduate School Name\nDeadline\nMy Statement of Purposes\nInterested Instructor\n\n\n\n\nBoston University\nJanuary 15, 2026\nTBD\n\n\n\nUniversity of Minnesota Twin Cities\nDecember 15\nTBD\n\n\n\nUniversity of Illinois Urbana-Champaign\nDecember 15\nTBD\n\n\n\nUniversity of Wisconsin-Madison\nDecember 15\nTBD\n\n\n\nNorthwestern University\nDecember 31\nTBD\n\n\n\nBrandeis University\nJanuary 15\nTBD\n\n\n\nBoston College\nJanuary 20\nTBD\n\n\n\n\n\n\nMathematics PhD Program in Canada:\n\n\n\n\n\n\n\n\nGraduate School Name\nDeadline\nMy Statement of Purposes\n\n\n\n\nMcGill University\nJanuary 15th\nStatement of Purposes\n\n\nConcordia University\nOctober 3, 2025\nStatement of Purposes\n\n\n\n\n\nMathematics Master Program in Europe:\n\n\n\n\n\n\n\n\nGraduate School Name\nDeadline\nMy Statement of Purposes\n\n\n\n\nUniversity of Bonn\nJanuary 15, 2026\nStatement of Purposes\n\n\nBerlin Mathematical School\nDecember 1, 2025\nStatement of Purposes\n\n\nALGANT\nJanuary 31, 2026\nStatement of Purposes\n\n\nUniversität Duisburg‑Essen\nJanuary 15, 2026\nStatement of Purposes\n\n\nUniversity of Münster\nJanuary 15, 2026\nStatement of Purposes\n\n\nENS Lyon M2\nJanuary 23, 2026\nStatement of Purposes\n\n\nParis Graduate School for Mathematical Sciences\nFeb 3, 2026\nTBD\n\n\nFondation Mathématique Jacques Hadamard\nEnd of Jan, 2026\nTBD\n\n\nMathematics and INteractions in Toulouse\nFeb 9, 2026\nTBD\n\n\nUniversity Grenoble Alpes M2\nShould start on Feb?\nTBD\n\n\nUniversité de Lille M2\nShould start on Jan, 27?\nTBD"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-01-10 03:24:20"
+  }
+]
