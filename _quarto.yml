@@ -48,4 +48,8 @@ filters:
 execute:
   freeze: auto
 
+resource-path:
+  - "CV/fonts"
+  - "assets"
+
 
