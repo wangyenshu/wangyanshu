@@ -1,10 +1,13 @@
 ---
-title: "Publications"
+title: "Service"
 subtitle: ""
 format:
   html:
     include-before-body: ../header.html
 ---
+## Conference and seminar organizing
+
+## Outreach and community
 
 ::: {style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;"}
 Document last rendered: {{< now >}}

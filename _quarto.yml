@@ -20,17 +20,17 @@ website:
       - href: index.qmd
         text: Home
         
-      - href: publications/index.qmd
-        text: Publications
-        
-      - href: presentations/index.qmd
-        text: Presentations
+      - href: research/index.qmd
+        text: Research
         
       - href: teaching/index.qmd
         text: Teaching
         
       - href: CV/index.qmd
         text: CV
+      
+      - href: service/index.qmd
+        text: Service
         
       - href: gallery/index.qmd
         text: Gallery
