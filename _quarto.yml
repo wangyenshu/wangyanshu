@@ -35,6 +35,8 @@ website:
       - href: gallery/index.qmd
         text: Gallery
       
+      - href: misc/index.qmd
+        text: Misc
 format:
   html:
     theme: cosmo
