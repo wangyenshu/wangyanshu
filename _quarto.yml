@@ -50,6 +50,5 @@ execute:
 
 resource-path:
   - "CV/fonts"
-  - "assets"
 
 
