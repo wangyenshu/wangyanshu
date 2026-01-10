@@ -4,11 +4,11 @@ format:
   html:
     embed-resources: true
     mainfont: "Raleway"
-    body-class: cv-page
     html-math-method: mathjax
     page-footer: false
     toc: false
-    css: cv.css
+    css: 
+      - cv.css
     resources: 
       - fonts
     include-in-header:
