@@ -19,9 +19,9 @@ Here is a collection of experimental mathematical and non-mathematical applets I
 
 - [Keyboard Piano](https://github.com/wangyenshu/keyboardpiano)
 
-## Some Mathematics Web Toys
+## Some projects that I am associated with: 
 
-### GAP-system Shell:
+### GAP in Browser (split wasm chunk for gh-pages hosting):
 
 Warning: GAP-system in browser is RAM-intensive and clicking this button will download 1GB data files.
 
@@ -29,7 +29,7 @@ Warning: GAP-system in browser is RAM-intensive and clicking this button will do
 <div id="gap-container" style="text-align: center; margin: 20px 0;">
   
   <button id="btn-launch-gap" class="btn btn-primary">
-    Start GAP Shell
+    Start GAP
   </button>
 
 </div>
@@ -65,7 +65,13 @@ Warning: GAP-system in browser is RAM-intensive and clicking this button will do
 
 [https://wangyenshu.github.io/Singular-in-Browser/](https://wangyenshu.github.io/Singular-in-Browser/)
 
-[Source and License](https://github.com/wangyenshu/Singular-in-Browser)
+[Source and Credit](https://github.com/wangyenshu/Singular-in-Browser)
+
+### FriCAS in Browser:
+
+[https://wangyenshu.github.io/FriCAS-in-Browser/](https://wangyenshu.github.io/FriCAS-in-Browser/)
+
+[Source and Credit][https://github.com/wangyenshu/FriCAS-in-Browser]
 
 ### Macaulay in Browser:
 
