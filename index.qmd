@@ -14,7 +14,7 @@ about:
       href: mailto:wangyenshu@outlook.com
     - icon: pgp
       text: "{{< fa key >}} PGP Key"
-      href: https://keys.openpgp.org/search?q=wangyenshu%40outlook.com
+      href: https://keys.mailvelope.com/pks/lookup?op=get&search=wangyenshu%40outlook.com
     - icon: orcid
       text: "{{< ai orcid >}} ORCID"
       href: https://orcid.org/0009-0003-2217-3295
