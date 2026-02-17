@@ -21,7 +21,7 @@ Here is a collection of experimental mathematical and non-mathematical applets I
 
 ## Some projects that I am associated with: 
 
-### GAP in Browser (split wasm chunk for gh-pages hosting):
+### GAP in Browser (I split wasm chunk for gh-pages hosting):
 
 Warning: GAP-system in browser is RAM-intensive and clicking this button will download 1GB data files.
 
