@@ -85,7 +85,7 @@ Warning: GAP-system in browser is RAM-intensive and clicking this button will do
 
 [Source and Credit](https://github.com/wangyenshu/Macaulay2-in-Browser)
 
-## KASH3 in Browser:
+### KASH3 in Browser:
 
 [https://wangyenshu.github.io/KASH3-in-Browser/](https://wangyenshu.github.io/KASH3-in-Browser/)
 
