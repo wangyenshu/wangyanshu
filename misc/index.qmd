@@ -91,6 +91,12 @@ Warning: GAP-system in browser is RAM-intensive and clicking this button will do
 
 [Source and Credit](https://github.com/wangyenshu/KASH3-in-Browser)
 
+### Magnus in Browser:
+
+[https://wangyenshu.github.io/Magnus-in-Browser/](https://wangyenshu.github.io/Magnus-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/Magnus-in-Browser)
+
 ## Mathematician Who Went through Extreme Hardships
 
 - Hua Luogeng, [Biography in Chinese](华罗庚.pdf), [Biography in English](https://archive.org/details/hualookengbiogra0000wang)
