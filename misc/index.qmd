@@ -91,11 +91,23 @@ Warning: GAP-system in browser is RAM-intensive and clicking this button will do
 
 [Source and Credit](https://github.com/wangyenshu/KASH3-in-Browser)
 
+### Regina in Browser:
+
+[https://wangyenshu.github.io/Regina-in-Browser/](https://wangyenshu.github.io/Regina-in-Browser/)
+
+[Souce and Credit](https://github.com/wangyenshu/Regina-in-Browser)
+
 ### Magnus in Browser:
 
 [https://wangyenshu.github.io/Magnus-in-Browser/](https://wangyenshu.github.io/Magnus-in-Browser/)
 
 [Source and Credit](https://github.com/wangyenshu/Magnus-in-Browser)
+
+### Prover9 and Mace4 in Browser:
+
+[https://wangyenshu.github.io/p9m4-in-Browser/](https://wangyenshu.github.io/p9m4-in-Browser/)
+
+[Souce and Credit](https://github.com/wangyenshu/p9m4-in-Browser)
 
 ## Mathematician Who Went through Extreme Hardships
 
