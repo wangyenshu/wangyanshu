@@ -4,6 +4,8 @@ format:
   html:
     include-in-header: meta.html
     include-before-body: header.html
+    resources: 
+      - bomb.html
 image: profile.png
 about:
   id: hero-heading
