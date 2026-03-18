@@ -1,0 +1,44 @@
+<div id="wang-banner" class="custom-banner">
+  <div class="banner-inner">
+    <div class="banner-left-group">
+      <h1 class="banner-title">Yanshu Wang</h1>
+      <div id="search-left-container"></div>
+    </div>
+    <div id="search-right-container"></div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  
+  const banner = document.querySelector('#wang-banner');
+  const navbar = document.querySelector('#quarto-header');
+  const content = document.querySelector('#quarto-content');
+  const search = document.querySelector('#quarto-search');
+  
+  const master = document.createElement('div');
+  master.id = 'master-wrapper';
+  document.body.prepend(master);
+
+  if (banner) master.appendChild(banner);
+  
+  if (navbar) {
+    master.appendChild(navbar);
+    // Remove "fixed" classes just in case, though CSS overrides them now
+    navbar.classList.remove('fixed-top', 'sticky-top');
+  }
+  
+  if (content) {
+    master.appendChild(content);
+    // Reset margins to prevent gaps
+    content.style.marginTop = '0';
+    content.style.paddingTop = '40px'; 
+  }
+
+  if (search) {
+    search.style.display = 'block';
+    const rightDest = document.querySelector('#search-right-container');
+    if (rightDest) rightDest.appendChild(search);
+  }
+});
+</script>

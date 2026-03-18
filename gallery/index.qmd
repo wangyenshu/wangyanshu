@@ -1,0 +1,57 @@
+---
+title: "Gallery"
+lightbox: true
+format:
+  html:
+    include-before-body: ../header.html
+include-in-header:
+  - text: |
+      <style>
+        .uniform-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          grid-auto-rows: 188px;
+          grid-auto-flow: dense;
+          max-width: 1060px; 
+          margin: 0 auto; 
+          gap: 15px;
+        }
+
+        .grid-item {        
+          width: 100%;
+          height: 100%;
+          border: 1px solid #ddd;
+          overflow: hidden;
+          background: #f8f8f8;
+        }
+
+        .grid-item img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; 
+          display: block;
+        }
+      </style>
+---
+:::: {.uniform-grid}
+:::{.grid-item}
+![](JMMPosterYSW.jpg)
+:::
+:::{.grid-item}
+![](JMMBadge.jpg)
+:::
+:::{.grid-item}
+![](ICMBooks.jpg)
+:::
+:::{.grid-item}
+![](MathAnn.jpg)
+:::
+:::{.grid-item}
+![](SpringerBooks.jpg)
+:::
+:::
+:::{.grid-item}
+![](HigherEducationPress.jpg)
+:::
+::::

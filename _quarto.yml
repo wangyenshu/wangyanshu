@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Yanshu Wang"
+  site-url: https://wangyenshu.github.io/wangyanshu
+  description: "Yanshu Wang's Academic Homepage"
+  search: true
+
+  page-footer:
+    left: ""
+    right: ""
+
+  navbar:
+    background: primary
+    left:
+    
+      - href: index.qmd
+        text: Home
+        
+      - href: research/index.qmd
+        text: Research
+        
+      - href: teaching/index.qmd
+        text: Teaching
+        
+      - href: CV/index.qmd
+        text: CV
+      
+      - href: service/index.qmd
+        text: Service
+        
+      - href: gallery/index.qmd
+        text: Gallery
+      
+      - href: misc/index.qmd
+        text: Misc
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: article
+    
+filters:
+  - shinylive
+
+execute:
+  freeze: auto
+
+

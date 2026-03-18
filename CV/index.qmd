@@ -1,0 +1,156 @@
+---
+navbar: false
+format:
+  html:
+    embed-resources: true
+    mainfont: "Raleway"
+    html-math-method: mathjax
+    page-footer: false
+    toc: false
+    css: 
+      - cv.css
+    resources: 
+      - fonts
+    include-in-header:
+      - text: |
+          <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+      - text: |
+          <link rel="stylesheet" type="text/css" href="print.css">
+      - text: |
+          <link rel="stylesheet" type="text/css" href="preview.css" media="screen">
+      - text: |
+          
+          <script>
+            class MathJaxHandler extends Paged.Handler {
+              constructor(chunker, polisher, caller) {
+                super(chunker, polisher, caller);
+              }
+          
+              afterPreview(pages) {
+                // This triggers MathJax 3 to re-render all math on the pages
+                if (window.MathJax && window.MathJax.typesetPromise) {
+                  window.MathJax.typesetPromise().then(() => {
+                    console.log("MathJax re-rendered after paging!");
+                  });
+                }
+              }
+            }
+  
+            // Register the handler
+            Paged.registerHandlers(MathJaxHandler);
+          </script>
+---
+<div style="font-size: 1.5em; font-weight: bold; text-align: center;">Yanshu Wang</div><br>
+
+Cell Phone Number: +1<div id="hide" hidden> 7386727</div>2679021268 <br>
+Email: wangyenshu AT outlook DOT com <br>
+Website: https://wangyenshu.github.io/wangyanshu/ <div id="hide" hidden> 7386727</div>
+B.S. Overall GPA:3.72, Overall Grade 90.08, **Overall Rank:12/109** (<a href="https://wangyenshu.github.io/wangyanshu/CV/rank_proof.jpg">view proof</a>)[](rank_proof.jpg)
+
+<!--
+## Objective
+I am interested in algebra and number theory. I have finished relevant courses including Abstract Algebra, Galois Theory, Number Theory, and Commutative Algebra. I have experience of writing papers and am fluent with latex. My programming skills also includes C++, python, lean4, html & css & javascript.
+-->
+
+## Education
+
+- **Exchange Student, Grad Course**, Temple University (tuition free, 11,000 ¥ scholarship)<span class="cvdate">Jan 2025 – May 2025</span>
+
+- **B.S. Mathematics**, Nankai University <span class="cvdate">Sep 2022 – Jul 2026</span>
+
+<div class="clear"></div>
+
+<!--
+## Published Papers
+-->
+
+## Research Experience
+
+- **Mitacs Globalink Research Internship**, Mentored by Professor Maxence Mayrand, Université de Sherbrooke<span class="cvdate">May 2025 – Aug 2025</span>  
+  - Construct new GKP code from the Abelian varieties on the cyclotomic field and compute the decomposition of the correspondent clifford gate as H-gate, S-gate and CNOT-gate.
+
+<!--
+A GKP code is a stabilizer code acting on the Hilbert space of n bosonic
+modes, where stabilizers are given by displacement operators.
+https://arxiv.org/pdf/2412.02442 page 21
+https://en.wikipedia.org/wiki/Stabilizer_code#Definition
+Focus on GKP stabilizer group 
+-->
+- **Independent Study mentored by Professor Vasily Dolgushev**, Temple University<span class="cvdate">Jan 2025 – Current</span>  
+  - Revisit the gentle version $\widehat{\mathsf{GT}}_{gen}$ of the Grothendieck-Teichmueller group $\widehat{\mathsf{GT}}$ and introduce a more streamlined version of the groupoid $\mathsf{GTSh}$ of $\mathsf{GT}$-shadows. The paper is in progress.
+  
+- **Polymath Jr.**, Online<span class="cvdate">Jun 2024 – Sep 2024</span>  
+  - Our group gives algebraic and complex analytic approaches to computing an affine model for $K_9$ dessin.
+
+<div class="clear"></div>
+
+## Presentations and Workshops
+
+- **JMM 2025 AMS Special Session on Polymath Jr REU Student Research Session**; topics: Dessin d'enfant and Complete Regular Maps (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessins_d_enfants_and_complete_regular_maps_presentation.pdf">view slides</a>);[](Dessins_d_enfants_and_complete_regular_maps_presentation.pdf)
+
+- **JMM 2025 AMS-PME Undergraduate Poster Sessions**; topics: Obtaining Equations for $K_9$ Dessin (<a href="https://wangyenshu.github.io/wangyanshu/CV/Dessin_Equation_JMM_Poster.pdf">view poster</a>).[](Dessin_Equation_JMM_Poster.pdf)
+
+## Research Grants
+- Mitacs Globalink Research Internship (CA$5,400)
+
+## SCHOLARSHIP
+
+- **Gong Neng Scholarship (Top 5%)**
+
+## ADVANCED COURSEWORK
+(<a href="https://wangyenshu.github.io/wangyanshu/CV/Course_Table.pdf">view complete course table</a>)[](Course_Table.pdf)
+
+- MATH0055 Number Theory 92
+- MATH0102 Commutative Algebra 97
+- MATH0136 Galois Theory 96 
+- MATH0162 Lie Groups and Algebraic Groups 90 
+- MATH0051 Functional Analysis 93 
+- MATH9100 Topics in Algebra A- (at Temple, Braid Groups) 
+
+**AUDITING:**
+
+- Elementary Algebraic Topology
+- Analytic Number Theory
+- Differential Manifold
+
+<!--
+**UNDERGRADUATE SEMINAR:**<br>
+
+- Geometric Group Theroy Seminar: This seminar uses UTX book Geometric Group Theory An Introduction. I participated in it in the first semester of the sophomore year.<br>
+
+- Algebraic Number Theory Seminar: This seminar mainly uses <a href="https://archive.org/download/topics-alg-nt-2024-12-29/TopicsAlgNT2024-12-29.pdf">lecture notes by Hu Yong</a>.<br>
+
+- Quasi-Conformal Mapping and Potential Theory: I studied this topic using  <a href="https://webspace.maths.qmul.ac.uk/b.khoruzhenko/potential_th_notes.pdf">B. Khoruzhenko's lecture notes</a>.<br>
+
+- Analytic Number Theory Online Seminar: Led by a senior alumna (M.S., University of Bonn). The main topic is o‑minimality and tame geometry.<br>
+
+**MINI COURSE:**<br>
+
+- Propagation speed of non-linear parabolic equations on Riemannian manifolds by Prof. Alexander Grigor's yan
+
+- Preliminary Arizona Winter School 2024:Symmetries of root systems and local fields (unofficially following the course)
+-->
+
+<!--
+**REMARK:** <br> 
+
+Add it to personal statement!
+
+- Nankai University's undergraduate degree requires me to take approximately 6 courses in applied mathematics or 6 courses in computational mathematics. That is why there are many applied mathematics courses in my transcript. Another effect is that I have to audit some courses due to conflict time schedules and excessive workloads. <br>
+
+- Explanation for low grades in Probability Theory, Pointwise Topology, Real Analysis: I take too many courses in the second semester of the sophomore year, including Real Analysis, Probability Theory, Pointwise Topology, Commutative Algebra, Lie Groups and Algebraic Groups. Explanation for low grades in PDE, stochastic process: I continued to do the Polymath Jr. research in that semester and these two courses' grading is generally bad.<br>
+-->
+<div class="clear"></div>
+
+## Skills
+- Languages: python(fluent); sagemath(fluent, especially libgap); C++;  Mathematica; latex(fluent); lean4; html & css & javascript;
+- DevOps: Docker; Github Actions.
+
+## Human Languages
+- English (fluent); French (beginner); Mandarin (native)
+
+<!--
+## Open Source (Hobbies)
+- Automated the daily indexing of Tiddlywiki Classic plugins and themes using a GitHub Action (<a href="https://github.com/wangyenshu/twcArchives">source</a>), generating a user-friendly extension description file.
+- Develop various plugins for Tiddlywiki Classic
+-->

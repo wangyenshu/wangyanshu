@@ -1,0 +1,50 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+name: Quarto Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create gh-pages branch if missing
+        run: |
+          git fetch origin 
+          # Check if remote gh-pages exists
+          if ! git show-ref --verify --quiet refs/remotes/origin/gh-pages; then
+            echo "gh-pages branch not found. Creating it..."
+            
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            
+            # Create orphan branch
+            git checkout --orphan gh-pages
+            git reset --hard
+            git commit --allow-empty -m "Initialize gh-pages branch"
+            git push origin gh-pages
+            
+            # FAILSAFE: Switch explicitly back to the source commit SHA
+            echo "Switching back to source commit..."
+            git checkout ${{ github.sha }}
+          else
+            echo "gh-pages branch already exists."
+          fi
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

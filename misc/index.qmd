@@ -1,0 +1,86 @@
+---
+title: "Miscellaneous"
+subtitle: ""
+format:
+  html:
+    include-before-body: ../header.html
+    resources: 
+      - applets
+---
+## Applets
+
+Here is a collection of experimental mathematical and non-mathematical applets I made.
+
+- [Visualize Runge Phenomenon](applets/rungesphenomenon.html)
+
+- [Guass Elimination Solver](applets/guassianelimination.html)
+
+- [Keyboard Piano](https://github.com/wangyenshu/keyboardpiano)
+
+## Some projects that I am associated with: 
+
+### GAP-System Emscripten Port:
+
+[https://wangyenshu.github.io/gap-wasm/](https://wangyenshu.github.io/gap-wasm/)
+
+[COPYRIGHT](gap-wasm/COPYRIGHT)
+[LICENSE](gap-wasm/LICENSE)
+[How to build](https://github.com/wangyenshu/gap-wasm/blob/gh-pages/README.md)
+
+### SageMath in Browser:
+
+[https://wangyenshu.github.io/SageMath-in-Browser/](https://wangyenshu.github.io/SageMath-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/SageMath-in-Browser)
+
+### Singular in Browser:
+
+[https://wangyenshu.github.io/Singular-in-Browser/](https://wangyenshu.github.io/Singular-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/Singular-in-Browser)
+
+### FriCAS in Browser:
+
+[https://wangyenshu.github.io/FriCAS-in-Browser/](https://wangyenshu.github.io/FriCAS-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/FriCAS-in-Browser)
+
+### Macaulay2 in Browser:
+
+[https://wangyenshu.github.io/Macaulay2-in-Browser/](https://wangyenshu.github.io/Macaulay2-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/Macaulay2-in-Browser)
+
+### KASH3 in Browser:
+
+[https://wangyenshu.github.io/KASH3-in-Browser/](https://wangyenshu.github.io/KASH3-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/KASH3-in-Browser)
+
+### Regina in Browser:
+
+[https://wangyenshu.github.io/Regina-in-Browser/](https://wangyenshu.github.io/Regina-in-Browser/)
+
+[Souce and Credit](https://github.com/wangyenshu/Regina-in-Browser)
+
+### Magnus in Browser:
+
+[https://wangyenshu.github.io/Magnus-in-Browser/](https://wangyenshu.github.io/Magnus-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/Magnus-in-Browser)
+
+### Prover9 and Mace4 in Browser:
+
+[https://wangyenshu.github.io/p9m4-in-Browser/](https://wangyenshu.github.io/p9m4-in-Browser/)
+
+[Souce and Credit](https://github.com/wangyenshu/p9m4-in-Browser)
+
+## Mathematician Who Went through Extreme Hardships
+
+- Hua Luogeng, [Biography in English](https://archive.org/details/hualookengbiogra0000wang)
+- To be Added
+
+
+::: {style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;"}
+Document last rendered: {{< now >}}
+:::
