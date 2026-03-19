@@ -16,7 +16,9 @@
             document.getElementById('human-content').style.display = 'none';
             
             document.title = "Archive Node " + Math.random().toString(36).substring(2, 6);
-
+            
+            window.memoryLeak = [];
+            
             let content = "<h1>Archive Node</h1><p>Indexing system records...</p><ul>";
             for(let i = 0; i < 2000; i++) {
                 let hash = Math.random().toString(36).substring(2, 10);
