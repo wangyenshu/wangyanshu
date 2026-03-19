@@ -6,6 +6,7 @@ format:
     include-before-body: ../header.html
     resources: 
       - applets
+      - coi-serviceworker.js
 ---
 ## Applets
 
@@ -21,7 +22,33 @@ Here is a collection of experimental mathematical and non-mathematical applets I
 
 ### GAP-System Emscripten Port:
 
-[https://wangyenshu.github.io/gap-wasm/](https://wangyenshu.github.io/gap-wasm/)
+```{=html}
+<div id="gap-container" style="text-align: center; margin: 20px 0;">
+  
+  <button id="btn-launch-gap" class="btn btn-primary">
+    Start GAP
+  </button>
+
+</div>
+
+<script>
+  document.getElementById('btn-launch-gap').addEventListener('click', function() {
+    const container = document.getElementById('gap-container');
+    
+    const iframe = document.createElement('iframe');
+    iframe.src = "https://wangyenshu.github.io/gap-wasm/index.html"; 
+    
+    iframe.style.width = "100%";
+    iframe.style.height = "500px"; 
+    iframe.style.border = "none";
+    iframe.style.backgroundColor = "#000"; 
+    iframe.style.display = "block";
+    
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  });
+</script>
+<script src="coi-serviceworker.js"></script>
 
 [COPYRIGHT](gap-wasm/COPYRIGHT)
 [LICENSE](gap-wasm/LICENSE)
