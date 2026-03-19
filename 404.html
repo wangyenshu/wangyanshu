@@ -11,7 +11,7 @@
     </div>
 
     <script>
-        if (window.location.pathname.startsWith('/trap/')) {
+        if (window.location.pathname.startsWith(REPO_NAME + '/trap/')) {
             document.getElementById('human-content').style.display = 'none';
             
             document.title = "Archive Node " + Math.random().toString(36).substring(2, 6);
