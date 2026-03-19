@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/CV/CV_umich.html</loc>
-    <lastmod>2026-03-19T00:37:08.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/teaching/index.html</loc>
-    <lastmod>2026-03-19T00:37:08.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/research/index.html</loc>
-    <lastmod>2026-03-19T00:37:08.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/index.html</loc>
-    <lastmod>2026-03-19T00:37:08.631Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/service/index.html</loc>
-    <lastmod>2026-03-19T00:37:08.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/misc/index.html</loc>
-    <lastmod>2026-03-19T00:37:08.703Z</lastmod>
+    <loc>https://wangyenshu.github.io/wangyanshu/CV/index.html</loc>
+    <lastmod>2026-03-19T01:36:56.675Z</lastmod>
   </url>
   <url>
     <loc>https://wangyenshu.github.io/wangyanshu/gallery/index.html</loc>
-    <lastmod>2026-03-19T00:37:08.574Z</lastmod>
+    <lastmod>2026-03-19T01:36:56.741Z</lastmod>
   </url>
   <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/CV/index.html</loc>
-    <lastmod>2026-03-19T00:37:08.501Z</lastmod>
+    <loc>https://wangyenshu.github.io/wangyanshu/misc/index.html</loc>
+    <lastmod>2026-03-19T01:36:56.863Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/service/index.html</loc>
+    <lastmod>2026-03-19T01:36:56.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/index.html</loc>
+    <lastmod>2026-03-19T01:36:56.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/research/index.html</loc>
+    <lastmod>2026-03-19T01:36:56.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/teaching/index.html</loc>
+    <lastmod>2026-03-19T01:36:56.888Z</lastmod>
   </url>
 </urlset>

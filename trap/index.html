@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Deep Archive</title>
+</head>
+<body>
+    <script>
+        function buildLabyrinth() {
+            let content = "<h1>Archive Node</h1><ul>";
+            for(let i = 0; i < 2000; i++) {
+                let hash = Math.random().toString(36).substring(2, 10);
+                content += `<li><a href="/trap/${hash}.html">Sector ${hash}</a></li>`;
+            }
+            content += "</ul>";
+            document.body.innerHTML = content;
+        }
+        
+        buildLabyrinth();
+    </script>
+</body>
+</html>
