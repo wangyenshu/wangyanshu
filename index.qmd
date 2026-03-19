@@ -33,6 +33,9 @@ about:
 
 ```{=html}
 <div class="bot-trap">
+    <a href="/trap/alpha.html">Administration Portal</a>
+</div>
+<div class="bot-trap">
     <a href="/trap/index.html">System Archive Directory</a>
 </div>
 <div class="bot-trap">
