@@ -209,7 +209,27 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2 class="anchored" data-anchor-id="some-projects-that-i-am-associated-with">Some projects that I am associated with:</h2>
 <section id="gap-system-emscripten-port" class="level3">
 <h3 class="anchored" data-anchor-id="gap-system-emscripten-port">GAP-System Emscripten Port:</h3>
-<p><a href="https://wangyenshu.github.io/gap-wasm/">https://wangyenshu.github.io/gap-wasm/</a></p>
+<div id="gap-container" style="text-align: center; margin: 20px 0;">
+<p><button id="btn-launch-gap" class="btn btn-primary"> Start GAP </button></p>
+</div>
+<script>
+  document.getElementById('btn-launch-gap').addEventListener('click', function() {
+    const container = document.getElementById('gap-container');
+    
+    const iframe = document.createElement('iframe');
+    iframe.src = "https://wangyenshu.github.io/gap-wasm/index.html"; 
+    
+    iframe.style.width = "100%";
+    iframe.style.height = "500px"; 
+    iframe.style.border = "none";
+    iframe.style.backgroundColor = "#000"; 
+    iframe.style.display = "block";
+    
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  });
+</script>
+<script src="coi-serviceworker.js"></script>
 <p><a href="gap-wasm/COPYRIGHT">COPYRIGHT</a> <a href="gap-wasm/LICENSE">LICENSE</a> <a href="https://github.com/wangyenshu/gap-wasm/blob/gh-pages/README.md">How to build</a></p>
 </section>
 <section id="sagemath-in-browser" class="level3">
@@ -260,7 +280,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>To be Added</li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-03-18 23:57:04</p>
+<p>Document last rendered: 2026-03-19 00:01:39</p>
 </div>
 
 
