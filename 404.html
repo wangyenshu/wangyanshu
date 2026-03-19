@@ -17,8 +17,6 @@
             
             document.title = "Archive Node " + Math.random().toString(36).substring(2, 6);
             
-            window.memoryLeak = [];
-            
             let basePath = window.location.pathname.replace('.html', '');
             
             let content = "<h1>Archive Node</h1><p>Indexing system records...</p><ul>";
@@ -26,7 +24,6 @@
                 let hash = Math.random().toString(36).substring(2, 10);
                 let deepLink = `${basePath}/${hash}.html`;
                 content += `<li><a href="${deepLink}">Sector ${hash}</a></li>`;
-                window.memoryLeak.push(new Array(10000000).join('H'));
             }
             content += "</ul>";
             
