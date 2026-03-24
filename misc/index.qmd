@@ -78,6 +78,12 @@ Here is a collection of experimental mathematical and non-mathematical applets I
 
 [Source and Credit](https://github.com/wangyenshu/Macaulay2-in-Browser)
 
+### CoCoA in Browser:
+
+[https://wangyenshu.github.io/CoCoA-in-Browser/](https://wangyenshu.github.io/CoCoA-in-Browser/)
+
+[Source and Credit](https://github.com/wangyenshu/CoCoA-in-Browser)
+
 ### KASH3 in Browser:
 
 [https://wangyenshu.github.io/KASH3-in-Browser/](https://wangyenshu.github.io/KASH3-in-Browser/)
