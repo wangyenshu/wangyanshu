@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-302b3f79daa8585235c194e0fecd03e8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a3f6bd1e97f121887d2ce1b8fe2cd664.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -198,6 +227,12 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 
 
+<section id="previous-research-topics" class="level2">
+<h2 class="anchored" data-anchor-id="previous-research-topics">Previous Research Topics</h2>
+<ul>
+<li><a href="../misc/Out(F_n).html"><span class="math inline">\(\mathrm{Out}(F_n)\)</span></a></li>
+</ul>
+</section>
 <section id="applets" class="level2">
 <h2 class="anchored" data-anchor-id="applets">Applets</h2>
 <p>Here is a collection of experimental mathematical and non-mathematical applets I made.</p>
@@ -287,7 +322,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>To be Added</li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-03-24 09:51:22</p>
+<p>Document last rendered: 2026-04-04 16:23:18</p>
 </div>
 
 

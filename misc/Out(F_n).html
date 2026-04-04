@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Service – Yanshu Wang</title>
+<title>\\mathrm{Out}(F_n) – Yanshu Wang</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -109,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../service/index.html" aria-current="page"> 
+    <a class="nav-link" href="../service/index.html"> 
 <span class="menu-text">Service</span></a>
   </li>  
   <li class="nav-item">
@@ -181,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Service</h1>
+<h1 class="title"><span class="math inline">\(\\mathrm{Out}(F_n)\)</span></h1>
 </div>
 
 
@@ -198,13 +227,16 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 
 
-<section id="conference-and-seminar-organizing" class="level2">
-<h2 class="anchored" data-anchor-id="conference-and-seminar-organizing">Conference and seminar organizing</h2>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>There is a natural map <span class="math inline">\(\mathrn{Out}(F_n) \to \mathrm{GL}_n(\mathbb{Z})\)</span> given by abelianization. This map is onto. And in special case when <span class="math inline">\(n = 2\)</span>, this map becomes isomorphism.</p>
+<p>Finding the structure of <span class="math inline">\(\mathrm{Out}(F_n)\)</span> and <span class="math inline">\(\mathrm{Aut}(F_n)\)</span> may simplify some group theoretic calculations.</p>
 </section>
-<section id="outreach-and-community" class="level2">
-<h2 class="anchored" data-anchor-id="outreach-and-community">Outreach and community</h2>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p><a href="https://sites.google.com/view/georgedomat/resources#h.p_8rDTlXJfdAVP">Out(Fn) Notes</a></p>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-04-04 16:23:16</p>
+<p>Document last rendered: 2026-04-04 16:23:17</p>
 </div>
 
 
