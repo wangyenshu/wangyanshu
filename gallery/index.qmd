@@ -50,7 +50,6 @@ include-in-header:
 :::{.grid-item}
 ![](SpringerBooks.jpg)
 :::
-:::
 :::{.grid-item}
 ![](HigherEducationPress.jpg)
 :::
