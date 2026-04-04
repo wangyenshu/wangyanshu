@@ -1,5 +1,5 @@
 ---
-title: '$\\mathrm{Out}(F_n)$'
+title: "$\\mathrm{Out}(F_n)$"
 subtitle: ""
 format:
   html:
@@ -7,7 +7,7 @@ format:
 ---
 ## Motivation
 
-There is a natural map $\mathrn{Out}(F_n) \to \mathrm{GL}_n(\mathbb{Z})$ given by abelianization. This map is onto. And in special case when $n = 2$, this map becomes isomorphism.
+There is a natural map $\mathrm{Out}(F_n) \to \mathrm{GL}_n(\mathbb{Z})$ given by abelianization. This map is onto. And in special case when $n = 2$, this map becomes isomorphism.
 
 Finding the structure of $\mathrm{Out}(F_n)$ and $\mathrm{Aut}(F_n)$ may simplify some group theoretic calculations.
 
