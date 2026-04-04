@@ -1,5 +1,5 @@
 ---
-title: "$\mathrm{Out}(F_n)$"
+title: '$\\mathrm{Out}(F_n)$'
 subtitle: ""
 format:
   html:
