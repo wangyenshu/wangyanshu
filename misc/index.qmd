@@ -8,6 +8,10 @@ format:
       - applets
       - coi-serviceworker.js
 ---
+## Previous Research Topics
+
+- [$\mathrm{Out}(F_n)$](Out(F_n).qmd)
+
 ## Applets
 
 Here is a collection of experimental mathematical and non-mathematical applets I made.
