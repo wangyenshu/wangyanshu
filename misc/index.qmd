@@ -10,6 +10,8 @@ format:
 ---
 ## Previous Research Topics
 
+- [Grothendieck–Teichmüller group](GT.qmd)
+
 - [$\mathrm{Out}(F_n)$](Out(F_n).qmd)
 
 ## Applets

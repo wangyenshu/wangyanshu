@@ -1,0 +1,35 @@
+---
+title: "Grothendieck-Teichmüller group"
+subtitle: ""
+format:
+  html:
+    include-before-body: ../header.html
+---
+## Quick Introduction
+
+ - [Pierre Guillot An elementary approach to dessins d'enfants and the Grothendieck-Teichmüller group](https://arxiv.org/abs/1309.1968)
+ - [Dolgushev, Vasily A and Le, Khanh Q and Lorenz, Aidan A What are GT–shadows ?](https://arxiv.org/pdf/2008.00066)
+
+## Open Problems
+
+ - [Open problems in Grothendieck-Teichmüller theory](https://webusers.imj-prg.fr/~leila.schneps/farb.pdf)
+ - [Selected open problems in GT-shadows](https://sites.temple.edu/vald/files/2024/05/GTSlidesAngers.pdf)
+
+## Software for Computations
+
+ - [Vasily Dolgushev' research page](https://sites.temple.edu/vald/research/)
+
+## Resources (no particular order)
+
+ - [Braids, galois groups and some arithmetic functions, ICM1990 p. 100](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1990.1/ICM1990.1.ocr.pdf)
+ - [On the embedding of $\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})$ into GT](https://www.cambridge.org/core/books/abs/grothendieck-theory-of-dessins-denfants/on-the-embedding-of-gal-into-gt/5C3205511DC40B62173908651513BF3A)
+ - [The action of the absolute Galois group on the moduli space of spheres with four marked points](https://webusers.imj-prg.fr/~pierre.lochak/textes/lochakemsalem.pdf)
+ - [Lochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group](https://link.springer.com/article/10.1007/s002220050131)
+ - [Vasily Dolgushev' research page](https://sites.temple.edu/vald/research/)
+ - [Szamuely T. Galois Groups and Fundamental Groups](https://www.cambridge.org/core/books/galois-groups-and-fundamental-groups/2511B1C10ACF174A0F444A045D9C1F89)
+ - [SKETCH OF A PROGRAMME by Alexandre Grothendieck](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseEng.pdf)
+ - [Girondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants](https://www.cambridge.org/core/books/introduction-to-compact-riemann-surfaces-and-dessins-denfants/F4D8E290FAAEAA650059C572713C79B5)
+
+::: {style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;"}
+Document last rendered: {{< now >}}
+:::
