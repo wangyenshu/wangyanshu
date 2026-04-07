@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Miscellaneous – Yanshu Wang</title>
+<title>Grothendieck-Teichmüller group – Yanshu Wang</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -146,7 +146,7 @@ window.Quarto = {
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../misc/index.html" aria-current="page"> 
+    <a class="nav-link" href="../misc/index.html"> 
 <span class="menu-text">Misc</span></a>
   </li>  
 </ul>
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Miscellaneous</h1>
+<h1 class="title">Grothendieck-Teichmüller group</h1>
 </div>
 
 
@@ -227,103 +227,40 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 
 
-<section id="previous-research-topics" class="level2">
-<h2 class="anchored" data-anchor-id="previous-research-topics">Previous Research Topics</h2>
+<section id="quick-introduction" class="level2">
+<h2 class="anchored" data-anchor-id="quick-introduction">Quick Introduction</h2>
 <ul>
-<li><p><a href="../misc/GT.html">Grothendieck–Teichmüller group</a></p></li>
-<li><p><a href="../misc/Out(F_n).html"><span class="math inline">\(\mathrm{Out}(F_n)\)</span></a></p></li>
+<li><a href="https://arxiv.org/abs/1309.1968">Pierre Guillot An elementary approach to dessins d’enfants and the Grothendieck-Teichmüller group</a></li>
+<li><a href="https://arxiv.org/pdf/2008.00066">Dolgushev, Vasily A and Le, Khanh Q and Lorenz, Aidan A What are GT–shadows ?</a></li>
 </ul>
 </section>
-<section id="applets" class="level2">
-<h2 class="anchored" data-anchor-id="applets">Applets</h2>
-<p>Here is a collection of experimental mathematical and non-mathematical applets I made.</p>
+<section id="open-problems" class="level2">
+<h2 class="anchored" data-anchor-id="open-problems">Open Problems</h2>
 <ul>
-<li><p><a href="applets/rungesphenomenon.html">Visualize Runge Phenomenon</a></p></li>
-<li><p><a href="applets/guassianelimination.html">Guass Elimination Solver</a></p></li>
-<li><p><a href="https://github.com/wangyenshu/keyboardpiano">Keyboard Piano</a></p></li>
+<li><a href="https://webusers.imj-prg.fr/~leila.schneps/farb.pdf">Open problems in Grothendieck-Teichmüller theory</a></li>
+<li><a href="https://sites.temple.edu/vald/files/2024/05/GTSlidesAngers.pdf">Selected open problems in GT-shadows</a></li>
 </ul>
 </section>
-<section id="some-projects-that-i-am-associated-with" class="level2">
-<h2 class="anchored" data-anchor-id="some-projects-that-i-am-associated-with">Some projects that I am associated with:</h2>
-<section id="gap-system-emscripten-port" class="level3">
-<h3 class="anchored" data-anchor-id="gap-system-emscripten-port">GAP-System Emscripten Port:</h3>
-<div id="gap-container" style="text-align: center; margin: 20px 0;">
-<p><button id="btn-launch-gap" class="btn btn-primary"> Start GAP </button></p>
-</div>
-<script>
-  document.getElementById('btn-launch-gap').addEventListener('click', function() {
-    const container = document.getElementById('gap-container');
-    
-    const iframe = document.createElement('iframe');
-    iframe.src = "https://wangyenshu.github.io/gap-wasm/index.html"; 
-    
-    iframe.style.width = "100%";
-    iframe.style.height = "500px"; 
-    iframe.style.border = "none";
-    iframe.style.backgroundColor = "#000"; 
-    iframe.style.display = "block";
-    
-    container.innerHTML = '';
-    container.appendChild(iframe);
-  });
-</script>
-<script src="coi-serviceworker.js"></script>
-<p><a href="gap-wasm/COPYRIGHT">COPYRIGHT</a> <a href="gap-wasm/LICENSE">LICENSE</a> <a href="https://github.com/wangyenshu/gap-wasm/blob/gh-pages/README.md">How to build</a></p>
-</section>
-<section id="sagemath-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="sagemath-in-browser">SageMath in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/SageMath-in-Browser/">https://wangyenshu.github.io/SageMath-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/SageMath-in-Browser">Source and Credit</a></p>
-</section>
-<section id="singular-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="singular-in-browser">Singular in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/Singular-in-Browser/">https://wangyenshu.github.io/Singular-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/Singular-in-Browser">Source and Credit</a></p>
-</section>
-<section id="fricas-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="fricas-in-browser">FriCAS in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/FriCAS-in-Browser/">https://wangyenshu.github.io/FriCAS-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/FriCAS-in-Browser">Source and Credit</a></p>
-</section>
-<section id="macaulay2-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="macaulay2-in-browser">Macaulay2 in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/Macaulay2-in-Browser/">https://wangyenshu.github.io/Macaulay2-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/Macaulay2-in-Browser">Source and Credit</a></p>
-</section>
-<section id="cocoa-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="cocoa-in-browser">CoCoA in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/CoCoA-in-Browser/">https://wangyenshu.github.io/CoCoA-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/CoCoA-in-Browser">Source and Credit</a></p>
-</section>
-<section id="kash3-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="kash3-in-browser">KASH3 in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/KASH3-in-Browser/">https://wangyenshu.github.io/KASH3-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/KASH3-in-Browser">Source and Credit</a></p>
-</section>
-<section id="regina-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="regina-in-browser">Regina in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/Regina-in-Browser/">https://wangyenshu.github.io/Regina-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/Regina-in-Browser">Souce and Credit</a></p>
-</section>
-<section id="magnus-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="magnus-in-browser">Magnus in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/Magnus-in-Browser/">https://wangyenshu.github.io/Magnus-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/Magnus-in-Browser">Source and Credit</a></p>
-</section>
-<section id="prover9-and-mace4-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="prover9-and-mace4-in-browser">Prover9 and Mace4 in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/p9m4-in-Browser/">https://wangyenshu.github.io/p9m4-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/p9m4-in-Browser">Souce and Credit</a></p>
-</section>
-</section>
-<section id="mathematician-who-went-through-extreme-hardships" class="level2">
-<h2 class="anchored" data-anchor-id="mathematician-who-went-through-extreme-hardships">Mathematician Who Went through Extreme Hardships</h2>
+<section id="software-for-computations" class="level2">
+<h2 class="anchored" data-anchor-id="software-for-computations">Software for Computations</h2>
 <ul>
-<li>Hua Luogeng, <a href="https://archive.org/details/hualookengbiogra0000wang">Biography in English</a></li>
-<li>To be Added</li>
+<li><a href="https://sites.temple.edu/vald/research/">Vasily Dolgushev’ research page</a></li>
+</ul>
+</section>
+<section id="resources-no-particular-order" class="level2">
+<h2 class="anchored" data-anchor-id="resources-no-particular-order">Resources (no particular order)</h2>
+<ul>
+<li><a href="https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1990.1/ICM1990.1.ocr.pdf">Braids, galois groups and some arithmetic functions, ICM1990 p.&nbsp;100</a></li>
+<li><a href="https://www.cambridge.org/core/books/abs/grothendieck-theory-of-dessins-denfants/on-the-embedding-of-gal-into-gt/5C3205511DC40B62173908651513BF3A">On the embedding of <span class="math inline">\(\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})\)</span> into GT</a></li>
+<li><a href="https://webusers.imj-prg.fr/~pierre.lochak/textes/lochakemsalem.pdf">The action of the absolute Galois group on the moduli space of spheres with four marked points</a></li>
+<li><a href="https://link.springer.com/article/10.1007/s002220050131">Lochak, P., Schneps, L. &amp; Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group</a></li>
+<li><a href="https://sites.temple.edu/vald/research/">Vasily Dolgushev’ research page</a></li>
+<li><a href="https://www.cambridge.org/core/books/galois-groups-and-fundamental-groups/2511B1C10ACF174A0F444A045D9C1F89">Szamuely T. Galois Groups and Fundamental Groups</a></li>
+<li><a href="https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseEng.pdf">SKETCH OF A PROGRAMME by Alexandre Grothendieck</a></li>
+<li><a href="https://www.cambridge.org/core/books/introduction-to-compact-riemann-surfaces-and-dessins-denfants/F4D8E290FAAEAA650059C572713C79B5">Girondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants</a></li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-04-07 07:10:48</p>
+<p>Document last rendered: 2026-04-07 07:10:47</p>
 </div>
 
 
