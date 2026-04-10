@@ -60,6 +60,38 @@ Here is a collection of experimental mathematical and non-mathematical applets I
 [LICENSE](gap-wasm/LICENSE)
 [How to build](https://github.com/wangyenshu/gap-wasm/blob/gh-pages/README.md)
 
+### FriCAS Emscripten Port:
+
+```{=html}
+<div id="fricas-container" style="text-align: center; margin: 20px 0;">
+  
+  <button id="btn-launch-fricas" class="btn btn-primary">
+    Start FriCAS
+  </button>
+
+</div>
+
+<script>
+  document.getElementById('btn-launch-fricas').addEventListener('click', function() {
+    const container = document.getElementById('fricas-container');
+    
+    const iframe = document.createElement('iframe');
+    iframe.src = "https://wangyenshu.github.io/fricas-wasm/index.html"; 
+    
+    iframe.style.width = "100%";
+    iframe.style.height = "500px"; 
+    iframe.style.border = "none";
+    iframe.style.backgroundColor = "#000"; 
+    iframe.style.display = "block";
+    
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  });
+</script>
+<script src="coi-serviceworker.js"></script>
+
+[Source and Credit](https://github.com/wangyenshu/fricas-wasm)
+
 ### SageMath in Browser:
 
 [https://wangyenshu.github.io/SageMath-in-Browser/](https://wangyenshu.github.io/SageMath-in-Browser/)
@@ -71,12 +103,6 @@ Here is a collection of experimental mathematical and non-mathematical applets I
 [https://wangyenshu.github.io/Singular-in-Browser/](https://wangyenshu.github.io/Singular-in-Browser/)
 
 [Source and Credit](https://github.com/wangyenshu/Singular-in-Browser)
-
-### FriCAS in Browser:
-
-[https://wangyenshu.github.io/FriCAS-in-Browser/](https://wangyenshu.github.io/FriCAS-in-Browser/)
-
-[Source and Credit](https://github.com/wangyenshu/FriCAS-in-Browser)
 
 ### Macaulay2 in Browser:
 
