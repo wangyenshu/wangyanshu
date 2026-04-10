@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Yanshu Wang",
+    "section": "Introduction",
+    "text": "Introduction\nI am an undergraduate student at Nankai University (due on Jul 2026). Previously, I was a research intern (Mitacs GRI) at Université de Sherbrooke under the supervision of Maxence Mayrand. Before that, I was an exchange student (tuition free) at Temple University under the supervision of Vasily Dolgushev.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-04-10 16:27:41"
+  },
+  {
     "objectID": "gallery/index.html",
     "href": "gallery/index.html",
     "title": "Gallery",
@@ -7,11 +14,74 @@
     "text": "Yanshu Wang"
   },
   {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "Yanshu Wang",
-    "section": "Introduction",
-    "text": "Introduction\nI am an undergraduate student at Nankai University (due on Jul 2026). Previously, I was a research intern (Mitacs GRI) at Université de Sherbrooke under the supervision of Maxence Mayrand. Before that, I was an exchange student (tuition free) at Temple University under the supervision of Vasily Dolgushev.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-04-07 07:10:48"
+    "objectID": "misc/index.html#previous-research-topics",
+    "href": "misc/index.html#previous-research-topics",
+    "title": "Miscellaneous",
+    "section": "Previous Research Topics",
+    "text": "Previous Research Topics\n\nGrothendieck–Teichmüller group\n\\(\\mathrm{Out}(F_n)\\)"
+  },
+  {
+    "objectID": "misc/index.html#applets",
+    "href": "misc/index.html#applets",
+    "title": "Miscellaneous",
+    "section": "Applets",
+    "text": "Applets\nHere is a collection of experimental mathematical and non-mathematical applets I made.\n\nVisualize Runge Phenomenon\nGuass Elimination Solver\nKeyboard Piano"
+  },
+  {
+    "objectID": "misc/index.html#some-projects-that-i-am-associated-with",
+    "href": "misc/index.html#some-projects-that-i-am-associated-with",
+    "title": "Miscellaneous",
+    "section": "Some projects that I am associated with:",
+    "text": "Some projects that I am associated with:\n\nGAP-System Emscripten Port:\n\n Start GAP \n\n\n\nCOPYRIGHT LICENSE How to build\n\n\nFriCAS Emscripten Port:\n\n Start FriCAS \n\n\n\nSource and Credit\n\n\nSageMath in Browser:\nhttps://wangyenshu.github.io/SageMath-in-Browser/\nSource and Credit\n\n\nSingular in Browser:\nhttps://wangyenshu.github.io/Singular-in-Browser/\nSource and Credit\n\n\nMacaulay2 in Browser:\nhttps://wangyenshu.github.io/Macaulay2-in-Browser/\nSource and Credit\n\n\nCoCoA in Browser:\nhttps://wangyenshu.github.io/CoCoA-in-Browser/\nSource and Credit\n\n\nKASH3 in Browser:\nhttps://wangyenshu.github.io/KASH3-in-Browser/\nSource and Credit\n\n\nRegina in Browser:\nhttps://wangyenshu.github.io/Regina-in-Browser/\nSouce and Credit\n\n\nMagnus in Browser:\nhttps://wangyenshu.github.io/Magnus-in-Browser/\nSource and Credit\n\n\nProver9 and Mace4 in Browser:\nhttps://wangyenshu.github.io/p9m4-in-Browser/\nSouce and Credit"
+  },
+  {
+    "objectID": "misc/index.html#mathematician-who-went-through-extreme-hardships",
+    "href": "misc/index.html#mathematician-who-went-through-extreme-hardships",
+    "title": "Miscellaneous",
+    "section": "Mathematician Who Went through Extreme Hardships",
+    "text": "Mathematician Who Went through Extreme Hardships\n\nHua Luogeng, Biography in English\nTo be Added\n\n\nDocument last rendered: 2026-04-10 16:27:37"
+  },
+  {
+    "objectID": "service/index.html#conference-and-seminar-organizing",
+    "href": "service/index.html#conference-and-seminar-organizing",
+    "title": "Service",
+    "section": "Conference and seminar organizing",
+    "text": "Conference and seminar organizing"
+  },
+  {
+    "objectID": "service/index.html#outreach-and-community",
+    "href": "service/index.html#outreach-and-community",
+    "title": "Service",
+    "section": "Outreach and community",
+    "text": "Outreach and community\n\nDocument last rendered: 2026-04-10 16:27:36"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-04-10 16:27:36"
+  },
+  {
+    "objectID": "research/index.html#publications-and-preprints",
+    "href": "research/index.html#publications-and-preprints",
+    "title": "Research",
+    "section": "Publications and preprints",
+    "text": "Publications and preprints"
+  },
+  {
+    "objectID": "research/index.html#talks",
+    "href": "research/index.html#talks",
+    "title": "Research",
+    "section": "Talks",
+    "text": "Talks"
+  },
+  {
+    "objectID": "research/index.html#work-when-i-was-undergraduate",
+    "href": "research/index.html#work-when-i-was-undergraduate",
+    "title": "Research",
+    "section": "Work when I was undergraduate",
+    "text": "Work when I was undergraduate\n\nJMM 2025 Polymath Jr. Dessin d’enfant Project (JMM2025Poster)\n\n\nDocument last rendered: 2026-04-10 16:27:36"
   },
   {
     "objectID": "misc/GT.html#quick-introduction",
@@ -39,49 +109,7 @@
     "href": "misc/GT.html#resources-no-particular-order",
     "title": "Grothendieck-Teichmüller group",
     "section": "Resources (no particular order)",
-    "text": "Resources (no particular order)\n\nBraids, galois groups and some arithmetic functions, ICM1990 p. 100\nOn the embedding of \\(\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\) into GT\nThe action of the absolute Galois group on the moduli space of spheres with four marked points\nLochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group\nVasily Dolgushev’ research page\nSzamuely T. Galois Groups and Fundamental Groups\nSKETCH OF A PROGRAMME by Alexandre Grothendieck\nGirondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants\n\n\nDocument last rendered: 2026-04-07 07:10:47"
-  },
-  {
-    "objectID": "research/index.html#publications-and-preprints",
-    "href": "research/index.html#publications-and-preprints",
-    "title": "Research",
-    "section": "Publications and preprints",
-    "text": "Publications and preprints"
-  },
-  {
-    "objectID": "research/index.html#talks",
-    "href": "research/index.html#talks",
-    "title": "Research",
-    "section": "Talks",
-    "text": "Talks"
-  },
-  {
-    "objectID": "research/index.html#work-when-i-was-undergraduate",
-    "href": "research/index.html#work-when-i-was-undergraduate",
-    "title": "Research",
-    "section": "Work when I was undergraduate",
-    "text": "Work when I was undergraduate\n\nJMM 2025 Polymath Jr. Dessin d’enfant Project (JMM2025Poster)\n\n\nDocument last rendered: 2026-04-07 07:10:47"
-  },
-  {
-    "objectID": "service/index.html#conference-and-seminar-organizing",
-    "href": "service/index.html#conference-and-seminar-organizing",
-    "title": "Service",
-    "section": "Conference and seminar organizing",
-    "text": "Conference and seminar organizing"
-  },
-  {
-    "objectID": "service/index.html#outreach-and-community",
-    "href": "service/index.html#outreach-and-community",
-    "title": "Service",
-    "section": "Outreach and community",
-    "text": "Outreach and community\n\nDocument last rendered: 2026-04-07 07:10:46"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-04-07 07:10:46"
+    "text": "Resources (no particular order)\n\nBraids, galois groups and some arithmetic functions, ICM1990 p. 100\nOn the embedding of \\(\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\) into GT\nThe action of the absolute Galois group on the moduli space of spheres with four marked points\nLochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group\nVasily Dolgushev’ research page\nSzamuely T. Galois Groups and Fundamental Groups\nSKETCH OF A PROGRAMME by Alexandre Grothendieck\nGirondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants\n\n\nDocument last rendered: 2026-04-10 16:27:37"
   },
   {
     "objectID": "misc/Out(F_n).html#motivation",
@@ -95,35 +123,7 @@
     "href": "misc/Out(F_n).html#resources",
     "title": "\\(\\mathrm{Out}(F_n)\\)",
     "section": "Resources",
-    "text": "Resources\nOut(Fn) Notes\n\nDocument last rendered: 2026-04-07 07:10:47"
-  },
-  {
-    "objectID": "misc/index.html#previous-research-topics",
-    "href": "misc/index.html#previous-research-topics",
-    "title": "Miscellaneous",
-    "section": "Previous Research Topics",
-    "text": "Previous Research Topics\n\nGrothendieck–Teichmüller group\n\\(\\mathrm{Out}(F_n)\\)"
-  },
-  {
-    "objectID": "misc/index.html#applets",
-    "href": "misc/index.html#applets",
-    "title": "Miscellaneous",
-    "section": "Applets",
-    "text": "Applets\nHere is a collection of experimental mathematical and non-mathematical applets I made.\n\nVisualize Runge Phenomenon\nGuass Elimination Solver\nKeyboard Piano"
-  },
-  {
-    "objectID": "misc/index.html#some-projects-that-i-am-associated-with",
-    "href": "misc/index.html#some-projects-that-i-am-associated-with",
-    "title": "Miscellaneous",
-    "section": "Some projects that I am associated with:",
-    "text": "Some projects that I am associated with:\n\nGAP-System Emscripten Port:\n\n Start GAP \n\n\n\nCOPYRIGHT LICENSE How to build\n\n\nSageMath in Browser:\nhttps://wangyenshu.github.io/SageMath-in-Browser/\nSource and Credit\n\n\nSingular in Browser:\nhttps://wangyenshu.github.io/Singular-in-Browser/\nSource and Credit\n\n\nFriCAS in Browser:\nhttps://wangyenshu.github.io/FriCAS-in-Browser/\nSource and Credit\n\n\nMacaulay2 in Browser:\nhttps://wangyenshu.github.io/Macaulay2-in-Browser/\nSource and Credit\n\n\nCoCoA in Browser:\nhttps://wangyenshu.github.io/CoCoA-in-Browser/\nSource and Credit\n\n\nKASH3 in Browser:\nhttps://wangyenshu.github.io/KASH3-in-Browser/\nSource and Credit\n\n\nRegina in Browser:\nhttps://wangyenshu.github.io/Regina-in-Browser/\nSouce and Credit\n\n\nMagnus in Browser:\nhttps://wangyenshu.github.io/Magnus-in-Browser/\nSource and Credit\n\n\nProver9 and Mace4 in Browser:\nhttps://wangyenshu.github.io/p9m4-in-Browser/\nSouce and Credit"
-  },
-  {
-    "objectID": "misc/index.html#mathematician-who-went-through-extreme-hardships",
-    "href": "misc/index.html#mathematician-who-went-through-extreme-hardships",
-    "title": "Miscellaneous",
-    "section": "Mathematician Who Went through Extreme Hardships",
-    "text": "Mathematician Who Went through Extreme Hardships\n\nHua Luogeng, Biography in English\nTo be Added\n\n\nDocument last rendered: 2026-04-07 07:10:48"
+    "text": "Resources\nOut(Fn) Notes\n\nDocument last rendered: 2026-04-10 16:27:38"
   },
   {
     "objectID": "CV/index.html",

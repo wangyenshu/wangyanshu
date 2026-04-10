@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a3f6bd1e97f121887d2ce1b8fe2cd664.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-de52dc3353fe04aa4d07820b7139bd46.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -270,6 +270,31 @@ document.addEventListener("DOMContentLoaded", function() {
 <script src="coi-serviceworker.js"></script>
 <p><a href="gap-wasm/COPYRIGHT">COPYRIGHT</a> <a href="gap-wasm/LICENSE">LICENSE</a> <a href="https://github.com/wangyenshu/gap-wasm/blob/gh-pages/README.md">How to build</a></p>
 </section>
+<section id="fricas-emscripten-port" class="level3">
+<h3 class="anchored" data-anchor-id="fricas-emscripten-port">FriCAS Emscripten Port:</h3>
+<div id="fricas-container" style="text-align: center; margin: 20px 0;">
+<p><button id="btn-launch-fricas" class="btn btn-primary"> Start FriCAS </button></p>
+</div>
+<script>
+  document.getElementById('btn-launch-fricas').addEventListener('click', function() {
+    const container = document.getElementById('fricas-container');
+    
+    const iframe = document.createElement('iframe');
+    iframe.src = "https://wangyenshu.github.io/fricas-wasm/index.html"; 
+    
+    iframe.style.width = "100%";
+    iframe.style.height = "500px"; 
+    iframe.style.border = "none";
+    iframe.style.backgroundColor = "#000"; 
+    iframe.style.display = "block";
+    
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  });
+</script>
+<script src="coi-serviceworker.js"></script>
+<p><a href="https://github.com/wangyenshu/fricas-wasm">Source and Credit</a></p>
+</section>
 <section id="sagemath-in-browser" class="level3">
 <h3 class="anchored" data-anchor-id="sagemath-in-browser">SageMath in Browser:</h3>
 <p><a href="https://wangyenshu.github.io/SageMath-in-Browser/">https://wangyenshu.github.io/SageMath-in-Browser/</a></p>
@@ -279,11 +304,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <h3 class="anchored" data-anchor-id="singular-in-browser">Singular in Browser:</h3>
 <p><a href="https://wangyenshu.github.io/Singular-in-Browser/">https://wangyenshu.github.io/Singular-in-Browser/</a></p>
 <p><a href="https://github.com/wangyenshu/Singular-in-Browser">Source and Credit</a></p>
-</section>
-<section id="fricas-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="fricas-in-browser">FriCAS in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/FriCAS-in-Browser/">https://wangyenshu.github.io/FriCAS-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/FriCAS-in-Browser">Source and Credit</a></p>
 </section>
 <section id="macaulay2-in-browser" class="level3">
 <h3 class="anchored" data-anchor-id="macaulay2-in-browser">Macaulay2 in Browser:</h3>
@@ -323,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>To be Added</li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-04-07 07:10:48</p>
+<p>Document last rendered: 2026-04-10 16:27:37</p>
 </div>
 
 
