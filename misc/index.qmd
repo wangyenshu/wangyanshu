@@ -23,6 +23,7 @@ Here is a collection of experimental mathematical and non-mathematical applets I
 - [Guass Elimination Solver](applets/guassianelimination.html)
 
 - [Keyboard Piano](https://github.com/wangyenshu/keyboardpiano)
+  - [web demo](https://wangyenshu.github.io/keyboardpiano/): This web demo has no sound.
 
 ## Some projects that I am associated with: 
 
