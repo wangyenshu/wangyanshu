@@ -39,6 +39,11 @@ format:
             // Register the handler
             Paged.registerHandlers(MathJaxHandler);
           </script>
+    resources: 
+      - Course_Table.pdf
+      - Dessin_Equation_JMM_Poster.pdf
+      - Dessins_d_enfants_and_complete_regular_maps_presentation.pdf
+      - rank_proof.jpg
 ---
 <div style="font-size: 1.5em; font-weight: bold; text-align: center;">Yanshu Wang</div><br>
 
