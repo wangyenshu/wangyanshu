@@ -8,12 +8,6 @@ format:
       - applets
       - coi-serviceworker.js
 ---
-## Previous Research Topics
-
-- [Grothendieck–Teichmüller group](GT.qmd)
-
-- [$\mathrm{Out}(F_n)$](Out(F_n).qmd)
-
 ## Applets
 
 Here is a collection of experimental mathematical and non-mathematical applets I made.

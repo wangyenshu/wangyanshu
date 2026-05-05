@@ -15,7 +15,10 @@ about:
   image-shape: rectangle
   links:
     - icon: email
-      text: "{{< fa envelope >}} Email"
+      text: "{{< fa envelope >}} Institutional Email"
+      href: mailto:yw209@iu.edu
+    - icon: email
+      text: "{{< fa envelope >}} Personal Email"
       href: mailto:wangyenshu@outlook.com
     - icon: pgp
       text: "{{< fa key >}} PGP Key"
@@ -50,7 +53,7 @@ Would you like to learn more?"
 </div>
 
 ## Introduction
-I am an undergraduate student at <a href="http://en.math.nankai.edu.cn/">Nankai University</a> (due on Jul 2026). Previously, I was a research intern (Mitacs GRI) at <a href="https://www.usherbrooke.ca/mathematiques/">Université de Sherbrooke</a> under the supervision of <a href="https://maxencemayrand.github.io/">Maxence Mayrand</a>. Before that, I was an exchange student (tuition free) at <a href="https://cst.temple.edu/department-mathematics">Temple University</a> under the supervision of <a href="https://sites.temple.edu/vald/">Vasily Dolgushev</a>.
+I will be a PhD student at <a href="https://bloomington.iu.edu/index.html">Indiana University Bloomington</a>.
 
 My research interest lies in algebra and number theory. 
 
