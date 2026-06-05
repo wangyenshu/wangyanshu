@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "service/index.html#conference-and-seminar-organizing",
+    "href": "service/index.html#conference-and-seminar-organizing",
+    "title": "Service",
+    "section": "Conference and seminar organizing",
+    "text": "Conference and seminar organizing"
+  },
+  {
+    "objectID": "service/index.html#outreach-and-community",
+    "href": "service/index.html#outreach-and-community",
+    "title": "Service",
+    "section": "Outreach and community",
+    "text": "Outreach and community\n\nDocument last rendered: 2026-06-05 23:09:35"
+  },
+  {
+    "objectID": "misc/GT.html#quick-introduction",
+    "href": "misc/GT.html#quick-introduction",
+    "title": "Grothendieck-Teichmüller group",
+    "section": "Quick Introduction",
+    "text": "Quick Introduction\n\nPierre Guillot An elementary approach to dessins d’enfants and the Grothendieck-Teichmüller group\nDolgushev, Vasily A and Le, Khanh Q and Lorenz, Aidan A What are GT–shadows ?"
+  },
+  {
+    "objectID": "misc/GT.html#open-problems",
+    "href": "misc/GT.html#open-problems",
+    "title": "Grothendieck-Teichmüller group",
+    "section": "Open Problems",
+    "text": "Open Problems\n\nOpen problems in Grothendieck-Teichmüller theory\nSelected open problems in GT-shadows"
+  },
+  {
+    "objectID": "misc/GT.html#software-for-computations",
+    "href": "misc/GT.html#software-for-computations",
+    "title": "Grothendieck-Teichmüller group",
+    "section": "Software for Computations",
+    "text": "Software for Computations\n\nVasily Dolgushev’ research page"
+  },
+  {
+    "objectID": "misc/GT.html#resources-no-particular-order",
+    "href": "misc/GT.html#resources-no-particular-order",
+    "title": "Grothendieck-Teichmüller group",
+    "section": "Resources (no particular order)",
+    "text": "Resources (no particular order)\n\nBraids, galois groups and some arithmetic functions, ICM1990 p. 100\nOn the embedding of \\(\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\) into GT\nThe action of the absolute Galois group on the moduli space of spheres with four marked points\nLochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group\nVasily Dolgushev’ research page\nSzamuely T. Galois Groups and Fundamental Groups\nSKETCH OF A PROGRAMME by Alexandre Grothendieck\nGirondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants\n\n\nDocument last rendered: 2026-06-05 23:09:34"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-06-05 23:09:33"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Yanshu Wang",
+    "section": "Introduction",
+    "text": "Introduction\nI will be a PhD student at Indiana University Bloomington.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-06-05 23:09:32"
+  },
+  {
+    "objectID": "research/index.html#publications-and-preprints",
+    "href": "research/index.html#publications-and-preprints",
+    "title": "Research",
+    "section": "Publications and preprints",
+    "text": "Publications and preprints"
+  },
+  {
+    "objectID": "research/index.html#talks",
+    "href": "research/index.html#talks",
+    "title": "Research",
+    "section": "Talks",
+    "text": "Talks\n\nJMM 2025 AMS Special Session on Polymath Jr REU Student Research Session; topics: Dessin d’enfant and Complete Regular Maps (view slides);\nJMM 2025 AMS-PME Undergraduate Poster Sessions; topics: Obtaining Equations for \\(K_9\\) Dessin (view poster).\n\n\nDocument last rendered: 2026-06-05 23:09:33"
+  },
+  {
+    "objectID": "misc/index.html#applets",
+    "href": "misc/index.html#applets",
+    "title": "Miscellaneous",
+    "section": "Applets",
+    "text": "Applets\nHere is a collection of experimental mathematical and non-mathematical applets I made.\n\nVisualize Runge Phenomenon\nGuass Elimination Solver\nKeyboard Piano\n\nweb demo: This web demo has no sound."
+  },
+  {
+    "objectID": "misc/index.html#webassembly",
+    "href": "misc/index.html#webassembly",
+    "title": "Miscellaneous",
+    "section": "WebAssembly",
+    "text": "WebAssembly\nMy hobby project is to port computer algebra systems to WebAssembly. WebAssembly is a target of compilers that allows running high level language code in browsers at near-native speed. This work could be beneficial for purposes including education, scientific demo, interactive presentations, and reproducible numerical experiments.\nThe following projects use emscripten:\n\nGAP-System WebAssembly Port:\n\n Start GAP \n\n\n\nCOPYRIGHT LICENSE How to build\n\n\nFriCAS WebAssembly Port:\n\n Start FriCAS \n\n\n\nSource and Credit\n\n\nSingular WebAssembly Port:\n\n Start Singular \n\n\n\nSource and Credit\n\n\nCoCoA WebAssembly Port:\n\n Start CoCoA \n\n\n\nSource and Credit\nThe following projects use v86 or cheerpx:\n\n\nSageMath in Browser:\nhttps://wangyenshu.github.io/SageMath-in-Browser/\nSource and Credit\n\n\nMacaulay2 in Browser:\nhttps://wangyenshu.github.io/Macaulay2-in-Browser/\nSource and Credit\n\n\nKASH3 in Browser:\nhttps://wangyenshu.github.io/KASH3-in-Browser/\nSource and Credit\n\n\nRegina in Browser:\nhttps://wangyenshu.github.io/Regina-in-Browser/\nSouce and Credit\n\n\nMagnus in Browser:\nhttps://wangyenshu.github.io/Magnus-in-Browser/\nSource and Credit\n\n\nProver9 and Mace4 in Browser:\nhttps://wangyenshu.github.io/p9m4-in-Browser/\nSouce and Credit"
+  },
+  {
+    "objectID": "misc/index.html#mathematician-who-went-through-extreme-hardships",
+    "href": "misc/index.html#mathematician-who-went-through-extreme-hardships",
+    "title": "Miscellaneous",
+    "section": "Mathematician Who Went through Extreme Hardships",
+    "text": "Mathematician Who Went through Extreme Hardships\n\nHua Luogeng, Biography in English\nTo be Added\n\n\nDocument last rendered: 2026-06-05 23:09:34"
+  },
+  {
+    "objectID": "misc/Out(F_n).html#motivation",
+    "href": "misc/Out(F_n).html#motivation",
+    "title": "\\(\\mathrm{Out}(F_n)\\)",
+    "section": "Motivation",
+    "text": "Motivation\nThere is a natural map \\(\\mathrm{Out}(F_n) \\to \\mathrm{GL}_n(\\mathbb{Z})\\) given by abelianization. This map is onto. And in special case when \\(n = 2\\), this map becomes isomorphism.\nFinding the structure of \\(\\mathrm{Out}(F_n)\\) and \\(\\mathrm{Aut}(F_n)\\) may simplify some group theoretic calculations."
+  },
+  {
+    "objectID": "misc/Out(F_n).html#resources",
+    "href": "misc/Out(F_n).html#resources",
+    "title": "\\(\\mathrm{Out}(F_n)\\)",
+    "section": "Resources",
+    "text": "Resources\nOut(Fn) Notes\n\nDocument last rendered: 2026-06-05 23:09:34"
+  }
+]

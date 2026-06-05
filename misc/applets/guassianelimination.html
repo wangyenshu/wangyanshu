@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js"></script>
+</head>
+<body onload="brython()">
+    <script type="text/python">
+        from browser import document, html, window
+
+        # Function to calculate the determinant of a matrix
+        def determinant(matrix):
+            if len(matrix) != len(matrix[0]):
+                raise ValueError("Matrix must be square")
+            n = len(matrix)
+            if n == 1:
+                return matrix[0][0]
+            if n == 2:
+                return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0]
+            det = 0
+            for c in range(n):
+                det += ((-1) ** c) * matrix[0][c] * determinant([row[:c] + row[c+1:] for row in matrix[1:]])
+            return det
+
+        # Function to perform Gaussian elimination
+        def gaussian_elimination(matrix):
+            rows = len(matrix)
+            cols = len(matrix[0])
+
+            # Check if the coefficient matrix is invertible
+            coeff_matrix = [row[:-1] for row in matrix]  # Exclude the last column (constants)
+            if determinant(coeff_matrix) == 0:
+                return None  # Matrix is singular
+
+            # Perform Gaussian elimination
+            for i in range(rows):
+                # Find the element with the maximal absolute value in the current column and swap to the diagonal
+                max_row = max(range(i, rows), key=lambda r: abs(matrix[r][i]))
+                matrix[i], matrix[max_row] = matrix[max_row], matrix[i]  # Swap rows
+
+                # Eliminate the entries below the element with maximal absolute value
+                for j in range(i + 1, rows):
+                    factor = matrix[j][i] / matrix[i][i]
+                    for k in range(i, cols):
+                        matrix[j][k] -= factor * matrix[i][k]
+
+            # Back substitution to find the solution
+            x = [0] * rows
+            for i in range(rows - 1, -1, -1):
+                x[i] = (matrix[i][-1] - sum(matrix[i][j] * x[j] for j in range(i + 1, rows))) / matrix[i][i]
+
+            return x
+
+        # Function to get input and perform calculations
+        def get_input_and_solve(event):
+            rows = int(document["rows_input"].value)
+            cols = rows + 1  # Augmented matrix has one more column for the constants
+            matrix = []
+
+            for i in range(rows):
+                row = []
+                for j in range(cols):
+                    element = float(document[f"element_{i}_{j}"].value)
+                    row.append(element)
+                matrix.append(row)
+
+            solution = gaussian_elimination(matrix)
+            if solution is None:
+                window.alert("The coefficient matrix is not invertible.")
+            else:
+                document["result"].text = f"The solution is: {solution}"
+
+        # Create input fields dynamically
+        def create_input_fields(event):
+            rows = int(document["rows_input"].value)
+            input_area = document["input_area"]
+            input_area.clear()  # Clear previous inputs
+
+            for i in range(rows):
+                row_div = html.DIV()
+                for j in range(rows + 1):
+                    input_field = html.INPUT(type="number", id=f"element_{i}_{j}", placeholder=f"Element [{i+1}][{j+1}]")
+                    row_div <= input_field
+                input_area <= row_div
+
+        # Event listeners
+        document["rows_input"].bind("change", create_input_fields)
+        document["solve_button"].bind("click", get_input_and_solve)
+
+    </script>
+
+    <h1>Gaussian Elimination Solver</h1>
+    <label for="rows_input">Enter the number of rows (equations):</label>
+    <input type="number" id="rows_input" min="1">
+    <div id="input_area"></div>
+    <button id="solve_button">Solve</button>
+    <p id="result"></p>
+</body>
+</html>
