@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "misc/index.html#fortune",
-    "href": "misc/index.html#fortune",
+    "objectID": "misc/index.html#fortune_unix",
+    "href": "misc/index.html#fortune_unix",
     "title": "Miscellaneous",
-    "section": "Fortune",
-    "text": "Fortune\n\n\nLoading..."
+    "section": "Fortune_(Unix)",
+    "text": "Fortune_(Unix)\n\n\nLoading...\n\n\nRefresh to execute again.\nCREDIT"
   },
   {
     "objectID": "misc/index.html#applets",
@@ -32,7 +32,7 @@
     "href": "misc/index.html#mathematician-who-went-through-extreme-hardships",
     "title": "Miscellaneous",
     "section": "Mathematician Who Went through Extreme Hardships",
-    "text": "Mathematician Who Went through Extreme Hardships\n\nHua Luogeng, Biography in English\nTo be Added\n\n\nDocument last rendered: 2026-07-25 11:47:22"
+    "text": "Mathematician Who Went through Extreme Hardships\n\nHua Luogeng, Biography in English\nTo be Added\n\n\nDocument last rendered: 2026-07-25 11:53:22"
   },
   {
     "objectID": "misc/GT.html#quick-introduction",
@@ -60,7 +60,7 @@
     "href": "misc/GT.html#resources-no-particular-order",
     "title": "Grothendieck-Teichmüller group",
     "section": "Resources (no particular order)",
-    "text": "Resources (no particular order)\n\nBraids, galois groups and some arithmetic functions, ICM1990 p. 100\nOn the embedding of \\(\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\) into GT\nThe action of the absolute Galois group on the moduli space of spheres with four marked points\nLochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group\nVasily Dolgushev’ research page\nSzamuely T. Galois Groups and Fundamental Groups\nSKETCH OF A PROGRAMME by Alexandre Grothendieck\nGirondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants\n\n\nDocument last rendered: 2026-07-25 11:47:22"
+    "text": "Resources (no particular order)\n\nBraids, galois groups and some arithmetic functions, ICM1990 p. 100\nOn the embedding of \\(\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\) into GT\nThe action of the absolute Galois group on the moduli space of spheres with four marked points\nLochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group\nVasily Dolgushev’ research page\nSzamuely T. Galois Groups and Fundamental Groups\nSKETCH OF A PROGRAMME by Alexandre Grothendieck\nGirondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants\n\n\nDocument last rendered: 2026-07-25 11:53:21"
   },
   {
     "objectID": "research/index.html#publications-and-preprints",
@@ -74,14 +74,14 @@
     "href": "research/index.html#talks",
     "title": "Research",
     "section": "Talks",
-    "text": "Talks\n\nJMM 2025 AMS Special Session on Polymath Jr REU Student Research Session; topics: Dessin d’enfant and Complete Regular Maps\nJMM 2025 AMS-PME Undergraduate Poster Sessions; topics: Obtaining Equations for \\(K_9\\) Dessin\n\n\nDocument last rendered: 2026-07-25 11:47:21"
+    "text": "Talks\n\nJMM 2025 AMS Special Session on Polymath Jr REU Student Research Session; topics: Dessin d’enfant and Complete Regular Maps\nJMM 2025 AMS-PME Undergraduate Poster Sessions; topics: Obtaining Equations for \\(K_9\\) Dessin\n\n\nDocument last rendered: 2026-07-25 11:53:20"
   },
   {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-07-25 11:47:20"
+    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-07-25 11:53:18"
   },
   {
     "objectID": "service/index.html#conference-and-seminar-organizing",
@@ -95,14 +95,14 @@
     "href": "service/index.html#outreach-and-community",
     "title": "Service",
     "section": "Outreach and community",
-    "text": "Outreach and community\n\nDocument last rendered: 2026-07-25 11:47:20"
+    "text": "Outreach and community\n\nDocument last rendered: 2026-07-25 11:53:19"
   },
   {
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
     "title": "Yanshu Wang",
     "section": "Introduction",
-    "text": "Introduction\nI will be a PhD student at Indiana University Bloomington.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-07-25 11:47:21"
+    "text": "Introduction\nI will be a PhD student at Indiana University Bloomington.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-07-25 11:53:20"
   },
   {
     "objectID": "misc/Out(F_n).html#motivation",
@@ -116,6 +116,6 @@
     "href": "misc/Out(F_n).html#resources",
     "title": "\\(\\mathrm{Out}(F_n)\\)",
     "section": "Resources",
-    "text": "Resources\nOut(Fn) Notes\n\nDocument last rendered: 2026-07-25 11:47:22"
+    "text": "Resources\nOut(Fn) Notes\n\nDocument last rendered: 2026-07-25 11:53:22"
   }
 ]
