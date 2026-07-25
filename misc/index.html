@@ -202,15 +202,33 @@ document.addEventListener("DOMContentLoaded", function() {
         border-radius: 4px; 
         white-space: pre-wrap; 
         font-family: monospace;
+        margin-bottom: 10px;
+    }
+    .fortune-btn {
+        margin-bottom: 15px;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+    .fortune-disclaimer {
+        font-size: 0.8rem;
+        color: #777;
     }
 </style>
 
+<button id="fortune-btn" class="fortune-btn">Quote of the Day</button>
+
 <pre id="fortune-container" class="fortune-box">Loading...</pre>
+
+<div class="fortune-disclaimer">
+    <strong>Disclaimer:</strong> The quotes generated above are pulled randomly from a classical text database and do not necessarily reflect the views or opinions of the author.
+</div>
 
 <script type="module">
     import { WASI, File, OpenFile } from "./browser_wasi_shim.mjs";
 
     async function runFortune() {
+        document.getElementById('fortune-container').innerText = "Loading...";
+
         try {
             const response = await fetch('./fortune.wasm');
             const wasmBuffer = await response.arrayBuffer();
@@ -243,6 +261,8 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('fortune-container').innerText = "Error running fortune.wasm.";
         }
     }
+
+    document.getElementById('fortune-btn').addEventListener('click', runFortune);
 
     runFortune();
 </script>
@@ -493,7 +513,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>Hua Luogeng, <a href="https://archive.org/details/hualookengbiogra0000wang">Biography in English</a></li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-07-25 11:55:25</p>
+<p>Document last rendered: 2026-07-25 13:09:44</p>
 </div>
 
 
