@@ -193,6 +193,60 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 
 
+<section id="fortune" class="level2">
+<h2 class="anchored" data-anchor-id="fortune">Fortune</h2>
+<style>
+    .fortune-box { 
+        background: #f4f4f4; 
+        padding: 1rem; 
+        border-radius: 4px; 
+        white-space: pre-wrap; 
+        font-family: monospace;
+    }
+</style>
+
+<pre id="fortune-container" class="fortune-box">Loading...</pre>
+
+<script type="module">
+    import { WASI, File, OpenFile } from "https://esm.sh/@bjorn3/browser_wasi_shim@0.3.0";
+
+    async function runFortune() {
+        try {
+            const response = await fetch('./fortune.wasm');
+            const wasmBuffer = await response.arrayBuffer();
+            
+            const args = ["fortune", "-o", "short"];
+            const env = [];
+            const fds = [
+                new OpenFile(new File([])), 
+                new OpenFile(new File([])), 
+                new OpenFile(new File([])), 
+            ];
+
+            const wasi = new WASI(args, env, fds);
+
+            const wasmModule = await WebAssembly.compile(wasmBuffer);
+            const instance = await WebAssembly.instantiate(wasmModule, {
+                wasi_snapshot_preview1: wasi.wasiImport,
+                wasi_unstable: wasi.wasiImport
+            });
+
+            wasi.start(instance);
+
+            const stdoutFile = fds[1].file;
+            const decoder = new TextDecoder("utf-8");
+            const fortuneText = decoder.decode(stdoutFile.data);
+            
+            document.getElementById('fortune-container').innerText = fortuneText;
+
+        } catch (err) {
+            document.getElementById('fortune-container').innerText = "Error running fortune.wasm.";
+        }
+    }
+
+    runFortune();
+</script>
+</section>
 <section id="applets" class="level2">
 <h2 class="anchored" data-anchor-id="applets">Applets</h2>
 <p>Here is a collection of experimental mathematical and non-mathematical applets I made.</p>
@@ -438,7 +492,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>To be Added</li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-07-25 11:19:19</p>
+<p>Document last rendered: 2026-07-25 11:24:40</p>
 </div>
 
 
