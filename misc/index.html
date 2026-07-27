@@ -446,7 +446,66 @@ document.addEventListener("DOMContentLoaded", function() {
 </section>
 <section id="prover9-and-mace4-in-browser" class="level3">
 <h3 class="anchored" data-anchor-id="prover9-and-mace4-in-browser">Prover9 and Mace4 in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/p9m4-in-Browser/">https://wangyenshu.github.io/p9m4-in-Browser/</a></p>
+<style>
+    textarea {
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+        font-family: monospace;
+        margin-bottom: 10px;
+    }
+    pre {
+        overflow-x: auto;
+    }
+    .p9m4-btn {
+        margin-bottom: 10px;
+        padding: 4px 10px;
+        cursor: pointer;
+    }
+</style>
+
+<script src="prover9.js"></script>
+<script src="mace4.js"></script>
+
+<p>Enter your problem:</p>
+<textarea id="inputText"></textarea>
+
+<div>
+    <button class="p9m4-btn" onclick="runEngine('prover9')">Run Prover9</button>
+    <button class="p9m4-btn" onclick="runEngine('mace4')">Run Mace4</button>
+    <button class="p9m4-btn" onclick="clearOutput()">Clear Output</button>
+</div>
+
+<h3 class="anchored">Output:</h3>
+<pre id="outputText"></pre>
+
+<script>
+    function clearOutput() {
+        document.getElementById('outputText').innerText = '';
+    }
+    
+    function runEngine(engineName) {
+        const outputElement = document.getElementById('outputText');
+        const inputData = document.getElementById('inputText').value;
+        const LadrModule = { 'prover9': Prover9Module, 'mace4': Mace4Module }[engineName];
+        
+        LadrModule({
+            print: function(text) {
+                outputElement.innerText += text + '\n';
+            },
+            printErr: function(text) {
+                outputElement.innerText += text + '\n';
+            }
+        }).then(function(Module) {
+            Module.FS.writeFile('input.in', inputData);
+
+            try {
+                Module.callMain(['-f', 'input.in']);
+            } catch (e) {
+            }
+        });
+    }
+</script>
 <p><a href="https://github.com/wangyenshu/p9m4-in-Browser">Souce and Credit</a></p>
 </section>
 </section>
@@ -517,7 +576,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>Hua Luogeng, <a href="https://archive.org/details/hualookengbiogra0000wang">Biography in English</a></li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-07-27 06:03:24</p>
+<p>Document last rendered: 2026-07-27 06:07:55</p>
 </div>
 
 
