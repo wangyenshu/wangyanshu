@@ -18,7 +18,7 @@
     "href": "misc/index.html#webassembly",
     "title": "Miscellaneous",
     "section": "WebAssembly",
-    "text": "WebAssembly\nMy hobby project is to port computer algebra systems to WebAssembly. WebAssembly is a target of compilers that allows running high level language code in browsers at near-native speed. This work could be beneficial for purposes including education, scientific demo, interactive presentations, and reproducible numerical experiments.\nThe following projects use emscripten:\n\nGAP-System WebAssembly Port:\n\n  \n  \n    Start GAP\n  \n\n\n\n\nCOPYRIGHT\nLICENSE\nHow to build\n\n\nFriCAS WebAssembly Port:\n\n  \n  \n    Start FriCAS\n  \n\n\n\n\nSource and Credit\nNew Build on Emscripten-Forge\nPermanent Download Link\n\n\nSingular WebAssembly Port:\n\n  \n  \n    Start Singular\n  \n\n\n\n\nSource and Credit\nNew Build on Emscripten-Forge\nPermanent Download Link\n\n\nCoCoA WebAssembly Port:\n\n  \n  \n    Start CoCoA\n  \n\n\n\n\nSource and Credit\nNew Build on Emscripten-Forge\nPermanent Download Link\n\n\nProver9 and Mace4 in Browser:\n\n\n\n\n\nEnter your problem:\n\n\n\n    Run Prover9\n    Run Mace4\n    Clear Output\n\n\nOutput:\n\n\n\nSouce and Credit\nThe following projects use v86 or boxedwine:\n\n\nSageMath in Browser:\nhttps://wangyenshu.github.io/SageMath-in-Browser/\nSource and Credit\n\n\nMacaulay2 in Browser:\nhttps://wangyenshu.github.io/Macaulay2-in-Browser/\nSource and Credit\n\n\nKASH3 in Browser:\nhttps://wangyenshu.github.io/KASH3-in-Browser/\nSource and Credit\n\n\nRegina in Browser:\nhttps://github.com/wangyenshu/Regina-Boxedwine/\nSouce and Credit\n\n\nMagnus in Browser:\nhttps://wangyenshu.github.io/Magnus-in-Browser/\nSource and Credit"
+    "text": "WebAssembly\nMy hobby project is to port computer algebra systems to WebAssembly. WebAssembly is a target of compilers that allows running high level language code in browsers at near-native speed. This work could be beneficial for purposes including education, scientific demo, interactive presentations, and reproducible numerical experiments.\nThe following projects use emscripten:\n\n\nGAP-System WebAssembly Port:\n\n  \n    Start GAP\n  \n\nCOPYRIGHT\nLICENSE\nHow to build\n\n\nFriCAS WebAssembly Port:\n\n  \n    Start FriCAS\n  \n\nSource and Credit\nNew Build on Emscripten-Forge\nPermanent Download Link\n\n\nSingular WebAssembly Port:\n\n  \n    Start Singular\n  \n\nSource and Credit\nNew Build on Emscripten-Forge\nPermanent Download Link\n\n\nCoCoA WebAssembly Port:\n\n  \n    Start CoCoA\n  \n\nSource and Credit\nNew Build on Emscripten-Forge\nPermanent Download Link\n\n\nProver9 and Mace4 in Browser:\n\n\n\n\n\nEnter your problem:\n\n\n\n    Run Prover9\n    Run Mace4\n    Clear Output\n\n\nOutput:\n\n\n\nSouce and Credit\nThe following projects use v86 or boxedwine:\n\n\nSageMath in Browser:\nhttps://wangyenshu.github.io/SageMath-in-Browser/\nSource and Credit\n\n\nMacaulay2 in Browser:\nhttps://wangyenshu.github.io/Macaulay2-in-Browser/\nSource and Credit\n\n\nKASH3 in Browser:\nhttps://wangyenshu.github.io/KASH3-in-Browser/\nSource and Credit\n\n\nRegina in Browser:\nhttps://github.com/wangyenshu/Regina-Boxedwine/\nSouce and Credit\n\n\nMagnus in Browser:\nhttps://wangyenshu.github.io/Magnus-in-Browser/\nSource and Credit"
   },
   {
     "objectID": "misc/index.html#math-feed",
@@ -32,7 +32,7 @@
     "href": "misc/index.html#mathematician-who-went-through-extreme-hardships",
     "title": "Miscellaneous",
     "section": "Mathematician Who Went through Extreme Hardships",
-    "text": "Mathematician Who Went through Extreme Hardships\n\nHua Luogeng, Biography in English\n\n\nDocument last rendered: 2026-07-30 15:40:17"
+    "text": "Mathematician Who Went through Extreme Hardships\n\nHua Luogeng, Biography in English\n\n\nDocument last rendered: 2026-07-30 15:55:24"
   },
   {
     "objectID": "misc/GT.html#quick-introduction",
@@ -60,7 +60,7 @@
     "href": "misc/GT.html#resources-no-particular-order",
     "title": "Grothendieck-Teichmüller group",
     "section": "Resources (no particular order)",
-    "text": "Resources (no particular order)\n\nBraids, galois groups and some arithmetic functions, ICM1990 p. 100\nOn the embedding of \\(\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\) into GT\nThe action of the absolute Galois group on the moduli space of spheres with four marked points\nLochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group\nVasily Dolgushev’ research page\nSzamuely T. Galois Groups and Fundamental Groups\nSKETCH OF A PROGRAMME by Alexandre Grothendieck\nGirondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants\n\n\nDocument last rendered: 2026-07-30 15:40:16"
+    "text": "Resources (no particular order)\n\nBraids, galois groups and some arithmetic functions, ICM1990 p. 100\nOn the embedding of \\(\\text{Gal}(\\overline{\\mathbb{Q}}/\\mathbb{Q})\\) into GT\nThe action of the absolute Galois group on the moduli space of spheres with four marked points\nLochak, P., Schneps, L. & Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group\nVasily Dolgushev’ research page\nSzamuely T. Galois Groups and Fundamental Groups\nSKETCH OF A PROGRAMME by Alexandre Grothendieck\nGirondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants\n\n\nDocument last rendered: 2026-07-30 15:55:23"
   },
   {
     "objectID": "research/index.html#publications-and-preprints",
@@ -74,14 +74,14 @@
     "href": "research/index.html#talks",
     "title": "Research",
     "section": "Talks",
-    "text": "Talks\n\nJMM 2025 AMS Special Session on Polymath Jr REU Student Research Session; topics: Dessin d’enfant and Complete Regular Maps\nJMM 2025 AMS-PME Undergraduate Poster Sessions; topics: Obtaining Equations for \\(K_9\\) Dessin\n\n\nDocument last rendered: 2026-07-30 15:40:15"
+    "text": "Talks\n\nJMM 2025 AMS Special Session on Polymath Jr REU Student Research Session; topics: Dessin d’enfant and Complete Regular Maps\nJMM 2025 AMS-PME Undergraduate Poster Sessions; topics: Obtaining Equations for \\(K_9\\) Dessin\n\n\nDocument last rendered: 2026-07-30 15:55:22"
   },
   {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
     "title": "Teaching",
     "section": "",
-    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-07-30 15:40:15"
+    "text": "Yanshu Wang\n      \n    \n    \n  \n\n\n\n\n\n\n\n\nDocument last rendered: 2026-07-30 15:55:21"
   },
   {
     "objectID": "service/index.html#conference-and-seminar-organizing",
@@ -95,14 +95,14 @@
     "href": "service/index.html#outreach-and-community",
     "title": "Service",
     "section": "Outreach and community",
-    "text": "Outreach and community\n\nDocument last rendered: 2026-07-30 15:40:15"
+    "text": "Outreach and community\n\nDocument last rendered: 2026-07-30 15:55:22"
   },
   {
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
     "title": "Yanshu Wang",
     "section": "Introduction",
-    "text": "Introduction\nI will be a PhD student at Indiana University Bloomington.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-07-30 15:40:16"
+    "text": "Introduction\nI will be a PhD student at Indiana University Bloomington.\nMy research interest lies in algebra and number theory.\n\nDocument last rendered: 2026-07-30 15:55:23"
   },
   {
     "objectID": "misc/Out(F_n).html#motivation",
@@ -116,6 +116,6 @@
     "href": "misc/Out(F_n).html#resources",
     "title": "\\(\\mathrm{Out}(F_n)\\)",
     "section": "Resources",
-    "text": "Resources\nOut(Fn) Notes\n\nDocument last rendered: 2026-07-30 15:40:17"
+    "text": "Resources\nOut(Fn) Notes\n\nDocument last rendered: 2026-07-30 15:55:24"
   }
 ]
