@@ -74,6 +74,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script src="coi-serviceworker.js"></script>
+<link rel="stylesheet" href="xterm.css">
+<script src="xterm.min.js"></script>
+<script src="index.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -287,34 +290,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <p>Iframe only works on Chromium based browser!</p>
 <section id="gap-system-webassembly-port" class="level3">
 <h3 class="anchored" data-anchor-id="gap-system-webassembly-port">GAP-System WebAssembly Port:</h3>
-<div id="gap-container" style="text-align: center; margin: 20px 0;">
-  
-  <button id="btn-launch-gap" class="btn btn-primary">
-    Start GAP
-  </button>
-
-</div>
-
-<script>
-  document.getElementById('btn-launch-gap').addEventListener('click', function() {
-    const container = document.getElementById('gap-container');
-    
-    const iframe = document.createElement('iframe');
-    iframe.src = "https://wangyenshu.github.io/gap-wasm/index.html"; 
-    iframe.setAttribute('credentialless', 'true');
-
-    iframe.style.maxWidth = "735px";
-    iframe.style.width = "100%";
-    iframe.style.margin = "0 auto";
-    iframe.style.height = "500px"; 
-    iframe.style.border = "none";
-    iframe.style.backgroundColor = "#000"; 
-    iframe.style.display = "block";
-    
-    container.innerHTML = '';
-    container.appendChild(iframe);
-  });
-</script>
+<p><a href="https://wangyenshu.github.io/gap-wasm">https://wangyenshu.github.io/gap-wasm</a></p>
+<p><a href="https://gap-system.github.io/gap-in-the-browser/">Official Instance</a></p>
 <p><a href="gap-wasm/COPYRIGHT">COPYRIGHT</a></p>
 <p><a href="gap-wasm/LICENSE">LICENSE</a></p>
 <p><a href="https://github.com/wangyenshu/gap-wasm/blob/gh-pages/README.md">How to build</a></p>
@@ -322,31 +299,36 @@ document.addEventListener("DOMContentLoaded", function() {
 <section id="fricas-webassembly-port" class="level3">
 <h3 class="anchored" data-anchor-id="fricas-webassembly-port">FriCAS WebAssembly Port:</h3>
 <div id="fricas-container" style="text-align: center; margin: 20px 0;">
-  
   <button id="btn-launch-fricas" class="btn btn-primary">
     Start FriCAS
   </button>
-
 </div>
 
 <script>
   document.getElementById('btn-launch-fricas').addEventListener('click', function() {
     const container = document.getElementById('fricas-container');
     
-    const iframe = document.createElement('iframe');
-    iframe.src = "https://wangyenshu.github.io/fricas-wasm/index.html"; 
-    iframe.setAttribute('credentialless', 'true');
-
-    iframe.style.maxWidth = "735px";
-    iframe.style.width = "100%";
-    iframe.style.margin = "0 auto";
-    iframe.style.height = "500px"; 
-    iframe.style.border = "none";
-    iframe.style.backgroundColor = "#000"; 
-    iframe.style.display = "block";
-    
     container.innerHTML = '';
-    container.appendChild(iframe);
+    
+    container.style.maxWidth = "735px";
+    container.style.width = "100%";
+    container.style.margin = "0 auto";
+    container.style.height = "500px";
+    container.style.backgroundColor = "#000";
+    
+    container.style.textAlign = "left"; 
+
+    const xterm = new Terminal({
+      cursorBlink: true,
+      theme: { background: '#000000' }
+    });
+    xterm.open(container);
+
+    const { master, slave } = openpty();
+    xterm.loadAddon(master);
+
+    const worker = new Worker("ecl-worker.js");
+    new TtyServer(slave).start(worker);
   });
 </script>
 <p><a href="https://github.com/wangyenshu/fricas-wasm">Source and Credit</a></p>
@@ -356,33 +338,39 @@ document.addEventListener("DOMContentLoaded", function() {
 <section id="singular-webassembly-port" class="level3">
 <h3 class="anchored" data-anchor-id="singular-webassembly-port">Singular WebAssembly Port:</h3>
 <div id="singular-container" style="text-align: center; margin: 20px 0;">
-  
   <button id="btn-launch-singular" class="btn btn-primary">
     Start Singular
   </button>
-
 </div>
 
 <script>
   document.getElementById('btn-launch-singular').addEventListener('click', function() {
     const container = document.getElementById('singular-container');
     
-    const iframe = document.createElement('iframe');
-    iframe.src = "https://wangyenshu.github.io/Singular-wasm/index.html"; 
-    iframe.setAttribute('credentialless', 'true');
-
-    iframe.style.maxWidth = "735px";
-    iframe.style.width = "100%";
-    iframe.style.margin = "0 auto";
-    iframe.style.height = "500px"; 
-    iframe.style.border = "none";
-    iframe.style.backgroundColor = "#000"; 
-    iframe.style.display = "block";
-    
     container.innerHTML = '';
-    container.appendChild(iframe);
+    
+    container.style.maxWidth = "735px";
+    container.style.width = "100%";
+    container.style.margin = "0 auto";
+    container.style.height = "500px";
+    container.style.backgroundColor = "#000";
+    
+    container.style.textAlign = "left"; 
+
+    const xterm = new Terminal({
+      cursorBlink: true,
+      theme: { background: '#000000' }
+    });
+    xterm.open(container);
+
+    const { master, slave } = openpty();
+    xterm.loadAddon(master);
+
+    const worker = new Worker("Singular-worker.js");
+    new TtyServer(slave).start(worker);
   });
 </script>
+<p><a href="https://singular-in-browser.pages.dev/">Official Instance</a></p>
 <p><a href="https://github.com/wangyenshu/Singular-wasm/tree/Singular-wasm/emscripten">Source and Credit</a></p>
 <p><a href="https://prefix.dev/channels/emscripten-forge-4x/packages/singular">New Build on Emscripten-Forge</a></p>
 <p><a href="https://web.archive.org/web/20260722080535/https://packages.prefix.dev/49/49104d545baea05953011448d81c6baf4c6c34cc5b057ac0dade6c0813a31931?verify=1784707533-ZCCOPOY7zUDal50pkzicj%2FpuK%2FQJJqjSFez4XtgoJQs%3D">Permanent Download Link</a></p>
@@ -390,31 +378,36 @@ document.addEventListener("DOMContentLoaded", function() {
 <section id="cocoa-webassembly-port" class="level3">
 <h3 class="anchored" data-anchor-id="cocoa-webassembly-port">CoCoA WebAssembly Port:</h3>
 <div id="cocoa-container" style="text-align: center; margin: 20px 0;">
-  
   <button id="btn-launch-cocoa" class="btn btn-primary">
-    Start CoCoA
+    Start CoCoA5
   </button>
-
 </div>
 
 <script>
   document.getElementById('btn-launch-cocoa').addEventListener('click', function() {
     const container = document.getElementById('cocoa-container');
     
-    const iframe = document.createElement('iframe');
-    iframe.src = "https://wangyenshu.github.io/CoCoA-wasm/index.html"; 
-    iframe.setAttribute('credentialless', 'true');
-
-    iframe.style.maxWidth = "735px";
-    iframe.style.width = "100%";
-    iframe.style.margin = "0 auto";
-    iframe.style.height = "500px"; 
-    iframe.style.border = "none";
-    iframe.style.backgroundColor = "#000"; 
-    iframe.style.display = "block";
-    
     container.innerHTML = '';
-    container.appendChild(iframe);
+    
+    container.style.maxWidth = "735px";
+    container.style.width = "100%";
+    container.style.margin = "0 auto";
+    container.style.height = "500px";
+    container.style.backgroundColor = "#000";
+    
+    container.style.textAlign = "left"; 
+
+    const xterm = new Terminal({
+      cursorBlink: true,
+      theme: { background: '#000000' }
+    });
+    xterm.open(container);
+
+    const { master, slave } = openpty();
+    xterm.loadAddon(master);
+
+    const worker = new Worker("CoCoA-worker.js");
+    new TtyServer(slave).start(worker);
   });
 </script>
 <p><a href="https://github.com/wangyenshu/CoCoA-wasm/tree/CoCoA-wasm/emscripten">Source and Credit</a></p>
@@ -579,7 +572,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <li>Hua Luogeng, <a href="https://archive.org/details/hualookengbiogra0000wang">Biography in English</a></li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-07-30 16:31:47</p>
+<p>Document last rendered: 2026-07-31 01:54:28</p>
 </div>
 
 
