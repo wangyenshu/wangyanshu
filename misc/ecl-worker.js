@@ -1,4 +1,4 @@
-importScripts("https://cdn.jsdelivr.net/npm/xterm-pty@0.9.4/workerTools.js");
+importScripts("workerTools.js");
 
 onmessage = (msg) => {
   self.Module = self.Module || {};

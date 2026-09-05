@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-2b6a17fde00b5ccb222bcc6fbf188e31.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-5ff355f32169432f12e3b54c979a24ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -271,18 +271,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 <p><a href="https://github.com/wapm-packages/fortune">CREDIT</a></p>
 </section>
-<section id="applets" class="level2">
-<h2 class="anchored" data-anchor-id="applets">Applets</h2>
-<p>Here is a collection of experimental mathematical and non-mathematical applets I made.</p>
-<ul>
-<li><p><a href="applets/rungesphenomenon.html">Visualize Runge Phenomenon</a></p></li>
-<li><p><a href="applets/guassianelimination.html">Guass Elimination Solver</a></p></li>
-<li><p><a href="https://github.com/wangyenshu/keyboardpiano">Keyboard Piano</a></p>
-<ul>
-<li><a href="https://wangyenshu.github.io/keyboardpiano/">web demo</a>: This web demo has no sound.</li>
-</ul></li>
-</ul>
-</section>
 <section id="webassembly" class="level2">
 <h2 class="anchored" data-anchor-id="webassembly">WebAssembly</h2>
 <p>My hobby project is to port computer algebra systems to WebAssembly. WebAssembly is a target of compilers that allows running high level language code in browsers at near-native speed. This work could be beneficial for purposes including education, scientific demo, interactive presentations, and reproducible numerical experiments.</p>
@@ -295,6 +283,49 @@ document.addEventListener("DOMContentLoaded", function() {
 <p><a href="gap-wasm/COPYRIGHT">COPYRIGHT</a></p>
 <p><a href="gap-wasm/LICENSE">LICENSE</a></p>
 <p><a href="https://github.com/wangyenshu/gap-wasm/blob/gh-pages/README.md">How to build</a></p>
+</section>
+<section id="macaulay2-webassembly-port" class="level3">
+<h3 class="anchored" data-anchor-id="macaulay2-webassembly-port">Macaulay2 WebAssembly Port:</h3>
+<div id="macaulay2-container" style="text-align: center; margin: 20px 0;">
+  <button id="btn-launch-macaulay2" class="btn btn-primary">
+    Start Macaulay2
+  </button>
+</div>
+
+<script>
+  document.getElementById('btn-launch-macaulay2').addEventListener('click', function() {
+    const container = document.getElementById('macaulay2-container');
+    
+    container.innerHTML = '';
+    
+    container.style.maxWidth = "735px";
+    container.style.width = "100%";
+    container.style.margin = "0 auto";
+    container.style.height = "500px";
+    container.style.backgroundColor = "#000";
+    
+    container.style.textAlign = "left"; 
+    container.style.overflowX = "auto";
+    container.style.overflowY = "hidden";
+    container.style.boxSizing = "border-box";
+    container.style.padding = "5px";
+
+    const xterm = new Terminal({
+      cursorBlink: true,
+      theme: { background: '#000000' }
+    });
+    xterm.open(container);
+
+    const { master, slave } = openpty();
+    xterm.loadAddon(master);
+
+    const worker = new Worker("M2-worker.js");
+    new TtyServer(slave).start(worker);
+  });
+</script>
+<p><a href="https://github.com/emscripten-forge/recipes/pull/5959">Source and Credit</a></p>
+<p><a href="https://prefix.dev/channels/emscripten-forge-4x/packages/macaulay2">New Build on Emscripten-Forge</a></p>
+<p><a href="https://web.archive.org/web/20260905165453/https://packages.prefix.dev/84/840b699f72f54c9f2f29c8f25157dbd1bd77a9c6604eef3d48a2bfec314bf2b0?verify=1788627292-C0VpPRs2vKfVJ%2BM%2F34A%2Fce3Og%2BkvhA9UQyymwduOv0E%3D">Permanent Download Link</a></p>
 </section>
 <section id="fricas-webassembly-port" class="level3">
 <h3 class="anchored" data-anchor-id="fricas-webassembly-port">FriCAS WebAssembly Port:</h3>
@@ -496,11 +527,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <p><a href="https://wangyenshu.github.io/SageMath-in-Browser/">https://wangyenshu.github.io/SageMath-in-Browser/</a></p>
 <p><a href="https://github.com/wangyenshu/SageMath-in-Browser">Source and Credit</a></p>
 </section>
-<section id="macaulay2-in-browser" class="level3">
-<h3 class="anchored" data-anchor-id="macaulay2-in-browser">Macaulay2 in Browser:</h3>
-<p><a href="https://wangyenshu.github.io/Macaulay2-in-Browser/">https://wangyenshu.github.io/Macaulay2-in-Browser/</a></p>
-<p><a href="https://github.com/wangyenshu/Macaulay2-in-Browser">Source and Credit</a></p>
-</section>
 <section id="kash3-in-browser" class="level3">
 <h3 class="anchored" data-anchor-id="kash3-in-browser">KASH3 in Browser:</h3>
 <p><a href="https://wangyenshu.github.io/KASH3-in-Browser/">https://wangyenshu.github.io/KASH3-in-Browser/</a></p>
@@ -578,13 +604,25 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 </script>
 </section>
+<section id="applets" class="level2">
+<h2 class="anchored" data-anchor-id="applets">Applets</h2>
+<p>Here is a collection of experimental mathematical and non-mathematical applets I made.</p>
+<ul>
+<li><p><a href="applets/rungesphenomenon.html">Visualize Runge Phenomenon</a></p></li>
+<li><p><a href="applets/guassianelimination.html">Guass Elimination Solver</a></p></li>
+<li><p><a href="https://github.com/wangyenshu/keyboardpiano">Keyboard Piano</a></p>
+<ul>
+<li><a href="https://wangyenshu.github.io/keyboardpiano/">web demo</a>: This web demo has no sound.</li>
+</ul></li>
+</ul>
+</section>
 <section id="mathematician-who-went-through-extreme-hardships" class="level2">
 <h2 class="anchored" data-anchor-id="mathematician-who-went-through-extreme-hardships">Mathematician Who Went through Extreme Hardships</h2>
 <ul>
 <li>Hua Luogeng, <a href="https://archive.org/details/hualookengbiogra0000wang">Biography in English</a></li>
 </ul>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-08-04 15:28:04</p>
+<p>Document last rendered: 2026-09-05 17:03:19</p>
 </div>
 
 
