@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Grothendieck-Teichmüller group – Yanshu Wang</title>
+<title>Notes – Yanshu Wang</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -139,6 +110,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="../service/index.html"> 
 <span class="menu-text">Service</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../notes/index.html" aria-current="page"> 
+<span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../misc/index.html"> 
@@ -205,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Grothendieck-Teichmüller group</h1>
+<h1 class="title">Notes</h1>
 </div>
 
 
@@ -222,46 +197,14 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 
 
-<section id="quick-introduction" class="level2">
-<h2 class="anchored" data-anchor-id="quick-introduction">Quick Introduction</h2>
-<ul>
-<li><a href="https://arxiv.org/abs/1309.1968">Pierre Guillot An elementary approach to dessins d’enfants and the Grothendieck-Teichmüller group</a></li>
-<li><a href="https://arxiv.org/pdf/2008.00066">Dolgushev, Vasily A and Le, Khanh Q and Lorenz, Aidan A What are GT–shadows ?</a></li>
-</ul>
+<section id="wiki-based-math-notebook" class="level2">
+<h2 class="anchored" data-anchor-id="wiki-based-math-notebook">Wiki Based Math Notebook</h2>
+<p>https://ysmath.tiddlyhost.com/</p>
 </section>
-<section id="open-problems" class="level2">
-<h2 class="anchored" data-anchor-id="open-problems">Open Problems</h2>
-<ul>
-<li><a href="https://webusers.imj-prg.fr/~leila.schneps/farb.pdf">Open problems in Grothendieck-Teichmüller theory</a></li>
-<li><a href="https://sites.temple.edu/vald/files/2024/05/GTSlidesAngers.pdf">Selected open problems in GT-shadows</a></li>
-</ul>
-</section>
-<section id="software-for-computations" class="level2">
-<h2 class="anchored" data-anchor-id="software-for-computations">Software for Computations</h2>
-<ul>
-<li><a href="https://sites.temple.edu/vald/research/">Vasily Dolgushev’ research page</a></li>
-</ul>
-</section>
-<section id="resources-no-particular-order" class="level2">
-<h2 class="anchored" data-anchor-id="resources-no-particular-order">Resources (no particular order)</h2>
-<ul>
-<li><a href="https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1990.1/ICM1990.1.ocr.pdf">Braids, galois groups and some arithmetic functions, ICM1990 p.&nbsp;100</a></li>
-<li><a href="https://www.cambridge.org/core/books/abs/grothendieck-theory-of-dessins-denfants/on-the-embedding-of-gal-into-gt/5C3205511DC40B62173908651513BF3A">On the embedding of <span class="math inline">\(\text{Gal}(\overline{\mathbb{Q}}/\mathbb{Q})\)</span> into GT</a></li>
-<li><a href="https://webusers.imj-prg.fr/~pierre.lochak/textes/lochakemsalem.pdf">The action of the absolute Galois group on the moduli space of spheres with four marked points</a></li>
-<li><a href="https://link.springer.com/article/10.1007/s002220050131">Lochak, P., Schneps, L. &amp; Scheiderer, C. A cohomological interpretation of the Grothendieck-Teichmüller group</a></li>
-<li><a href="https://sites.temple.edu/vald/research/">Vasily Dolgushev’ research page</a></li>
-<li><a href="https://www.cambridge.org/core/books/galois-groups-and-fundamental-groups/2511B1C10ACF174A0F444A045D9C1F89">Szamuely T. Galois Groups and Fundamental Groups</a></li>
-<li><a href="https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseEng.pdf">SKETCH OF A PROGRAMME by Alexandre Grothendieck</a></li>
-<li><a href="https://www.cambridge.org/core/books/introduction-to-compact-riemann-surfaces-and-dessins-denfants/F4D8E290FAAEAA650059C572713C79B5">Girondo E, González-Diez G. Introduction to Compact Riemann Surfaces and Dessins d’Enfants</a></li>
-</ul>
-</section>
-<section id="others" class="level2">
-<h2 class="anchored" data-anchor-id="others">Others</h2>
-<ul>
-<li><a href="https://arxiv.org/abs/2601.06532">Pierre Dèbes, Hurwitz spaces and Inverse Galois Theory</a></li>
-</ul>
+<section id="pdf-notes" class="level2">
+<h2 class="anchored" data-anchor-id="pdf-notes">PDF Notes</h2>
 <div style="border-top: 1px solid #ddd; padding-top: 10px; margin-top: 20px; color: gray; font-size: 0.8em;">
-<p>Document last rendered: 2026-09-11 03:50:35</p>
+<p>Document last rendered: 2026-09-20 18:13:27</p>
 </div>
 
 
