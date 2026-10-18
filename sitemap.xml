@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/service/index.html</loc>
-    <lastmod>2026-09-20T18:40:57.479Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/misc/Out(F_n).html</loc>
-    <lastmod>2026-09-20T18:40:57.193Z</lastmod>
-  </url>
-  <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/teaching/index.html</loc>
-    <lastmod>2026-09-20T18:40:57.479Z</lastmod>
-  </url>
-  <url>
     <loc>https://wangyenshu.github.io/wangyanshu/research/GT.html</loc>
-    <lastmod>2026-09-20T18:40:57.463Z</lastmod>
+    <lastmod>2026-10-18T02:44:03.929Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/CV/index.html</loc>
+    <lastmod>2026-10-18T02:44:03.416Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/service/index.html</loc>
+    <lastmod>2026-10-18T02:44:03.945Z</lastmod>
   </url>
   <url>
     <loc>https://wangyenshu.github.io/wangyanshu/index.html</loc>
-    <lastmod>2026-09-20T18:40:57.053Z</lastmod>
+    <lastmod>2026-10-18T02:44:03.520Z</lastmod>
   </url>
   <url>
-    <loc>https://wangyenshu.github.io/wangyanshu/research/index.html</loc>
-    <lastmod>2026-09-20T18:40:57.479Z</lastmod>
+    <loc>https://wangyenshu.github.io/wangyanshu/misc/Out(F_n).html</loc>
+    <lastmod>2026-10-18T02:44:03.660Z</lastmod>
   </url>
   <url>
     <loc>https://wangyenshu.github.io/wangyanshu/misc/index.html</loc>
-    <lastmod>2026-09-20T18:40:57.455Z</lastmod>
+    <lastmod>2026-10-18T02:44:03.921Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/teaching/index.html</loc>
+    <lastmod>2026-10-18T02:44:03.945Z</lastmod>
   </url>
   <url>
     <loc>https://wangyenshu.github.io/wangyanshu/notes/index.html</loc>
-    <lastmod>2026-09-20T18:40:57.459Z</lastmod>
+    <lastmod>2026-10-18T02:44:03.925Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wangyenshu.github.io/wangyanshu/research/index.html</loc>
+    <lastmod>2026-10-18T02:44:03.945Z</lastmod>
   </url>
 </urlset>
